@@ -1,0 +1,59 @@
+{
+  "0": {
+    "id": "0",
+    "title": "",
+    "content": "404 Page not found :( The requested page could not be found.",
+    "url": "http://localhost:4000/404.html",
+    "relUrl": "/404.html"
+  },
+  "1": {
+    "id": "1",
+    "title": "About the ToolKit",
+    "content": "About the Toolkit",
+    "url": "http://localhost:4000/about/",
+    "relUrl": "/about/"
+  },
+  "2": {
+    "id": "2",
+    "title": "Collecting Materials",
+    "content": "Collecting Materials",
+    "url": "http://localhost:4000/docs/collecting-materials.html",
+    "relUrl": "/docs/collecting-materials.html"
+  },
+  "3": {
+    "id": "3",
+    "title": "Custom Omeka Theme",
+    "content": "Custom Omeka Theme Our Digital Collecting site uses a custom Omeka Theme: Charlotesville Rally Theme.",
+    "url": "http://localhost:4000/docs/omeka-setup/custom-theme.html",
+    "relUrl": "/docs/omeka-setup/custom-theme.html"
+  },
+  "4": {
+    "id": "4",
+    "title": "",
+    "content": "Toolkit for Digital Collection",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },
+  "5": {
+    "id": "5",
+    "title": "Intalling Omeka",
+    "content": "Installing Omeka",
+    "url": "http://localhost:4000/docs/omeka-setup/installing-omeka.html",
+    "relUrl": "/docs/omeka-setup/installing-omeka.html"
+  },
+  "6": {
+    "id": "6",
+    "title": "Omeka Plugins",
+    "content": "Omeka Plugins Our Digital Collecting site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. Guest User Contribution Simple Vocab Dublin Core Extended Element Types Derivative Images Simple Pages Guest User Required for Contribution Plugin Download Guest User plugin Installation and Configuration Guide Contribution Download Contribution plugin Installation &amp; Configuration Guide See Collecting Materials for more information on collecting and managing stories, images, and other files from the public. Simple Vocab Download Simple Vocab plugin Configuration &amp; Use Guide Dublin Core Extended Download Dublin Core Extended plugin Documentation Element Types Download Element Types plugin Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection) Derivative Images Download Derivative Images plugin Documentation Simple Pages Download Simple Pages plugin Configuration Guide Used to create our About the Archive page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.",
+    "url": "http://localhost:4000/docs/omeka-setup/omeka-plugins.html",
+    "relUrl": "/docs/omeka-setup/omeka-plugins.html"
+  },
+  "7": {
+    "id": "7",
+    "title": "Omeka Classic Setup",
+    "content": "Setting Up Omeka Classic The University of Virginia Library’s Digital Collecting site, “Unite the Right” Rally and Community Response runs on Omeka Classic.",
+    "url": "http://localhost:4000/docs/omeka-setup",
+    "relUrl": "/docs/omeka-setup"
+  }
+  
+}
