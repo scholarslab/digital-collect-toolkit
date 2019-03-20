@@ -833,7 +833,7 @@ body {
 }
 
 .navigation-list-item .navigation-list-child-list {
-  display: none;
+  display: block;
 }
 .navigation-list-item.active .navigation-list-child-list {
   display: block;

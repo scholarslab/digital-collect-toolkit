@@ -29,7 +29,7 @@ sass:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: "just-the-docs"
 plugins:
   - jekyll-feed
 
