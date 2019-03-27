@@ -25,7 +25,7 @@ Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site 
 
 7. The custom theme should now be installed and visible (see screenshot below). If not, double-check that the folder is in the right location ('/themes') and that the folder name for the theme does not start with 'theme-'. 
     
-    (insert screenshot of theme admin panel)
+    ![Screenshot of Omeka Theme Admin](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/omeka-theme.png)
 
 8. Click on "Configure Theme" to customize your site's appearance.
 
