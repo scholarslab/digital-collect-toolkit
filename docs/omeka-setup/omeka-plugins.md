@@ -9,7 +9,7 @@ nav_order: 2
 {: .no_toc }
 
 
-Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins.
+Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. 
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -37,6 +37,11 @@ See [Collecting Materials]({{ site.baseurl }}{% link docs/collecting-materials.m
 
 - [Download Simple Vocab plugin](https://omeka.org/classic/plugins/SimpleVocab/)
 - [Configuration & Use Guide](https://omeka.org/classic/docs/Plugins/SimpleVocab/)
+- Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element. 
+
+We used Simple Vocab to replace the element for "Spatial Coverage" with a list of locations around Charlottesville relavent to the events:
+
+![Screenshot of Simple Vocab page in Omeka](../images/simple-vocab.png)
 
 ## Dublin Core Extended
 
