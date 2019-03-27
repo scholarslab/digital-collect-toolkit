@@ -827,7 +827,7 @@ body {
 }
 
 .navigation-list-item .navigation-list-child-list {
-  display: none;
+  display: block;
 }
 .navigation-list-item.active .navigation-list-child-list {
   display: block;
@@ -842,12 +842,6 @@ body {
   font-weight: 600;
   color: #27262b;
   text-decoration: none;
-}
-
-.dropdown {
-  background-image: url(../images/select_arrow.gif);
-  background-repeat: no-repeat;
-  background-position: right center;
 }
 
 .main-nav,
