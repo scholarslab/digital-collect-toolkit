@@ -9,8 +9,10 @@ nav_order: 2
 {: .no_toc }
 
 
-Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. 
-{: .fs-6 .fw-300 }
+Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. 
+{: .fs-5 .fw-300 }
+Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. 
+{: .fs-5 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -21,7 +23,7 @@ Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site 
 ---
 
 ## Guest User
-Required for Contribution Plugin
+You must upload and install the Guest User plugin before installing and activating the Contribution Plugin.
 
 - [Download Guest User plugin](https://omeka.org/classic/plugins/GuestUser/)
 - [Installation and Configuration Guide](https://omeka.org/classic/docs/Plugins/GuestUser/)
@@ -39,9 +41,9 @@ See [Collecting Materials]({{ site.baseurl }}{% link docs/collecting-materials.m
 - [Configuration & Use Guide](https://omeka.org/classic/docs/Plugins/SimpleVocab/)
 - Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element. 
 
-We used Simple Vocab to replace the element for "Spatial Coverage" with a list of locations around Charlottesville relavent to the events:
+We used Simple Vocab to replace the element for "Spatial Coverage" with a list of locations around Charlottesville relevant to the events:
 
-![Screenshot of Simple Vocab page in Omeka](../images/simple-vocab.png)
+![Screenshot of Simple Vocab page in Omeka](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/simple-vocab.png) 
 
 ## Dublin Core Extended
 

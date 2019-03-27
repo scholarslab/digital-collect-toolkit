@@ -8,7 +8,7 @@ nav_order: 4
 # Custom Omeka Theme
 
 Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site uses a custom Omeka Theme: [Charlotesville Rally Theme](https://github.com/scholarslab/cville_rally_theme).
-
+{: .fs-5 .fw-300 }
 ## Steps for Installing Our Custom Theme
 
 1. Download and unzip our [custom theme from Github](https://github.com/scholarslab/cville_rally_theme). Download the .zip file to your desktop for easy retrieval. 

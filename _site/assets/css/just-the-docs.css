@@ -407,19 +407,19 @@ th {
 }
 
 html {
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
 @media (min-width: 31.25rem) {
   html {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+  font-family: "franklin-gothic-urw", -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
   font-size: inherit;
   line-height: 1.4;
-  color: #5c5962;
+  color: #595959;
   background-color: #fff;
 }
 
@@ -455,7 +455,7 @@ h6 {
   margin-bottom: 0.8em;
   font-weight: 500;
   line-height: 1.15;
-  color: #27262b;
+  color: #232D4B;
 }
 
 p {
@@ -759,7 +759,7 @@ body {
 .site-title {
   display: block;
   flex: 1 1 auto;
-  color: #27262b;
+  color: #232D4B;
   background-color: #f5f5f5;
 }
 @media (min-width: 46.25rem) {
@@ -800,29 +800,29 @@ body {
   position: absolute;
   margin-top: 0.3em;
   margin-left: -0.8em;
-  color: rgba(92, 89, 98, 0.3);
+  color: rgba(89, 89, 89, 0.3);
 }
 .navigation-list-child-list .navigation-list-item.active::before {
-  color: #5c5962;
+  color: #595959;
 }
 
 .navigation-list-item {
-  font-size: 14px !important;
+  font-size: 16px !important;
   margin: 0;
 }
 @media (min-width: 31.25rem) {
   .navigation-list-item {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 }
 @media (min-width: 46.25rem) {
   .navigation-list-item {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 }
 @media (min-width: 46.25rem) and (min-width: 31.25rem) {
   .navigation-list-item {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 }
 
@@ -839,8 +839,8 @@ body {
   padding-bottom: 0.25rem;
 }
 .navigation-list-link.active {
-  font-weight: 600;
-  color: #27262b;
+  font-weight: 500;
+  color: #232D4B;
   text-decoration: none;
 }
 
@@ -883,11 +883,11 @@ body {
 
 .breadcrumb-nav-list-item {
   display: table-cell;
-  font-size: 11px !important;
+  font-size: 12px !important;
 }
 @media (min-width: 31.25rem) {
   .breadcrumb-nav-list-item {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 }
 .breadcrumb-nav-list-item::before {
@@ -1314,7 +1314,7 @@ li .highlight {
   padding-left: 0.75rem;
 }
 .search-results-link:hover {
-  color: #27262b;
+  color: #232D4B;
   background-color: #fafafa;
 }
 
