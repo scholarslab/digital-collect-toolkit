@@ -18,6 +18,9 @@ nav_order: 1
 
 ## Steps for Creating a Twitter Application
 
+_Please note that these instructions may be subject to change with updates to Twitter. If the following steps and screenshots do not match precisely, please use this as a general guide, or contact [DocNow](https://www.docnow.io/)._
+{: fw-300 }
+
 1. If you do not have a twitter account, create one at [twitter.com](https://twitter.com/). A twitter account is required for access to twitter data. 
 
 2. Log into you twitter account to set-up and and authorize a twitter application. A Twitter application will let you download twitter data using Python. 
