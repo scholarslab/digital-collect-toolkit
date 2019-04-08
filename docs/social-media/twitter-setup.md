@@ -83,7 +83,7 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 3. Click 'Create'. A pop-up may appear for reviewing the Twitter Developer Terms, click 'Create' to continue.
 
-4. You now have a registered Twitter app! 
+4. You now have a registered Twitter app! You can edit any of these fields later from your [Developer Account Apps page](https://developer.twitter.com/en/apps).
 
 ### Accessing Keys and Tokens
 
