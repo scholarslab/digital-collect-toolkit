@@ -8,24 +8,95 @@ nav_order: 1
 # Setting up your Twitter Account for Collecting
 {: .no_toc }
 
-<!-- ## Table of contents
+## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
---- -->
+---
 
 ## Steps for Creating a Twitter Application
 
-1. If you do not have a twitter account, create one at [twitter.com](https://twitter.com/). A twitter account is required for access to other people’s twitter data. 
+1. If you do not have a twitter account, create one at [twitter.com](https://twitter.com/). A twitter account is required for access to twitter data. 
 
 2. Log into you twitter account to set-up and and authorize a twitter application. A Twitter application will let you download twitter data using Python. 
    
-   Create an App at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps)
+   Create an app at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps)
 
-   Following the about link should bring you to this page:
+   Following the above link should bring you to this page:
 
-   ![Screen shot of Twitter Developers Site](/assets/images/developer-page.png)
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/developer-page.png)
 
+3. Click on 'Create an App'
 
+   You may be prompted to create a Twitter developer account. Select 'Apply' and continue:
+
+   ![Screen shot of Twitter Developers Site popup]({{ site.url }}{{ site.baseurl }}/assets/images/developer-popup.png)
+
+### Setting up a Twitter Developer Account
+
+If you already have a developer accout set up, skip to [Creating a Twitter App](#creating-a-twitter-app).
+
+1. Select a user profile to associate with the developer account, and select 'Continue'.
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/select-account.png)
+
+2. In the 'Account details' section, select your request for access for either your organization or for personal use. 
+    - If you select "for my own personal use," you will be prompted to fill in an Account Name and to select your Primary Country of Operation. Both are required.
+    - If you select "for my organization," you are required to fill out the following:
+        - Organization Name (the name of your account)
+        - Legal Entity Name (may be the same as Organization Name)
+        - Organization Twitter @username
+        - Organization Primary Country of Operation
+        - Customer Location (select 'Not Applicable(we do not have customers)')
+        - Categorize your Organization (select 'Academic')
+        - Industries served (select Academic)
+
+3. In the next section on 'Use Case Details', answer several questions about your project and why you are building an app to gather twitter data. You can provide answers similar to the ones below if relevant to your project. **Most importantly note that this is for academic purposes and that you will not be Tweeting, Retweeting, or liking content.**
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-use-case.png)
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-use-case-4.png)
+
+   If your project does involve analysis of twitter content, an answer for question #2 might look something like "Yes, my project will analyze tweets using text analysis, word clouds, word frequency, and word association using R."
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-use-case-5.png)
+
+4. Read and Accept the Twitter Terms of Service.
+
+5. Verify your Twitter Developement Account via the email associated with your Twitter account. 
+
+    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-verify.png)
+
+### Creating a Twitter App
+
+1. Once you have your Twitter Developer Account set up, you can register an application at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps). Click 'Create an App' to begin:
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/developer-page.png)
+
+2. Fill out the required parts of the form for App Details. For the Website URL, you can simply put the URL for your twitter account, or any website you are affiliated with:
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-app-4.png)
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-app-5.png)
+
+3. Click 'Create'. A pop-up may appear for reviewing the Twitter Developer Terms, click 'Create' to continue.
+
+4. You now have a registered Twitter app! 
+
+### Accessing Keys and Tokens
+
+1. From you [Developer Account Apps page](https://developer.twitter.com/en/apps), find your app and click 'Details'.
+
+   ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-app-3.png)
+
+2. Select the option for 'Keys and Tokens'. On this page you will find your Consumer API keys. Under 'Access token & access token secret', click 'create' to generate. 
+
+    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-keys-1.png)
+
+   Note down for use with Twarc these four alphanumeric values:
+   - Consumer API key
+   - Consumer API secret 
+   - Access token 
+   - Access token secret
