@@ -43,15 +43,15 @@
   },
   "6": {
     "id": "6",
-    "title": "Intalling Omeka",
-    "content": "Installing Omeka",
+    "title": "Getting Started",
+    "content": "Getting Started with Omeka Classic",
     "url": "http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/installing-omeka.html",
     "relUrl": "/docs/omeka-setup/installing-omeka.html"
   },
   "7": {
     "id": "7",
     "title": "Omeka Plugins",
-    "content": "Omeka Plugins Our Digital Collecting site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. Guest User Contribution Simple Vocab Dublin Core Extended Element Types Derivative Images Simple Pages Guest User You must upload and install the Guest User plugin before installing and activating the Contribution Plugin. Download Guest User plugin Installation and Configuration Guide Contribution Download Contribution plugin Installation &amp; Configuration Guide See Collecting Materials for more information on collecting and managing stories, images, and other files from the public. Simple Vocab Download Simple Vocab plugin Configuration &amp; Use Guide Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element. We used Simple Vocab to replace the element for “Spatial Coverage” with a list of locations around Charlottesville relevant to the events: Dublin Core Extended Download Dublin Core Extended plugin Documentation Element Types Download Element Types plugin Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection) Derivative Images Download Derivative Images plugin Documentation Simple Pages Download Simple Pages plugin Configuration Guide Used to create our About the Archive page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.",
+    "content": "Omeka Plugins Our Digital Collecting site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. Guest User Contribution Simple Vocab Dublin Core Extended Element Types Derivative Images Simple Pages Guest User You must upload and install the Guest User plugin before installing and activating the Contribution Plugin. Download Guest User plugin Installation and Configuration Guide Contribution Download Contribution plugin Installation &amp; Configuration Guide See Collecting Materials for more information on collecting and managing stories, images, and other files from the public. Simple Vocab Download Simple Vocab plugin Configuration &amp; Use Guide Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element. We used Simple Vocab to replace the element for “Spatial Coverage” with a list of locations around Charlottesville relevant to the events: Dublin Core Extended Download Dublin Core Extended plugin Documentation Element Types Download Element Types plugin Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection in the Contribution form) Derivative Images Download Derivative Images plugin Documentation Simple Pages Download Simple Pages plugin Configuration Guide Used to create our About the Archive page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.",
     "url": "http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/omeka-plugins.html",
     "relUrl": "/docs/omeka-setup/omeka-plugins.html"
   },
@@ -61,6 +61,20 @@
     "content": "Setting Up Omeka Classic The University of Virginia Library’s Digital Collecting site, “Unite the Right” Rally and Community Response runs on Omeka Classic.",
     "url": "http://localhost:4000/digital-collect-toolkit/docs/omeka-setup",
     "relUrl": "/docs/omeka-setup"
+  },
+  "9": {
+    "id": "9",
+    "title": "Social Media Tools",
+    "content": "Tools for Archiving Social Media This guide presents methods of collecting twitter data using tools built by DocNow, a collaborative effort between Shift Design, Inc., the University of Maryland, and the University of Virginia, with funding from the Andrew W. Mellon Foundation. We use the tools developed by DocNow for collecting twitter data because of their strong commitment to prioritizing ethical practices in collection, use, and preservation of social media content. The following documentation is intended to assist in setting up Twarc, a DocNow tool for archiving twitter data. For more information on Twarc or other DocNow tools, please visit their site. Twarc for Twitter Data Collection Twarc is a command line tool that downloads tweets using Twitter’s API. API’s, or application programming interfaces, are simply ways that different organizations, whether it is Twitter or the Census bureau, provide more direct access to data. API’s also oftentimes provide limits to how much data you can gather. Twitter’s API limit for downloading tweets from a user account as of writing this is 3200 tweets. Twarc will handle Twitter API’s rate limits for you. The following pages provide instructions on installing and using Twarc. Parts of this guide are subject to change with updates to Twitter’s developers site, so please use this guide as a general guideline. For troubleshooting with Twarc, please contact the developers of DocNow, and join their community of scholars, students, and archivists. To get started you will need a twitter account to register a twitter application. Twarc also requires Python.",
+    "url": "http://localhost:4000/digital-collect-toolkit/docs/social-media",
+    "relUrl": "/docs/social-media"
+  },
+  "10": {
+    "id": "10",
+    "title": "Twitter Setup",
+    "content": "Setting up your Twitter Account for Collecting Steps for Creating a Twitter Application If you do not have a twitter account, create one at twitter.com. A twitter account is required for access to other people’s twitter data. Log into you twitter account to set-up and and authorize a twitter application. A Twitter application will let you download twitter data using Python. Create an App at developer.twitter.com/en/apps Following the about link should bring you to this page:",
+    "url": "http://localhost:4000/digital-collect-toolkit/docs/social-media/twitter-setup.html",
+    "relUrl": "/docs/social-media/twitter-setup.html"
   }
   
 }

@@ -49,9 +49,9 @@
       // content: "- ";
     }
 
-    &.active {
+    &.active  {
       &::before {
-        color: $body-text-color;
+        color: $body-heading-color;
       }
     }
   }
@@ -80,9 +80,16 @@
   display: block;
   padding-top: $sp-1;
   padding-bottom: $sp-1;
+  // color: $grey-dk-300;
   
 
-  &.active {
+  &.active { //, &.hover
+    font-weight: 500;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+
+  &:hover {
     font-weight: 500;
     color: $body-heading-color;
     text-decoration: none;

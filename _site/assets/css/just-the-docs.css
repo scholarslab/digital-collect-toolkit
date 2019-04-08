@@ -803,7 +803,7 @@ body {
   color: rgba(89, 89, 89, 0.3);
 }
 .navigation-list-child-list .navigation-list-item.active::before {
-  color: #595959;
+  color: #232D4B;
 }
 
 .navigation-list-item {
@@ -839,6 +839,11 @@ body {
   padding-bottom: 0.25rem;
 }
 .navigation-list-link.active {
+  font-weight: 500;
+  color: #232D4B;
+  text-decoration: none;
+}
+.navigation-list-link:hover {
   font-weight: 500;
   color: #232D4B;
   text-decoration: none;

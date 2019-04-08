@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Intalling Omeka
+title: Getting Started
 parent: Omeka Classic Setup
 nav_order: 1
 ---
 
-# Installing Omeka
+# Getting Started with Omeka Classic
 {: .no_toc }

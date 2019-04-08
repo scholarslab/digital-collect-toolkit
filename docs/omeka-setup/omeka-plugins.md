@@ -53,7 +53,7 @@ We used Simple Vocab to replace the element for "Spatial Coverage" with a list o
 ## Element Types
 
 - [Download Element Types plugin](https://omeka.org/classic/plugins/ElementTypes/)
-- Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection)
+- Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection in the Contribution form)
 
 ## Derivative Images
 
