@@ -116,3 +116,11 @@
 .btn-green {
   @include btn-color($white, $green-100);
 }
+
+.btn-orange {
+  @include btn-color($white, $uva-orange);
+}
+
+.btn-dk-blue {
+  @include btn-color($white, #002f6c);
+}

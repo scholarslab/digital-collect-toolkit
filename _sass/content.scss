@@ -5,6 +5,16 @@
 //
 // stylelint-disable selector-no-type, max-nesting-depth, selector-max-compound-selectors, selector-max-type
 
+.home-page {
+  padding: $sp-4;
+  background-color: $sidebar-color;
+  box-shadow: 0 .125rem .25rem rgba($grey-dk-300, .125);
+  margin: $sp-4 $sp-2;
+
+  @include mq(md) {
+  margin: $sp-6 $sp-6;
+  }
+}
 .page-content {
   a {
     overflow: hidden;
