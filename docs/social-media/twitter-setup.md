@@ -46,6 +46,9 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/select-account.png)
 
 2. In the 'Account details' section, select your request for access for either your organization or for personal use. 
+
+   **Note:** Selecting "for my own personal use" offers the simplest and quickest method of setting up a developer account. If you are following this guide for research or teaching purposes, an individual, personal account is suggested. Twitter users can only have a single developement account, and cannot change account types. An 'Organization' account differs in that it allows for additional twitter users to share access on a single dev account, however, this is mainly geared toward commercial use and is intended for development for premium APIs ($), and is outside the scope of this guide. For more, see [Twitter's FAQ](https://developer.twitter.com/en/docs/basics/developer-portal/faq.html).
+
     - If you select "for my own personal use," you will be prompted to fill in an Account Name and to select your Primary Country of Operation. Both are required.
     - If you select "for my organization," you are required to fill out the following:
         - Organization Name (the name of your account)
@@ -90,7 +93,7 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 ### Accessing Keys and Tokens
 
-1. From you [Developer Account Apps page](https://developer.twitter.com/en/apps), find your app and click 'Details'.
+1. From your [Developer Account Apps page](https://developer.twitter.com/en/apps), find your app and click 'Details'.
 
    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-app-3.png)
 

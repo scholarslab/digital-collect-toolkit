@@ -48,18 +48,24 @@ For further documentation on Contributution Submission Settings and Contributor 
 
 ## Contribution Terms of Service
 
-We offer our Contribution Terms of Service for others as a model. Our terms were written in collaboration with the University of Virgina Library's Legal Issues Librarian. You are welcome to use our text, although we recommend reviewing with relevant parties for your own collecting site. 
+We offer a general Contribution Terms of Service template for others as a model. [Our terms](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) were written in collaboration with University of Virgina General Council. We recommend reviewing your terms with relevant parties for your own collecting site. 
 
 >**Contribution Terms of Service:**
 
->You are being asked to contribute your recollections, photographic images, video, and/or other media to the University of Virginia (UVA), which is developing a permanent digital record of the events surrounding the Unite the Right rally and counter protests in Charlottesville, Virginia, in August 2017.  You represent and warrant that the material you submit was  created by you and was not copied from or based, in whole or in part, upon any other photographic, literary, or other material.
+>You are being asked to contribute your recollections, photographic images, video, social media postings or other digital content to [insert institution here], which is creating a digital record of the [describe event, location, and date(s) here]. 
 {: .fs-4 .fw-300 }
->Your participation in this project will allow the general public, as well as future University students and historians, to gain a greater understanding of these events and the response to them. You must be 18 years of age or older to submit material to us. Your submission of material constitutes your permission for, and consent to, its dissemination and use in connection with the research and teaching mission of the University of Virginia in all media in perpetuity.
+>You may only submit material created entirely by you and not copied from or based, in whole or in part, upon any other photographic, literary, or other material, except to the extent that such material is in the public domain, or you have permission of the copyright owner, or its use is allowed by "Fair Use" as prescribed by the terms of United States copyright law.  If you would like to refer or nominate material which you do not own, please contact us at [insert email address or link to google nominating form].
 {: .fs-4 .fw-300 }
->If you indicate on the form that your submission is “public,” your material may be published on the web (with or without your name, depending on what you have indicated) as part of the Library’s digital collections or exhibits. Otherwise, your response will only be available to Library-approved researchers. Submitted material must not violate any confidentiality, privacy, security or other laws. Please be aware that all submissions and any information associated with the submissions (email address, descriptive information, etc.) may be provided to federal, state, or local law enforcement or other government agencies pursuant to a lawful subpoena or court order. We reserve the right to discard or mark private any submission that UVA Library staff identify as offensive or irrelevant, or for any other reason within their professional judgment.
+>You must be 18 years of age or older to submit material. By submitting content through this form, you are granting [insert institution here] permission to disseminate, preserve, and use that content in connection with its educational and research mission, including promotional purposes, in all media in perpetuity.   You retain ownership of and copyright in the material you share. 
+{: .fs-4 .fw-300 }
+>If you indicate on the form that your submission is “public,” your material may be published on the web (with or without your name, depending on what you have indicated) as part of [insert institution here] digital collections or exhibits. Otherwise, your material will only be available to [insert institution here]-approved researchers.  
+{: .fs-4 .fw-300 }
+>Submitted material must not violate any confidentiality, privacy, security or other laws. Please be aware that all submissions and any information associated with the submissions (email address, descriptive information, etc.) may be provided to federal, state, or local law enforcement or other government agencies pursuant to a lawful subpoena or otherwise as required by law. 
+{: .fs-4 .fw-300 }
+>We reserve the right to discard or mark private any submission that [institution] staff identify as irrelevant or for any other reason within their professional judgment. [Insert institution here] is not obligated to include your content in this project or preserve it in perpetuity.
 {: .fs-4 .fw-300 }
 
-In additon, our Digital Collecting site's [Terms of Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) includes a Summary of Terms to help contributors quickly read and understand the main points of the full terms, in simpler language. It is important to note that this summary does not replace the full terms, and submissions are governed by the full terms of use.
+In additon, our Digital Collecting site's [Terms of Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) includes a Summary of Terms to help contributors quickly read and understand the main points of the full terms, in simpler language. It is important to note to users that a summary does not replace the full terms, and submissions are governed by the full terms of use.
 
 >**Summary of Terms***
 

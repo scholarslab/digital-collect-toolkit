@@ -526,19 +526,18 @@ hr {
   .side-bar {
     flex-wrap: nowrap;
     position: absolute;
-    width: 248px;
+    width: 286px;
     height: 100%;
     padding-top: 4rem;
     padding-bottom: 0;
     flex-direction: column;
-    border-right: 1px solid #eeebee;
     align-items: flex-end;
+    min-width: 286px;
   }
 }
 @media (min-width: 70rem) {
   .side-bar {
-    width: calc((100% - 1032px) / 2 + 232px);
-    min-width: 232px;
+    min-width: 286px;
   }
 }
 
@@ -557,7 +556,6 @@ hr {
 }
 
 .main-content {
-  padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -570,17 +568,15 @@ hr {
 @media (min-width: 46.25rem) {
   .main-content {
     position: relative;
-    max-width: 800px;
-    padding-top: 2rem;
+    max-width: 900px;
     padding-bottom: 2rem;
     padding-left: 3rem;
-    margin-left: 232px;
+    margin-left: 286px;
   }
 }
 @media (min-width: 70rem) {
   .main-content {
-    padding-left: 2rem;
-    margin-left: calc((100% - 1032px) / 2 + 232px);
+    padding-left: 3rem;
   }
 }
 
@@ -593,7 +589,7 @@ hr {
 }
 @media (min-width: 46.25rem) {
   .page-header {
-    background-color: #fff;
+    background-color: #232D4B;
   }
 }
 .page-header .main-content {
@@ -603,15 +599,12 @@ hr {
   .page-header .main-content {
     display: flex;
     justify-content: flex-end;
-    height: 60px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #eeebee;
   }
 }
 
 .navigation,
-.site-title,
 .site-footer {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -619,23 +612,15 @@ hr {
 }
 @media (min-width: 46.25rem) {
   .navigation,
-  .site-title,
   .site-footer {
     padding-right: 2rem;
     padding-left: 2rem;
   }
 }
-@media (min-width: 70rem) {
-  .navigation,
-  .site-title,
-  .site-footer {
-    width: 264px;
-  }
-}
 
 @media (min-width: 46.25rem) {
   .navigation {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
     overflow-y: auto;
     flex: 1 1 auto;
   }
@@ -657,6 +642,7 @@ body {
   bottom: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #f5f5f5;
 }
 @media (min-width: 46.25rem) {
   .site-footer {
@@ -761,16 +747,17 @@ body {
   flex: 1 1 auto;
   color: #232D4B;
   background-color: #f5f5f5;
+  padding-left: 1rem;
 }
 @media (min-width: 46.25rem) {
   .site-title {
+    color: #fff;
+    background-color: #232D4B;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 101;
-    height: 60px;
-    padding-top: 1rem;
-    border-bottom: 1px solid #eeebee;
+    padding: 1rem;
   }
 }
 
@@ -787,11 +774,11 @@ body {
 }
 
 .navigation-list-child-list {
-  padding-left: 0.75rem;
+  padding-left: 1rem;
   list-style: none;
 }
 .navigation-list-child-list .navigation-list-link {
-  color: #5c5962;
+  color: #616161;
 }
 .navigation-list-child-list .navigation-list-item {
   position: relative;
@@ -800,7 +787,8 @@ body {
   position: absolute;
   margin-top: 0.3em;
   margin-left: -0.8em;
-  color: rgba(89, 89, 89, 0.3);
+  color: rgba(97, 97, 97, 0.7);
+  content: "- ";
 }
 .navigation-list-child-list .navigation-list-item.active::before {
   color: #232D4B;
@@ -829,6 +817,11 @@ body {
 .navigation-list-item .navigation-list-child-list {
   display: block;
 }
+@media (min-width: 46.25rem) {
+  .navigation-list-item .navigation-list-child-list {
+    display: block;
+  }
+}
 .navigation-list-item.active .navigation-list-child-list {
   display: block;
 }
@@ -837,16 +830,20 @@ body {
   display: block;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  color: #616161;
 }
 .navigation-list-link.active {
   font-weight: 500;
-  color: #232D4B;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .navigation-list-link:hover {
   font-weight: 500;
-  color: #232D4B;
-  text-decoration: none;
+  text-decoration: underline;
+}
+.navigation-list-link::after {
+  background-image: url(../images/select_arrow.gif);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .main-nav,
@@ -912,7 +909,7 @@ body {
 h1,
 .text-alpha {
   font-size: 32px !important;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media (min-width: 31.25rem) {
   h1,
@@ -1095,12 +1092,12 @@ li .highlight {
 }
 
 .btn-outline {
-  color: #0000EE;
+  color: #232D4B;
   background: transparent;
   box-shadow: inset 0 0 0 2px #e6e1e8;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline.zeroclipboard-is-hover, .btn-outline.zeroclipboard-is-active {
-  color: #0000da;
+  color: #1d253d;
   text-decoration: none;
   background-color: transparent;
   box-shadow: inset 0 0 0 3px #e6e1e8;
