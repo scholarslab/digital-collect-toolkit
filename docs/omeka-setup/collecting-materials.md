@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Collecting Materials
+parent: Omeka Classic Setup
 nav_order: 3
 ---
 

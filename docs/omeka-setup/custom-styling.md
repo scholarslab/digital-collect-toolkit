@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Custom Styling
-nav_order: 4
+parent: Omeka Classic Setup
+nav_order: 5
 ---
 
 # Custom Styling for your Site

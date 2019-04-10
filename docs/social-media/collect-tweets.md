@@ -5,4 +5,4 @@ parent: Social Media Tools
 nav_order: 3
 ---
 
-# Start Collecting Tweets with Twarc
+# Collecting Tweets with Twarc

@@ -33,7 +33,7 @@ You must upload and install the Guest User plugin before installing and activati
 - [Download Contribution plugin](https://omeka.org/classic/plugins/Contribution/)
 - [Installation & Configuration Guide](https://omeka.org/classic/docs/Plugins/Contribution/)
 
-See [Collecting Materials]({{ site.baseurl }}{% link docs/collecting-materials.md %}) for more information on collecting and managing stories, images, and other files from the public.
+See [Collecting Materials]({{ site.baseurl }}{% link docs/omeka-setup/collecting-materials.md %}) for more information on collecting and managing stories, images, and other files from the public.
 
 ## Simple Vocab
 

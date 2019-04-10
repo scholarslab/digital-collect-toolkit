@@ -29,6 +29,6 @@ Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site 
 
 8. Click on "Configure Theme" to customize your site's appearance.
 
-    See [Custom Styling]({{ site.baseurl }}{% link docs/custom-styling.md %}) for further details on customization. 
+    See [Custom Styling]({{ site.baseurl }}{% link docs/omeka-setup/custom-styling.md %}) for further details on customization. 
 
 For more detailed instructions on installing an Omeka theme, see the related [Omeka Documentation](https://omeka.org/classic/docs/Admin/Appearance/Themes/).
