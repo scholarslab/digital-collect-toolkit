@@ -4,7 +4,7 @@ title: Install & Configure Twarc
 parent: Social Media Tools
 nav_order: 2
 ---
-# Installing and Confirguring Twarc
+# Installing and Configuring Twarc
 {: .no_toc }
 
 ## Table of contents
@@ -71,7 +71,7 @@ To get started, you will need to tell Twarc about your application API keys and 
 
    Click 'Authorize app'. A pin number will be provided, Type this pin into your terminal, as seen in step 3, then press 'enter'.
 
-5. After entering your pin, your terminal should give a message telling you where your twitter credentials are saved, followed by "Happy twarcing!" This means your twarc installation is configured and you can now start [collecting tweets]()!
+5. After entering your pin, your terminal should give a message telling you where your twitter credentials are saved, followed by "Happy twarcing!" This means your twarc installation is configured and you can now start [collecting tweets](../social-media/collect-tweets)!
 
 ## Twarc for Windows
 
