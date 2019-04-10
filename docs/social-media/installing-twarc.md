@@ -17,7 +17,7 @@ nav_order: 2
 
 ## Before you Begin
 
-1. Before using [Twarc](https://github.com/DocNow/twarc), you will need to [register a Twitter application](../social-media/twitter-setup/), and have your [consumer key, consumer secret, access token, and access token secret](../social-media/twitter-setup#accessing-keys-and-tokens). 
+1. Before using [Twarc](https://github.com/DocNow/twarc), you will need to [register a Twitter application](../social-media/twitter-setup), and have your [consumer key, consumer secret, access token, and access token secret](../social-media/twitter-setup#accessing-keys-and-tokens). 
 
 2. Twarc requires familiarity with using the command line to navigate your file system, configure Twarc, and run queries. For introductory lessons on using the command line, see these tutorials for Mac and Windows users from the UNLV Libraries, [here](https://www.library.unlv.edu/whats_new_in_special_collections/2019/02/new-digital-collections-introduction-command-line.html). 
    
