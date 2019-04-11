@@ -27,11 +27,11 @@ nav_order: 2
 
    If you are a Mac user, you may already have Python installed. To check, open your terminal and run the command:
 
-   `python -V`
+       python -V
 
    or
 
-   `python --version`
+       python --version
 
 ## Twarc for Mac OS
 _For Windows users, click [here](#twarc-for-windows)_
@@ -41,13 +41,13 @@ _For Windows users, click [here](#twarc-for-windows)_
 1. Open the Terminal application (located in the applications folder)
 2. Pip install Twarc by entering the following command: 
 
-   `pip install twarc`
+       pip install twarc
 
    _Note: [Pip](https://pip.pypa.io/en/stable/installing/) is already installed if you are using Python 2 ≥ 2.7.9 or Python 3 ≥ 3.4_
 
    macOS users also have the option of installing Twarc via homebrew using the command:
 
-   `brew install twarc`
+       brew install twarc
 
 ### Configuring Twarc
 
@@ -55,7 +55,7 @@ To get started, you will need to tell Twarc about your application API keys and 
 
 1. Enter the following command in Terminal:
 
-   `twarc configure`
+       twarc configure
 2. Twarc will ask you to enter several keys. You should have these keys ready to go after [registering an application](../social-media/twitter-setup#accessing-keys-and-tokens). 
 
    ![Screen shot of Terminal]({{ site.url }}{{ site.baseurl }}/assets/images/terminal-1.png)
@@ -80,7 +80,7 @@ To get started, you will need to tell Twarc about your application API keys and 
 1. Open PowerShell (to open PowerShell, use the taskbar to search for PowerShell and select ‘Windows PowerShell’)
 2. Pip install Twarc by entering the following command: 
 
-   `pip install twarc`
+       pip install twarc
 
    _Note: [Pip](https://pip.pypa.io/en/stable/installing/) is already installed if you are using Python 2 ≥ 2.7.9 or Python 3 ≥ 3.4_
 
@@ -90,7 +90,7 @@ To get started, you will need to tell Twarc about your application API keys and 
 
 1. Enter the following command in PowerShell:
 
-   `twarc configure`
+       twarc configure
 2. Twarc will ask you to enter several keys. You should have these keys ready to go after [registering an application](../social-media/twitter-setup#accessing-keys-and-tokens). 
 
     Type or copy/paste your consumer key, then press 'enter'. Next, Twarc will ask for your consumer secret. Type or copy/paste your consumer secret, then press 'enter'.

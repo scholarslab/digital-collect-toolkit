@@ -10,7 +10,7 @@
   
   <link rel="shortcut icon" sizes="32x32" href="//www.library.virginia.edu/images/icon-32.png">
 
-  <title>Collecting Tweets - Digital Collecting Toolkit</title>
+  <title>Introductory Lesson on Twarc - Digital Collecting Toolkit</title>
   <link rel="stylesheet" href="http://localhost:4000/digital-collect-toolkit/assets/css/just-the-docs.css">
 
   
@@ -111,6 +111,8 @@
                   
                 
                   
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-theme.html" class="navigation-list-link">Custom Omeka Theme</a>
@@ -121,13 +123,13 @@
                   
                 
                   
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-styling.html" class="navigation-list-link">Custom Styling</a>
                       
                     </li>
+                  
+                
                   
                 
               </ul>
@@ -200,9 +202,21 @@
                   
                     <li class="navigation-list-item  active">
                       
-                      <a href="http://localhost:4000/digital-collect-toolkit/docs/social-media/collect-tweets.html" class="navigation-list-link active">Collecting Tweets</a>
+                      <a href="http://localhost:4000/digital-collect-toolkit/docs/social-media/collect-tweets.html" class="navigation-list-link active">Introductory Lesson on Twarc</a>
                       
                     </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/digital-collect-toolkit/docs/social-media/twarc-commands.html" class="navigation-list-link">Twarc Commands</a>
+                      
+                    </li>
+                  
+                
+                  
+                
                   
                 
                   
@@ -215,13 +229,13 @@
                     </li>
                   
                 
-                  
-                
-                  
-                
               </ul>
             
           </li>
+        
+      
+    
+      
         
       
     
@@ -250,13 +264,202 @@
                 
                   <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/digital-collect-toolkit/docs/social-media">Social Media Tools</a></li>
                 
-                <li class="breadcrumb-nav-list-item"><span>Collecting Tweets</span></li>
+                <li class="breadcrumb-nav-list-item"><span>Introductory Lesson on Twarc</span></li>
               </ol>
             </nav>
           
         
         <div id="main-content" class="page-content" role="main">
-          <h1 id="collecting-tweets-with-twarc">Collecting Tweets with Twarc</h1>
+          <h1 class="no_toc" id="introductory-lesson-on-twarc-for-twitter-data-collection">Introductory Lesson on Twarc for Twitter Data Collection</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#why-collect-tweets" id="markdown-toc-why-collect-tweets">Why Collect Tweets?</a></li>
+  <li><a href="#data-collection-process" id="markdown-toc-data-collection-process">Data Collection Process</a></li>
+  <li><a href="#common-twarc-collection-methods-used-in-archiving" id="markdown-toc-common-twarc-collection-methods-used-in-archiving">Common Twarc Collection Methods Used in Archiving</a>    <ol>
+      <li><a href="#search" id="markdown-toc-search">Search</a></li>
+      <li><a href="#filter" id="markdown-toc-filter">Filter</a></li>
+      <li><a href="#sample" id="markdown-toc-sample">Sample</a></li>
+      <li><a href="#timeline" id="markdown-toc-timeline">Timeline</a></li>
+      <li><a href="#side-by-side-search-vs-filter" id="markdown-toc-side-by-side-search-vs-filter">Side by Side: Search vs Filter</a></li>
+    </ol>
+  </li>
+  <li><a href="#dehydrated-and-rehydrated-data-sets" id="markdown-toc-dehydrated-and-rehydrated-data-sets">Dehydrated and Rehydrated Data Sets</a></li>
+  <li><a href="#start-collecting-twarc-command-basics" id="markdown-toc-start-collecting-twarc-command-basics">Start Collecting: Twarc Command Basics</a>    <ol>
+      <li><a href="#collecting-tweets" id="markdown-toc-collecting-tweets">Collecting Tweets</a></li>
+      <li><a href="#dehydrate-your-dataset" id="markdown-toc-dehydrate-your-dataset">Dehydrate your Dataset</a></li>
+      <li><a href="#rehydrate-a-dataset" id="markdown-toc-rehydrate-a-dataset">Rehydrate a Dataset</a></li>
+    </ol>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="why-collect-tweets">Why Collect Tweets?</h2>
+<p>Twitter is undeniably a part of the cultural landscape of the modern world, and its content represents a new form of the historical record, one that archivists around the world are actively working to preserve.</p>
+
+<p>Particularly relevant to researchers interested in exploring popular movements, the dynamics of fast-moving socio-political events, and the digital footprint of contemporary culture, Twitter archiving is becoming increasingly more prominent in the catalog of activities taking place under the umbrella of digital curation.</p>
+
+<p>Like other digital archiving efforts, the collection and curation of Twitter data does involve some unique challenges, not least of which is the functionally infinite size of the dataset.  For this reason, a large part of collecting, archiving, and providing access to Twitter data involves deciding what to collect and why.  Any Twitter archive will reflect the intention of its collector - from the tools used to gather the data to the kind of search used to collect, Twitter archives are always a directed slice of the ever-expanding pie that is social media.</p>
+
+<h2 id="data-collection-process">Data Collection Process</h2>
+<p>The University of Virginia currently archives collections of Twitter data using <a href="https://github.com/DocNow/twarc">Twarc</a>, a command line tool and Python library developed as part of the <a href="https://www.docnow.io/">Documenting the Now</a> project. Twarc provides several different methods for collecting Twitter data, which are outlined below. Note that each collection method has a distinct goal in mind, and will have slightly different outputs depending on how the data is collected. It is important to note the kind of collection process used to generate a specific Twitter archive - the table below outlines some of these variations and the effects on their output. The type of collection method should be noted in the description of each Twitter archive, as well as the date and size of the collection, along with the dates of collection and dataset size.</p>
+
+<h2 id="common-twarc-collection-methods-used-in-archiving">Common Twarc Collection Methods Used in Archiving</h2>
+<p><em>For more detailed usage documentation, see the following page on <a href="/digital-collect-toolkit/docs/social-media/twarc-commands.html">Twarc Commands</a>.</em>
+<em>You can also <a href="#start-collecting-twarc-command-basics">skip ahead to the beginner’s tutorial on using Twarc</a>.</em></p>
+<h3 id="search">Search</h3>
+<p>Collects pre-existing tweets from up to seven days ago that match the given query.  This method allows you to gather tweets that are already published, but will not collect any tweets that have been made private or deleted by the time you run your search.</p>
+<h3 id="filter">Filter</h3>
+<p>Initiates a collection process that will gather tweets matching the given query as they are published.  This process does not gather tweets that were already published by the time the filter is initialized, but will ensure a high-fidelity capture of all material between the start and end times of the filter.  Unlike a search, it is also not limited to a single week, and can be run as long as you want.</p>
+<h3 id="sample">Sample</h3>
+<p>This method returns a random sampling of tweets.</p>
+<h3 id="timeline">Timeline</h3>
+<p>The timeline command will collect the most recent tweets from a single user.  Like search, it can only go back seven days.</p>
+
+<h3 id="side-by-side-search-vs-filter">Side by Side: Search vs Filter</h3>
+<p>The following example illustrates some of the differences between using search and filter methods with the same arguments and output. In this case, we are looking for all tweets containing the keyword “charlottesville”.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Search</th>
+      <th>Filter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Twarc Command</strong></td>
+      <td>twarc search <span style="color:blue">charlottesville</span> &gt; <span style="color:blue">charlottesville-tweets</span>.jsonl</td>
+      <td>twarc filter <span style="color:blue">charlottesville</span> &gt; <span style="color:blue">charlottesville-tweets</span>.jsonl</td>
+    </tr>
+    <tr>
+      <td><strong>Description</strong></td>
+      <td>Searches all existing tweets from the present to seven days earlier (this time limit is set by Twitter).</td>
+      <td>Initiates a collection process that will gather tweets, as they are published, until you tell it to stop.</td>
+    </tr>
+    <tr>
+      <td><strong>Output</strong></td>
+      <td>Returns results as a JSONL file, where each JSON object = a single tweet.</td>
+      <td>Returns results as a JSONL file, where each JSON object = a single tweet.</td>
+    </tr>
+    <tr>
+      <td><strong>Notes</strong></td>
+      <td>Captures all relevant tweets up to a week prior to the search date, but will not capture any tweets that have been either privatized or deleted by the time the search is run.</td>
+      <td>A higher-fidelity collecting method that archives tweets in real time. Twarc filtering requires a dedicated machine that stays on for the duration of the process.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="fs-3"><em>The <span style="color:blue">blue text</span> in the twarc command field is modifiable: this is where you tell Twarc what you want to search for, and where you want to name the JSONL file that will contain the results.</em></p>
+
+<h2 id="dehydrated-and-rehydrated-data-sets">Dehydrated and Rehydrated Data Sets</h2>
+
+<p>Twitter API’s <a href="https://developer.twitter.com/en/developer-terms/policy#6._Be_a_Good_Partner_to_Twitter">Terms of Service</a> does not allow for making large amounts of raw Twitter data available on the Web. The fully-hydrated Twitter data you collect using Twarc can be used for research and archived for local use, but cannot be shared publically. However, Twitter does allow files of tweet identifiers to be publically shared. This is useful for when you would like to make a dataset of tweets available, for example, in <a href="https://www.docnow.io/catalog/">DocNow’s Tweet Catalogue</a>. This is referred to as a “dehydrated” data set - each tweet is reduced to its unique ID number, and a list of these IDs is saved as a text document. You can <a href="#dehydrate-your-dataset">use Twarc to dehydrate your data set</a>.</p>
+
+<p>A dehydrated data set can be <a href="#rehydrate-a-dataset">“rehydrated” using Twarc</a> or another program of your choice - Twitter will take each ID and search the current Twitterverse for a corresponding tweet. If it locates a tweet that matches the ID, it will return the original JSON code for that tweet. This process is called “rehydration”, and will return a JSON file containing the data for every tweet that it was able to locate. It’s important to note that any tweet rehydrator can only check for tweets that are currently live - they cannot find tweets that have been deleted or made private since the original collection event.</p>
+
+<h2 id="start-collecting-twarc-command-basics">Start Collecting: Twarc Command Basics</h2>
+
+<h3 id="collecting-tweets">Collecting Tweets</h3>
+<p>Let’s start collecting tweets! This introductory lesson will use Twarc’s search command to return tweets containing ‘BlackLivesMatter’ occurring within the past 7 days. For further instructions on using other commands, see the following page on <a href="/digital-collect-toolkit/docs/social-media/twarc-commands.html">Twarc Commands</a>. This lesson assumes some basic familiarity with the command line (Terminal for Mac users, PowerShell for Windows users).</p>
+
+<ol>
+  <li>Create a new folder on your desktop titled ‘BlackLivesMatter_Tweets’.</li>
+  <li>Open Terminal (for Mac) or PowerShell (for Windows)</li>
+  <li>
+    <p>Change directories to navigate into the ‘BlackLivesMatter_Tweets’ folder by typing into the command line <code class="highlighter-rouge">cd</code> followed by the path of your folder:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> cd desktop/BlackLivesMatter_Tweets
+</code></pre></div>    </div>
+
+    <p>Hit ‘return’ to complete the command.</p>
+
+    <p>You can also navigate to your folder by typing <code class="highlighter-rouge">cd</code> followed by a space, then drag your folder into the Terminal or PowerShell window. Hit return to complete the command</p>
+
+    <p>To check if you are in the correct place, use the command <code class="highlighter-rouge">pwd</code> to display the path of your current directory. It should end with <code class="highlighter-rouge">/BlackLivesMatter_Tweets</code></p>
+  </li>
+  <li>
+    <p>Now that you are in the right directory, enter the following command to start collecting tweets:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> twarc search blacklivesmatter &gt; blacklivesmatter_tweets.jsonl
+</code></pre></div>    </div>
+
+    <p><em>Tip: You can copy and paste these commands into Terminal or PowerShell to avoid errors</em></p>
+
+    <p><strong>Note</strong>: Your collection may take some time to return all Tweets. You can tell when the process is complete when it returns to the shell ($) (or PowerShell (PS) ) prompt:</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/terminal-3.png" alt="Screen shot of terminal twarc search" /></p>
+  </li>
+  <li>
+    <p>While the prompt is running, check to make sure your command was successful by clicking on your ‘BlackLivesMatter_Tweets’ folder. Inside you should see your ‘blacklivesmatter_tweets.jsonl’ file and a ‘twarc.log’ file.</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/tweet-data-folder.png" alt="Screen shot of ‘BlackLivesMatter_Tweets’ folder contents" /></p>
+  </li>
+  <li>
+    <p>For the purposes of this tutorial, you can cut the search short. After entering the initial  search command, wait 5 minutes and then enter Ctrl + C to stop the search.</p>
+
+    <p><strong>Note</strong>: If you wanted to collect the full set of tweets, you would wait until the process was finished. You can tell when a process is complete when it returns to the shell ($) prompt.</p>
+  </li>
+  <li>You’re done! Your tweets are in JSON format in your ‘blacklivesmatter_tweets.jsonl’ file.</li>
+</ol>
+
+<h3 id="dehydrate-your-dataset">Dehydrate your Dataset</h3>
+
+<p>Each Tweet in your dataset has a unique identifier. Twarc’s dehydrate command will generate a list of tweet ids from a file of tweets. This lesson will show you how to dehydrate your ‘blacklivesmatter_tweets.jsonl’ file so that you can share your dataset while keeping to Twitter API’s <a href="https://developer.twitter.com/en/developer-terms/policy#6._Be_a_Good_Partner_to_Twitter">Terms of Service</a>.</p>
+
+<ol>
+  <li>
+    <p>Navigate into you ‘BlackLivesMatter_Tweets’ folder using the <code class="highlighter-rouge">cd</code> command, or if you are already there, check you directory location using the <code class="highlighter-rouge">pwd</code> command.</p>
+  </li>
+  <li>
+    <p>Enter the command <code class="highlighter-rouge">ls</code> to list all files in the directory. You should see the files ‘blacklivesmatter_tweets.jsonl’ and ‘twarc.log’. It will look something like this:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 'your-computer-name':BlackLivesMatter_Tweets 'your-user-name'$ ls
+ blacklivesmatter_tweets.jsonl	twarc.log
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To dehydrate your tweets, enter the following command:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> twarc dehydrate blacklivesmatter_tweets.jsonl &gt; blacklivesmatter_tweet_ids.txt 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>You should now have a text file containing the unique tweet ids of all tweets in your dataset. Your tweet ids are located in your ‘BlackLivesMatter_Tweets’ folder in the ‘blacklivesmatter_tweet_ids.txt’ file.</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/tweet-data-folder-2.png" alt="Screen shot of ‘BlackLivesMatter_Tweets’ folder contents" /></p>
+  </li>
+  <li>
+    <p>Open the blacklivesmatter_tweet_ids.txt file to see the list of unique tweet ids:</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/txt-file-ids.png" alt="Screen shot of txt file contents" /></p>
+  </li>
+</ol>
+
+<h3 id="rehydrate-a-dataset">Rehydrate a Dataset</h3>
+
+<p>Twarc’s hydrate command will read your file of unique identifiers and write out the tweet JSON for them using Twitter’s <a href="https://developer.twitter.com/en/docs/api-reference-index">status/lookup API</a>. This is useful if you have a set of Twitter ids from another institution and would like to view the full dataset. <a href="https://www.docnow.io/">Documenting the Now</a> has a collection of Tweet ids that you can explore and rehydrate <a href="https://www.docnow.io/catalog/">here</a>, but for this tutorial we will use the ‘blacklivesmatter_tweet_ids.txt’ file you created when you dehydrated your dataset.</p>
+
+<ol>
+  <li>
+    <p>Navigate into you ‘BlackLivesMatter_Tweets’ folder using the <code class="highlighter-rouge">cd</code> command, or if you are already there, check you directory location using the <code class="highlighter-rouge">pwd</code> command.</p>
+  </li>
+  <li>
+    <p>Rehydrate your dataset by entering the following command:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> twarc hydrate blacklivesmatter_tweet_ids.txt &gt; blacklivesmatter_tweets_hydrated.jsonl 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>You now have your tweets in JSON format ready to go in your ‘BlackLivesMatter_Tweets’ folder. Check your folder to confirm your .jsonl file is there.</p>
+  </li>
+</ol>
+
+<p>Now you’re ready for more complex Twarc commands that will allow you to create a collection to fit your research needs: <a href="/digital-collect-toolkit/docs/social-media/twarc-commands.html">Twarc Commands</a>.</p>
+
 
 
           

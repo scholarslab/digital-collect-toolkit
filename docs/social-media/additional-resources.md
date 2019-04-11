@@ -2,7 +2,7 @@
 layout: default
 title: Additional Resources
 parent: Social Media Tools
-nav_order: 4
+nav_order: 7
 ---
 
 # Additional Resources for Social Media Data Collection
