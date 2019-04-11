@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introductory Lesson on Twarc
+title: Twarc Introductory Lesson
 parent: Social Media Tools
 nav_order: 3
 ---

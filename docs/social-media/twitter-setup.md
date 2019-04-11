@@ -106,3 +106,5 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
    - Consumer API secret 
    - Access token 
    - Access token secret
+
+Next, get Twarc up and running: [Installing and Configuring Twarc]({{ site.baseurl }}{% link docs/social-media/installing-twarc.md %})

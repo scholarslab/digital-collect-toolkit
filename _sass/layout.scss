@@ -26,19 +26,20 @@
   @include mq(md) {
     flex-wrap: nowrap;
     position: absolute;
-    width: $nav-width; // + 16px
+    width: $nav-width + 16px; // + 16px
     height: 100%;
     padding-top: $gutter-spacing * 2;
     padding-bottom: 0;
     flex-direction: column;
     // border-right: $border $border-color;
     align-items: flex-end;
-    min-width: $nav-width;
+    // min-width: $nav-width;
   }
 
   @include mq(lg) {
-    // width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
+    // max-width: $nav-width + 100px;
   }
 }
 
@@ -63,15 +64,15 @@
   @include mq(md) {
     position: relative;
     max-width: $content-width;
-    // padding-top: $gutter-spacing;
+    // padding-top: $gutter-spacing; //
     padding-bottom: $gutter-spacing;
     padding-left: $gutter-spacing * 1.5;
     margin-left: $nav-width;
   }
 
   @include mq(lg) {
-    padding-left: $gutter-spacing * 1.5;
-    // margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    padding-left: $gutter-spacing; // * 1.5
+    margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
   }
 }
 
@@ -101,7 +102,7 @@
 }
 
 .navigation,
-// .site-title,
+.site-title,
 .site-footer {
 
   @include container;
