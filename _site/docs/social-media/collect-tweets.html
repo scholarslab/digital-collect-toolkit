@@ -27,7 +27,7 @@
 
   <div class="page-wrap">
     <div class="side-bar">
-      <a href="http://localhost:4000/digital-collect-toolkit" class="site-title fs-6 fw-500 lh-tight">Digital Collecting Toolkit</a>
+      <a href="http://localhost:4000/digital-collect-toolkit/" class="site-title fs-6 fw-500 lh-tight">Digital Collecting Toolkit</a>
       <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
       <div class="navigation main-nav js-main-nav">
         <nav role="navigation" aria-label="Main navigation">
@@ -40,20 +40,20 @@
     
       
         
+      
+    
+      
+        
+      
+    
+      
+        
           <li class="navigation-list-item">
             
 
-            <a href="http://localhost:4000/digital-collect-toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+            <a href="http://localhost:4000/digital-collect-toolkit/docs/site-building/" class="navigation-list-link">Building a Digital Collection</a>
             
           </li>
-        
-      
-    
-      
-        
-      
-    
-      
         
       
     
@@ -79,13 +79,13 @@
                   
                 
                   
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/installing-omeka.html" class="navigation-list-link">Getting Started</a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -111,8 +111,6 @@
                   
                 
                   
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-theme.html" class="navigation-list-link">Custom Omeka Theme</a>
@@ -123,11 +121,15 @@
                   
                 
                   
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-styling.html" class="navigation-list-link">Custom Styling</a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -174,13 +176,13 @@
                   
                 
                   
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/social-media/twitter-setup.html" class="navigation-list-link">Twitter Setup</a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -205,6 +207,8 @@
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/social-media/collect-tweets.html" class="navigation-list-link active">Twarc Introductory Lesson</a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -241,21 +245,43 @@
     
       
         
+          <li class="navigation-list-item">
+            
+
+            <a href="http://localhost:4000/digital-collect-toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+            
+          </li>
+        
+      
+    
+      
+        
       
     
   </ul>
 </nav>
 
+
+            
+            <div class="search js-search">
+              <div class="search-input-wrap">
+                <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search Digital Collecting Toolkit" aria-label="Search Digital Collecting Toolkit" autocomplete="off">
+                <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
+              </div>
+              <div class="js-search-results search-results-wrap"></div>
+            </div>
+            
+            
       </div>
       <footer role="contentinfo" class="site-footer">
-          <a href="https://www.library.virginia.edu/">
-            <img alt="UVa Library" src="http://localhost:4000/digital-collect-toolkit/assets/images/library-logo.svg" width="225">
+          <a href="https://www.library.virginia.edu/" target="_blank">
+            <img alt="UVa Library" src="http://localhost:4000/digital-collect-toolkit//assets/images/library-logo.svg" width="225">
           </a>
       </footer>
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
-      <div class="page-header">
-      </div>
+      <!-- <div class="page-header">
+      </div> -->
       <div class="main-content">
         
           
@@ -307,7 +333,7 @@
 <p>The University of Virginia currently archives collections of Twitter data using <a href="https://github.com/DocNow/twarc">Twarc</a>, a command line tool and Python library developed as part of the <a href="https://www.docnow.io/">Documenting the Now</a> project. Twarc provides several different methods for collecting Twitter data, which are outlined below. Note that each collection method has a distinct goal in mind, and will have slightly different outputs depending on how the data is collected. It is important to note the kind of collection process used to generate a specific Twitter archive - the table below outlines some of these variations and the effects on their output. The type of collection method should be noted in the description of each Twitter archive, as well as the date and size of the collection, along with the dates of collection and dataset size.</p>
 
 <h2 id="common-twarc-collection-methods-used-in-archiving">Common Twarc Collection Methods Used in Archiving</h2>
-<p><em>For more detailed usage documentation, see the following page on <a href="/digital-collect-toolkit/docs/social-media/twarc-commands.html">Twarc Commands</a>.</em>
+<p><em>For more detailed usage documentation, see the following page on <a href="/digital-collect-toolkit//docs/social-media/twarc-commands.html">Twarc Commands</a>.</em>
 <em>You can also <a href="#start-collecting-twarc-command-basics">skip ahead to the beginner’s tutorial on using Twarc</a>.</em></p>
 <h3 id="search">Search</h3>
 <p>Collects pre-existing tweets from up to seven days ago that match the given query.  This method allows you to gather tweets that are already published, but will not collect any tweets that have been made private or deleted by the time you run your search.</p>
@@ -364,7 +390,7 @@
 <h2 id="start-collecting-twarc-command-basics">Start Collecting: Twarc Command Basics</h2>
 
 <h3 id="collecting-tweets">Collecting Tweets</h3>
-<p>Let’s start collecting tweets! This introductory lesson will use Twarc’s search command to return tweets containing ‘BlackLivesMatter’ occurring within the past 7 days. For further instructions on using other commands, see the following page on <a href="/digital-collect-toolkit/docs/social-media/twarc-commands.html">Twarc Commands</a>. This lesson assumes some basic familiarity with the command line (Terminal for Mac users, PowerShell for Windows users).</p>
+<p>Let’s start collecting tweets! This introductory lesson will use Twarc’s search command to return tweets containing ‘BlackLivesMatter’ occurring within the past 7 days. For further instructions on using other commands, see the following page on <a href="/digital-collect-toolkit//docs/social-media/twarc-commands.html">Twarc Commands</a>. This lesson assumes some basic familiarity with the command line (Terminal for Mac users, PowerShell for Windows users).</p>
 
 <ol>
   <li>Create a new folder on your desktop titled ‘BlackLivesMatter_Tweets’.</li>
@@ -391,12 +417,12 @@
 
     <p><strong>Note</strong>: Your collection may take some time to return all Tweets. You can tell when the process is complete when it returns to the shell ($) (or PowerShell (PS) ) prompt:</p>
 
-    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/terminal-3.png" alt="Screen shot of terminal twarc search" /></p>
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/terminal-3.png" alt="Screen shot of terminal twarc search" /></p>
   </li>
   <li>
     <p>While the prompt is running, check to make sure your command was successful by clicking on your ‘BlackLivesMatter_Tweets’ folder. Inside you should see your ‘blacklivesmatter_tweets.jsonl’ file and a ‘twarc.log’ file.</p>
 
-    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/tweet-data-folder.png" alt="Screen shot of ‘BlackLivesMatter_Tweets’ folder contents" /></p>
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/tweet-data-folder.png" alt="Screen shot of ‘BlackLivesMatter_Tweets’ folder contents" /></p>
   </li>
   <li>
     <p>For the purposes of this tutorial, you can cut the search short. After entering the initial  search command, wait 5 minutes and then enter Ctrl + C to stop the search.</p>
@@ -430,12 +456,12 @@
   <li>
     <p>You should now have a text file containing the unique tweet ids of all tweets in your dataset. Your tweet ids are located in your ‘BlackLivesMatter_Tweets’ folder in the ‘blacklivesmatter_tweet_ids.txt’ file.</p>
 
-    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/tweet-data-folder-2.png" alt="Screen shot of ‘BlackLivesMatter_Tweets’ folder contents" /></p>
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/tweet-data-folder-2.png" alt="Screen shot of ‘BlackLivesMatter_Tweets’ folder contents" /></p>
   </li>
   <li>
     <p>Open the blacklivesmatter_tweet_ids.txt file to see the list of unique tweet ids:</p>
 
-    <p><img src="http://localhost:4000/digital-collect-toolkit/assets/images/txt-file-ids.png" alt="Screen shot of txt file contents" /></p>
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/txt-file-ids.png" alt="Screen shot of txt file contents" /></p>
   </li>
 </ol>
 
@@ -458,7 +484,7 @@
   </li>
 </ol>
 
-<p>Now you’re ready for more complex Twarc commands that will allow you to create a collection to fit your research needs: <a href="/digital-collect-toolkit/docs/social-media/twarc-commands.html">Twarc Commands</a>.</p>
+<p>Now you’re ready for more complex Twarc commands that will allow you to create a collection to fit your research needs: <a href="/digital-collect-toolkit//docs/social-media/twarc-commands.html">Twarc Commands</a>.</p>
 
 
 

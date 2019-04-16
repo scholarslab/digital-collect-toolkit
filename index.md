@@ -1,17 +1,31 @@
 ---
-layout: home
+layout: default
 nav_exclude: true
 ---
 
-# Toolkit for Digital Collection
+# Welcome to the Digital Collecting Toolkit!
 
-This guide is designed to help others  implement digital collecting strategies during and after rapidly evolving social events and/or
-community crises (such as controversies, natural disasters and public emergencies).
-{: .fs-6 .fw-300 }
+## What is this Toolkit?
 
-Photos, videos, and social media content are major components of these community experiences, and the tools offered here can help organizations, institutions and communities quickly implement an effective digital collecting initiative. 
-{: .fs-6 .fw-300 }
+This toolkit is designed to provide resources and instruction on implementing digital collecting strategies during and after rapidly evolving social events and/or community crises (like campus controversies, natural disasters and public emergencies). Photos, videos, and social media content are major components of these community experiences, and the tools offered here can help organizations, institutions and communities quickly implement an effective digital collecting initiative. 
 
-[Setup Omeka Collection Site]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup){: .btn .btn-orange }
-[Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media){: .btn .btn-orange }
-[Visit UVa Library's Charlottesville Collection Site](http://digitalcollecting.lib.virginia.edu/rally/){: .btn .btn-dk-blue }
+This toolkit was created through a collaborative process by a team at the [University of Virgina Library](https://www.library.virginia.edu/), with funding from the [LYRASIS Catalyst Fund](https://www.lyrasis.org). In the immediate aftermath of the events of August 11th and 12th in Charlottesvile, VA, UVa Library staff took on the task of quickly launching an online collecting tool and capturing related social media content. While the UVA Library had some experience documenting and collecting digital content after a major news event, this was the first time we attempted to create a collecting site so quickly after the events occurred. The lessons learned from the site launch of the University of Virginia Library's Digital Collecting site, [_"Unite the Right" Rally and Community Response_](http://digitalcollecting.lib.virginia.edu/rally/) has led to further workflow and tool development to help future collecting efforts for ourselves and others.
+
+This Toolkit is a result of these efforts, and is intended to help others quickly launch similar sites in times of crisis.
+
+## Who is this for?
+
+Our team includes University librarians, digital preservation specialists, archivists, digital content developers, and IT specialists. We developed this toolkit for use by a wide range of cultural institutions and communities with an interest in quickly setting up a digital collection site. Members of University libraries, other educational institutions, and community organizations using this toolkit will need to have some level of access to the tools provided here to implement a digital collection strategy. This could include access to web hosting, server space, and an [Omeka](https://omeka.org/) installation. However, we have included a range of potential options for these requirements in this toolkit.
+
+## How do I get started?
+
+This toolkit is designed so you can get started quickly!
+
+- Read the [basics](({{ site.url }}{{ site.baseurl }}/docs/site-building)) on getting your collection site up and running.
+- See the steps for setting up an [Omeka Collection Site]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup).
+- See the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media) to learn how to set up and use the [DocNow](https://www.docnow.io/) tool, [Twarc](https://github.com/DocNow/twarc) for collecting Twitter data.
+
+## Contact us
+
+If you have any questions or comments, you can reach us at [digital_collecting@virginia.edu](mailto:digital_collecting@virginia.edu).
+

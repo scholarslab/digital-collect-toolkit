@@ -2,7 +2,7 @@
 layout: page
 title: About the Toolkit
 permalink: /about/
-nav_order: 1
+nav_order: 6
 ---
 
 # About the Toolkit
@@ -14,3 +14,7 @@ We consulted with other institutions who had created similar sites, and built on
 This Toolkit is a result of these efforts, and is intended to help others quickly launch similar sites in times of crisis. 
 
 If you have any questions or comments, please feel free to contact us at [digital_collecting@virginia.edu](mailto:digital_collecting@virginia.edu).
+
+## Visit our digital collection site:
+
+[![Screen shot of the "Unite the Right" Rally and Community Response site]({{ site.url }}{{ site.baseurl }}/assets/images/screen-shot-browse.png)](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"}
