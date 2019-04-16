@@ -21,9 +21,9 @@ Our team includes University librarians, digital preservation specialists, archi
 
 This toolkit is designed so you can get started quickly!
 
-- Read the [basics](({{ site.url }}{{ site.baseurl }}/docs/site-building)) on getting your collection site up and running.
+- Read the [basics]({{ site.url }}{{ site.baseurl }}/docs/site-building) on getting your collection site up and running.
 - See the steps for setting up an [Omeka Collection Site]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup).
-- See the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media) to learn how to set up and use the [DocNow](https://www.docnow.io/) tool, [Twarc](https://github.com/DocNow/twarc) for collecting Twitter data.
+- See the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media) to learn how to set up and use the [DocNow](https://www.docnow.io/){:target="_blank"} tool, [Twarc](https://github.com/DocNow/twarc){:target="_blank"} for collecting Twitter data.
 
 ## Contact us
 
