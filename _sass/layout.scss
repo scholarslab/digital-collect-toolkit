@@ -84,7 +84,7 @@
   background-color: $sidebar-color;
 
   @include mq(md) {
-    background-color: $body-heading-color; //$body-background-color
+    background-color: $body-background-color; //$body-background-color
   }
 
   .main-content {
@@ -94,7 +94,7 @@
       display: flex;
       justify-content: flex-end;
       // height: 60px;
-      padding-top: $sp-4;
+      // padding-top: $sp-4;
       padding-bottom: $sp-4;
       // border-bottom: $border $border-color;
     }
@@ -115,6 +115,7 @@
 }
 
 .navigation {
+  padding-top: $sp-5;
   @include mq(md) {
     padding-top: $sp-5;
     overflow-y: auto;

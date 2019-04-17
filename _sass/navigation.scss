@@ -46,7 +46,7 @@
 
     &::before {
       position: absolute;
-      margin-top: 0.3em;
+      // margin-top: 0.3em;
       margin-left: -0.8em;
       color: rgba(#616161, 0.7);
       content: "- ";
@@ -71,7 +71,7 @@
   .navigation-list-child-list {
     display: block; //none
     @include mq(md) {
-      display: block;
+      display: block; //none
     }
   }
 
@@ -105,7 +105,7 @@
 // .dropdown{
 //   background-image: url(../images/select_arrow.gif);
 //   background-repeat: no-repeat;
-//   background-position: 160px center;
+//   background-position: 150px 0.5em;
 // }
 
 
@@ -142,6 +142,7 @@
 .breadcrumb-nav-list {
   padding-left: 0;
   margin-bottom: $sp-3;
+  margin-top: $sp-3;
   list-style: none;
 }
 
