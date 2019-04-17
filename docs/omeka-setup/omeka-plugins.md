@@ -2,7 +2,7 @@
 layout: default
 title: Omeka Plugins
 parent: Omeka Classic Setup
-nav_order: 2
+nav_order: 1
 ---
 
 # Omeka Plugins

@@ -60,9 +60,13 @@
           <li class="navigation-list-item">
             
 
-            <a href="http://localhost:4000/digital-collect-toolkit/docs/site-building/" class="navigation-list-link">Building a Digital Collection</a>
+            <a href="http://localhost:4000/digital-collect-toolkit/docs/site-building/" class="navigation-list-link">Getting Started</a>
             
           </li>
+        
+      
+    
+      
         
       
     
@@ -90,23 +94,11 @@
                   
                     <li class="navigation-list-item ">
                       
-                      <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/installing-omeka/" class="navigation-list-link">Getting Started</a>
-                      
-                    </li>
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item ">
-                      
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/omeka-plugins/" class="navigation-list-link">Omeka Plugins</a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -115,6 +107,10 @@
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Materials</a>
                       
                     </li>
+                  
+                
+                  
+                
                   
                 
                   
@@ -134,7 +130,7 @@
                   
                     <li class="navigation-list-item ">
                       
-                      <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-styling/" class="navigation-list-link">Custom Styling</a>
+                      <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/omeka-admin/" class="navigation-list-link">Omeka Site Administration</a>
                       
                     </li>
                   
@@ -146,14 +142,6 @@
               </ul>
             
           </li>
-        
-      
-    
-      
-        
-      
-    
-      
         
       
     
@@ -197,15 +185,13 @@
                   
                 
                   
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/digital-collect-toolkit/docs/social-media/installing-twarc/" class="navigation-list-link">Install & Configure Twarc</a>
                       
                     </li>
-                  
-                
-                  
-                
                   
                 
                   
@@ -291,7 +277,57 @@
         <div id="main-content" class="page-content" role="main">
           <h1 id="setting-up-omeka-classic">Setting Up Omeka Classic</h1>
 
-<p class="fs-6 fw-300">The University of Virginia Library’s Digital Collecting site, <a href="http://digitalcollecting.lib.virginia.edu/rally/"><em>“Unite the Right” Rally and Community Response</em></a> runs on <a href="https://omeka.org/classic/"><em>Omeka Classic</em></a>.</p>
+<p class="fs-6 fw-300">The University of Virginia Library’s Digital Collecting site, <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank"><em>“Unite the Right” Rally and Community Response</em></a> runs on <a href="https://omeka.org/classic/" target="_blank"><em>Omeka Classic</em></a>.</p>
+
+<p class="fs-5 fw-300"><a href="omeka.org" target="_blank"><em>Omeka</em></a> is a leading open source collections-based web publishing platform developed by the <a href="https://rrchnm.org/" target="_blank">Roy Rosenzweig Center for History and New Media</a> and supports a robust open source developer community. Omeka is standards-based, grounded in a flexible <a href="https://omeka.org/classic/docs/Content/Working_with_Dublin_Core/" target="_blank">Dublin Core Metadata Schema</a>. Omeka takes a user-centered, access-focused approach to collections, emphasizing approachable, accessible web design.</p>
+
+<h2 id="technical-specifications">Technical Specifications</h2>
+
+<p>If you are a member of a university or institution with an accessible IT Department or Digital Content Developers, we recommend reaching out to individuals in your organization with experience setting up Omeka.</p>
+
+<p>Omeka Classic has the following system requirements:</p>
+<ul>
+  <li>Linux operating system</li>
+  <li><a href="https://www.apache.org/" target="_blank">Apache</a> HTTP server (with <code class="highlighter-rouge">mod_rewrite</code> enabled)</li>
+  <li><a href="https://www.mysql.com/" target="_blank">MySQL</a> version 5.0 or greater</li>
+  <li><a href="https://www.php.net/" target="_blank">PHP</a> scripting language version 5.3.2 or greater (with mysqli and exif extensions installed)</li>
+  <li><a href="https://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a> image manipulation software (for resizing images)</li>
+</ul>
+
+<p>If you lack access to a server that meets Omeka’s basic requirements, or are looking for a <strong>simpler and less technical set-up process</strong>, we recommend <a href="https://reclaimhosting.com/" target="_blank">Reclaim Hosting</a>, a low-cost shared web host offering one-click Omeka installation, with a free domain registration included. Their support staff is easy to reach and their <a href="https://community.reclaimhosting.com/" target="_blank">Community Forum</a> offers additional resources.</p>
+
+<ul>
+  <li><a href="https://reclaimhosting.com/" target="_blank">Reclaim Hosting</a></li>
+  <li><a href="https://community.reclaimhosting.com/t/installing-omeka-classic-on-reclaim-hosting/193" target="_blank">Installing Omeka Classic on Reclaim Hosting</a></li>
+</ul>
+
+<p>Omeka also provides a list of suggestions for low-cost shared web hosts that offer the server environment required for Omeka, see <a href="https://omeka.org/classic/docs/GettingStarted/Hosting_Suggestions/" target="_blank">here</a> for details.</p>
+<ul>
+  <li><a href="https://omeka.org/classic/docs/Installation/Installation/" target="_blank">Complete Omeka Classic Installation Guide</a></li>
+</ul>
+
+<h3 id="additional-resources">Additional Resources:</h3>
+<ul>
+  <li><a href="https://programminghistorian.org/en/lessons/installing-omeka" target="_blank">The Programming Historian’s Lesson on Installing Omeka</a></li>
+</ul>
+
+<h2 id="omeka-classic-plugins">Omeka Classic Plugins</h2>
+
+<p>One of the primary features of a rapid response digital collecting site is a user-friendly submission form set up to collect photos, videos, stories, website links, audio and other files from the community. Omeka Classic offers the <a href="https://omeka.org/classic/docs/Plugins/Contribution/" target="_blank">Contribution plugin</a>, which adds a content submission form to your public collecting site.</p>
+
+<p>When using the Contribution plugin, contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site.</p>
+
+<p>The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items.</p>
+
+<p><strong>In addition to the Contribution plugin, there are additional Omeka Classic plugins that are very useful to your digital collecting site. See the following page for details on <a href="/digital-collect-toolkit//docs/omeka-setup/omeka-plugins/">Omeka Classic Plugins</a>.</strong></p>
+
+<h2 id="custom-omeka-theme">Custom Omeka Theme</h2>
+
+<p>This toolkit also offers a custom Omeka theme that you can download for the styling of your public Omeka site. This is not required, but you may find it useful. For details on installing and customizing our custom Digital Collecting Theme for your site, see <a href="/digital-collect-toolkit//docs/omeka-setup/custom-theme/">here</a>.</p>
+
+<h2 id="administering-your-omeka-classic-site">Administering your Omeka Classic Site</h2>
+
+<p>For helpful information on administering your Omeka Classic site, including managing users, security settings, and site navigation, see the related page in this toolkit: <a href="/digital-collect-toolkit//docs/omeka-setup/omeka-admin/">Omeka Site Administration</a>.</p>
 
 
           
@@ -313,19 +349,9 @@
               
             
               
-            
-              
-              <li>
-                <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/installing-omeka/">Getting Started</a>
-              </li>
-              
-            
-              
               <li>
                 <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/omeka-plugins/">Omeka Plugins</a>
               </li>
-              
-            
               
             
               
@@ -339,6 +365,12 @@
               
             
               
+            
+              
+            
+              
+            
+              
               <li>
                 <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-theme/">Custom Omeka Theme</a>
               </li>
@@ -347,10 +379,8 @@
               
             
               
-            
-              
               <li>
-                <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/custom-styling/">Custom Styling</a>
+                <a href="http://localhost:4000/digital-collect-toolkit/docs/omeka-setup/omeka-admin/">Omeka Site Administration</a>
               </li>
               
             
