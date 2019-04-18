@@ -48,7 +48,7 @@ The plugin can also automatically add a reCAPTCHA box at the bottom of each form
 
 ## Custom Omeka Theme 
 
-This toolkit also offers a custom Omeka theme that you can download for the styling of your public Omeka site. This is not required, but you may find it useful. For details on installing and customizing our custom Digital Collecting Theme for your site, see [here]({{ site.baseurl }}{% link docs/omeka-setup/custom-theme.md %}).
+This toolkit also offers a custom Omeka theme that you can download for the styling and content of your public Omeka site. This is not required, but you may find it useful for getting your collecting site up and running quickly with minimal technical knowledge. Our theme offers customizable settings for the appearance and content of your site, easily accessible from the Omeka admin dashboard, no coding knowledge needed! For details on installing and customizing our Digital Collecting Theme for your site, see [here]({{ site.baseurl }}{% link docs/omeka-setup/custom-theme.md %}).
 
 ## Administering your Omeka Classic Site
 

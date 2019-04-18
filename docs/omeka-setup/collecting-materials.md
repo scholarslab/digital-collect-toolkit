@@ -43,7 +43,7 @@ Under the tab for "Submission Settings" you can set options for contributor anon
 
 ![Screenshot of Contribution Settings panel](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/contrib-settings.png)
 
-It is important to make clear in your Terms of Service that user anonymity is conditional, and it is likely that all submissions and associated data may be provided to federal, state, or local law enforcement or other government agencies pursuant to a lawful subpoena or court order. See our [Terms of Service](#terms-of-service) section for more details. 
+It is important to make clear in your Terms of Service that user anonymity is conditional, and it is likely that all submissions and associated data may be provided to federal, state, or local law enforcement or other government agencies pursuant to a lawful subpoena or court order. See our [Terms of Service](#contribution-terms-of-service) section for more details. 
 
 For further documentation on Contributution Submission Settings and Contributor anonymity settings, see the related [Omeka Documentation](https://omeka.org/classic/docs/Plugins/Contribution/#submission-settings).
 

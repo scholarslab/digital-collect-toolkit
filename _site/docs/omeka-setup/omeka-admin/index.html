@@ -284,7 +284,113 @@
           
         
         <div id="main-content" class="page-content" role="main">
-          <h1 id="administering-your-omeka-classic-site">Administering your Omeka Classic Site</h1>
+          <h1 class="no_toc" id="administering-your-omeka-classic-site">Administering your Omeka Classic Site</h1>
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#managing-users" id="markdown-toc-managing-users">Managing Users</a>    <ol>
+      <li><a href="#user-levels-and-access" id="markdown-toc-user-levels-and-access">User Levels and Access</a></li>
+    </ol>
+  </li>
+  <li><a href="#site-security-settings" id="markdown-toc-site-security-settings">Site Security Settings</a></li>
+  <li><a href="#customizing-site-navigation" id="markdown-toc-customizing-site-navigation">Customizing Site Navigation</a></li>
+</ol>
+
+<hr />
+
+<h2 id="managing-users">Managing Users</h2>
+
+<p>Manage users by clicking on the Users tab in the top navigation of your Omeka admin dashboard. The Users section gives the site Administrator control over who may access the admin section of the site and what they can do.</p>
+
+<h3 id="user-levels-and-access">User Levels and Access</h3>
+
+<p>Omeka allows you to give different backend users different levels of access to your archive. Read through the following list of actions available to users to determine what works best for your project team members.</p>
+
+<p>All logged in site Super, Admin, Contributor, and Researcher users can view non-public content (items, collections, Simple Pages, Exhibits, etc) on the site.</p>
+
+<h3 class="no_toc" id="super-users">Super Users</h3>
+<p>Can do anything and everything in Omeka.
+Supers are the only users with access to the top navigation tabs for Plugins, Appearance, Users, and Settings.</p>
+
+<h3 class="no_toc" id="admin-users">Admin Users</h3>
+<p>Admin users do not have access to the tabs for managing plugins, appearance, users, or site settings.
+Admin users can:</p>
+
+<ul>
+  <li>Add, edit, tag, and delete items, both their own and created by other users.</li>
+  <li>Make items, collections, exhibits, and other content public or not public.</li>
+  <li>Make items, collections, exhibits, and other content features or not featured.</li>
+  <li>Add, edit, and delete Item Types.</li>
+  <li>Add, edit, and delete files.</li>
+  <li>Interact with plugins installed and activated by a SuperUser.</li>
+  <li>Add, edit, and delete tags.</li>
+</ul>
+
+<h3 class="no_toc" id="contributor-users">Contributor Users</h3>
+<p>Contributor users have control over their own content but can only view content created by others. They cannot make their own content public. <strong>Contributor Users are different from ‘Guest’ and ‘Contribution anonymous’, the user types added when using the Contribution and Guest User plugins. See <a href="#guest-users">below</a> for details on these user types</strong>. 
+Contributor users can:</p>
+
+<ul>
+  <li>add, edit, tag, and delete items which they created.</li>
+  <li>cannot make their own items public.</li>
+  <li>create their own exhibits from items that are public.</li>
+</ul>
+
+<h3 class="no_toc" id="researcher-users">Researcher Users</h3>
+<p>Researchers can log in to the admin side of an Omeka site and see the content, but cannot interact with it in any way. They cannot add, edit, delete, or tag any items.</p>
+
+<p>For complete documentation on managing users, see the related page in the Omeka Classic documentation, <a href="https://omeka.org/classic/docs/Admin/Users/" target="_blank">here</a>.</p>
+
+<h3 id="guest-users" class="no_toc">Guest &amp; ‘Contribution Anonymous’ Users</h3>
+
+<p>When using the Contribution and Guest User plugins, two additional user types will become available - Guest &amp; ‘Contribution Anonymous’. Depending on how you configure these two plugins, when users make submissions through your contribution form, they will potentially have the option of including their email to set up a ‘Guest’ user account, or they can choose to make their submission anonymous.</p>
+
+<p>For details on configuring these settings for user contributions, see the related section in <a href="/digital-collect-toolkit/docs/omeka-setup/collecting-materials#contributor-anonymity-settings">Collecting Materials</a>.</p>
+
+<h2 id="site-security-settings">Site Security Settings</h2>
+
+<p>Access your site’s Security Settings by clicking on the ‘Settings’ tab in the top navigation of your Omeka admin dashboard. Then select the ‘Security’ tab in the Settings toolbar:</p>
+
+<p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/security-settings.png" alt="Screen shot of Security settings bar" /></p>
+
+<p>Scroll down to the Captcha section. A captcha is a program that can help ensure that only actual people, not spammers or robots, are using public forms on your Omeka site, including the Contribution plugin content submission form.</p>
+
+<p>In order to use reCAPTCHA, you will need to sign up for Captcha key to reduce spam on your site. Sign up by following the link to the google developer’s reCaptcha site, provided in the Captcha section (see below screenshot). Once you sign up, you can enter your site and secret keys in their respective fields:</p>
+
+<p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/captcha.png" alt="Screen shot of Security settings bar" /></p>
+
+<p>For more details on reCaptcha settings, see the related <a href="https://omeka.org/classic/docs/Admin/Settings/ReCaptcha/" target="_blank">Omeka Documentation</a>.</p>
+
+<p>For more information on additonal site security settings, see <a href="https://omeka.org/classic/docs/Admin/Settings/Security_Settings/" target="_blank">here</a>.</p>
+
+<h2 id="customizing-site-navigation">Customizing Site Navigation</h2>
+
+<p>From your Omeka admin dashboard, click on the ‘Appearance’ option in the top navigation bar. Select the ‘Navigation’ tab in the Appearance toolbar to see your site’s navigation settings.</p>
+
+<p>These settings determine your site’s main navigation, see <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank">our site</a> as an example:</p>
+
+<p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/nav-bar.png" alt="Screen shot of Navigation bar" /></p>
+
+<ol>
+  <li>
+    <p>To change the default label for a navigation link, click on the arrow to its right and change the text under ‘Label’ (see the screen shot below, with open editor for ‘About the Archive’):</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/nav-settings-1.png" alt="Screen shot of Navigation settings" /></p>
+  </li>
+  <li>
+    <p>Add a link to your navigation bar using the box ‘Add a Link to the Navigation’. To create a link for a search page, fill in the ‘Label’ and ‘URL’ as seen below, and click the ‘Add Link’ button:</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/nav-settings-2.png" alt="Screen shot of Navigation settings" /></p>
+
+    <p>Use this box to add any additional links to your navigation bar as needed. You can inlude urls from outside your Omeka site as well.</p>
+  </li>
+  <li>
+    <p>Select the check box for links you want to appear in you navigation bar. Click and drag the links to change to your preferred order.</p>
+
+    <p><img src="http://localhost:4000/digital-collect-toolkit//assets/images/nav-settings-3.png" alt="Screen shot of Navigation settings" /></p>
+  </li>
+</ol>
+
 
 
           
