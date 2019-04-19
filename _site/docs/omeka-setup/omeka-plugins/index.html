@@ -286,7 +286,7 @@
         <div id="main-content" class="page-content" role="main">
           <h1 class="no_toc" id="omeka-plugins">Omeka Plugins</h1>
 
-<p class="fs-5 fw-300">Our <a href="http://digitalcollecting.lib.virginia.edu/rally/">Digital Collecting</a> site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins.</p>
+<p class="fs-5 fw-300">Our <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank">Digital Collecting</a> site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. You may choose which plugins, among others offered by <a href="https://omeka.org/classic/plugins/" target="_blank">Omeka</a>, are most useful for your site.</p>
 <p class="fs-5 fw-300">Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins.</p>
 
 <h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
@@ -294,11 +294,17 @@
 <ol id="markdown-toc">
   <li><a href="#guest-user" id="markdown-toc-guest-user">Guest User</a></li>
   <li><a href="#contribution" id="markdown-toc-contribution">Contribution</a></li>
-  <li><a href="#simple-vocab" id="markdown-toc-simple-vocab">Simple Vocab</a></li>
   <li><a href="#dublin-core-extended" id="markdown-toc-dublin-core-extended">Dublin Core Extended</a></li>
+  <li><a href="#simple-vocab" id="markdown-toc-simple-vocab">Simple Vocab</a></li>
   <li><a href="#element-types" id="markdown-toc-element-types">Element Types</a></li>
   <li><a href="#derivative-images" id="markdown-toc-derivative-images">Derivative Images</a></li>
   <li><a href="#simple-pages" id="markdown-toc-simple-pages">Simple Pages</a></li>
+  <li><a href="#search-by-metadata" id="markdown-toc-search-by-metadata">Search by Metadata</a></li>
+  <li><a href="#additional-plugins" id="markdown-toc-additional-plugins">Additional Plugins</a>    <ol>
+      <li><a href="#geolocation" id="markdown-toc-geolocation">Geolocation</a></li>
+      <li><a href="#exhibit-builder" id="markdown-toc-exhibit-builder">Exhibit Builder</a></li>
+    </ol>
+  </li>
 </ol>
 
 <hr />
@@ -307,59 +313,97 @@
 <p>You must upload and install the Guest User plugin before installing and activating the Contribution Plugin.</p>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/GuestUser/">Download Guest User plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/GuestUser/">Installation and Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/GuestUser/" target="_blank">Download Guest User plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/GuestUser/" target="_blank">Installation and Configuration Guide</a></li>
 </ul>
 
 <h2 id="contribution">Contribution</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/Contribution/">Download Contribution plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/Contribution/">Installation &amp; Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/Contribution/" target="_blank">Download Contribution plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Contribution/" target="_blank">Installation &amp; Configuration Guide</a></li>
 </ul>
 
-<p>See <a href="/digital-collect-toolkit//docs/omeka-setup/collecting-materials/">Collecting Materials</a> for more information on collecting and managing stories, images, and other files from the public.</p>
+<p>The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. Other plugins can be integrated into the Contribution form, such as Simple Vocab for creating dropdown menu choices, and Geolocation for inviting users to map their submissions or locations.</p>
 
-<h2 id="simple-vocab">Simple Vocab</h2>
+<p>Installing and configuring the Contribution plugin requires a few steps. Please read through the <a href="https://omeka.org/classic/docs/Plugins/Contribution/" target="_blank">Omeka documentation</a> carefully.</p>
 
-<ul>
-  <li><a href="https://omeka.org/classic/plugins/SimpleVocab/">Download Simple Vocab plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/SimpleVocab/">Configuration &amp; Use Guide</a></li>
-  <li>Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element.</li>
-</ul>
-
-<p>We used Simple Vocab to replace the element for “Spatial Coverage” with a list of locations around Charlottesville relevant to the events:</p>
-
-<p><img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/simple-vocab.png" alt="Screenshot of Simple Vocab page in Omeka" /></p>
+<p>See <a href="/digital-collect-toolkit//docs/omeka-setup/collecting-materials/">Collecting Materials</a> for additional information on our site’s <a href="http://digitalcollecting.lib.virginia.edu/rally/contribution/terms" target="_blank">Contribution Terms of Service</a> and how we configured this plugin for collecting and managing stories, images, and other files from the public.</p>
 
 <h2 id="dublin-core-extended">Dublin Core Extended</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/DublinCoreExtended/">Download Dublin Core Extended plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/DublinCoreExtended/">Documentation</a></li>
+  <li><a href="https://omeka.org/classic/plugins/DublinCoreExtended/" target="_blank">Download Dublin Core Extended plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/DublinCoreExtended/" target="_blank">Documentation</a></li>
 </ul>
+
+<p>Dublin Core Extended provides additional metadata elements that you may find useful to collect in your Contribution collection form. We used this plugin specifically for the ‘Spatial Coverage’ element, which along with the Simple Vocab plugin, allows contributors to submit the location of their contribution.</p>
+
+<h2 id="simple-vocab">Simple Vocab</h2>
+
+<ul>
+  <li><a href="https://omeka.org/classic/plugins/SimpleVocab/" target="_blank">Download Simple Vocab plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/SimpleVocab/" target="_blank">Configuration &amp; Use Guide</a></li>
+</ul>
+
+<p>Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element.</p>
+
+<p>We used Simple Vocab to replace the element for “Spatial Coverage” with a list of locations around Charlottesville relevant to the events. When a contributor chooses to fill out the ‘Location’ input in the collection form, they choose from a drop-down list of predetermined terms, set in the Simple Vocab settings. Once the plugin is installed, you can manage your custom vocabulary by clicking on the ‘Simple Vocab’ tab on the left-hand menu in your Omeka dashboard:</p>
+
+<p><img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/simple-vocab.png" alt="Screenshot of Simple Vocab page in Omeka" /></p>
 
 <h2 id="element-types">Element Types</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/ElementTypes/">Download Element Types plugin</a></li>
-  <li>Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection in the Contribution form)</li>
+  <li><a href="https://omeka.org/classic/plugins/ElementTypes/" target="_blank">Download Element Types plugin</a></li>
 </ul>
+
+<p>Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection in the Contribution form).</p>
 
 <h2 id="derivative-images">Derivative Images</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/DerivativeImages/">Download Derivative Images plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/DerivativeImages/">Documentation</a></li>
+  <li><a href="https://omeka.org/classic/plugins/DerivativeImages/" target="_blank">Download Derivative Images plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/DerivativeImages/" target="_blank">Documentation</a></li>
 </ul>
 
 <h2 id="simple-pages">Simple Pages</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/SimplePages/">Download Simple Pages plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/SimplePages/">Configuration Guide</a></li>
-  <li>Used to create our <a href="http://digitalcollecting.lib.virginia.edu/rally/about">About the Archive</a> page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.</li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/SimplePages/" target="_blank">Configuration Guide</a></li>
 </ul>
+
+<p>Used to create our <a href="http://digitalcollecting.lib.virginia.edu/rally/about" target="_blank">About the Archive</a> page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.</p>
+
+<h2 id="search-by-metadata">Search by Metadata</h2>
+
+<ul>
+  <li><a href="https://omeka.org/classic/plugins/SearchByMetadata/" target="_blank">Download Search by Metadata plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/SearchByMetadata/" target="_blank">Installation and Configuration Guide</a></li>
+</ul>
+
+<p>The Search by Metadata plugin makes it possible for visitors to your public Omeka site to see a browse page with items that share specific metadata (i.e., all items with ‘UVA Rotunda’ in the Spatial Coverage field). This plugin works very well with the Simple Vocab plugin for controlling metadata vocabulary. See the related <a href="https://omeka.org/classic/docs/Plugins/SearchByMetadata/" target="_blank">Omeka documentation</a> for details on configuring this plugin.</p>
+
+<h2 id="additional-plugins">Additional Plugins</h2>
+
+<p>We do not currently have the following plugins active on our collecting site, but they may be useful for others.</p>
+
+<h3 id="geolocation">Geolocation</h3>
+
+<ul>
+  <li><a href="https://omeka.org/classic/plugins/Geolocation/" target="_blank">Download Geolocation plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Geolocation/" target="_blank">Configuration Guide</a></li>
+</ul>
+
+<p>The Geolocation plugin allows you to assign a location to items in your Omeka site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items, that you can add to your site’s primary navigation. This plugin also allows you to add a map to your Contribution form, allowing contributors to select locations on a map to submit with their materials.</p>
+
+<h3 id="exhibit-builder">Exhibit Builder</h3>
+
+<ul>
+  <li><a href="https://omeka.org/classic/docs/Plugins/ExhibitBuilder/" target="_blank">Configuration Guide</a></li>
+</ul>
+
+<p>The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive and may include narrative text. You may find it useful for creating exhibit pages out of collected materials. This plugin is included in your downloaded Omeka installation and does not require a separate download.</p>
 
 
           
