@@ -17,13 +17,13 @@ nav_order: 2
 
 ## Before you Begin
 
-1. Before using [Twarc](https://github.com/DocNow/twarc), you will need to [register a Twitter application](../social-media/twitter-setup), and have your [consumer key, consumer secret, access token, and access token secret](../social-media/twitter-setup#accessing-keys-and-tokens) on hand. 
+1. Before using [Twarc](https://github.com/DocNow/twarc){:target="_blank"}, you will need to [register a Twitter application](../social-media/twitter-setup), and have your [consumer key, consumer secret, access token, and access token secret](../social-media/twitter-setup#accessing-keys-and-tokens) on hand. 
 
-2. Twarc requires familiarity with using the command line to navigate your file system, configure Twarc, and run queries. For introductory lessons on using the command line, see these tutorials for Mac and Windows users from the UNLV Libraries, [here](https://www.library.unlv.edu/whats_new_in_special_collections/2019/02/new-digital-collections-introduction-command-line.html). 
+2. Twarc requires familiarity with using the command line to navigate your file system, configure Twarc, and run queries. For introductory lessons on using the command line, see these tutorials for Mac and Windows users from the UNLV Libraries, [here](https://www.library.unlv.edu/whats_new_in_special_collections/2019/02/new-digital-collections-introduction-command-line.html){:target="_blank"}. 
    
-   The Command Line tutorial is part of UNLV Libraries' [Twitter Data Tutorial Series](https://www.library.unlv.edu/whats_new_in_special_collections/2019/04/new-digital-collections-1-october-twitter-data-tutorial), which features ten tutorials that take you step-by-step through the design, collection, and documentation process of curating a collection of Twitter data, as well as tutorials on tools for data analysis. This series is focused on using Twarc and offers another resource, in addition to this toolkit. 
+   The Command Line tutorial is part of UNLV Libraries' [Twitter Data Tutorial Series](https://www.library.unlv.edu/whats_new_in_special_collections/2019/04/new-digital-collections-1-october-twitter-data-tutorial){:target="_blank"}, which features ten tutorials that take you step-by-step through the design, collection, and documentation process of curating a collection of Twitter data, as well as tutorials on tools for data analysis. This series is focused on using Twarc and offers another resource, in addition to this toolkit. 
 
-3. Download and install the latest version of Python, [here](https://www.python.org/downloads/). Twarc works with with either version 2 or 3.
+3. Download and install the latest version of Python, [here](https://www.python.org/downloads/){:target="_blank"}. Twarc works with with either version 2 or 3.
 
    If you are a Mac user, you may already have Python installed. To check, open your terminal and run the command:
 
@@ -43,7 +43,7 @@ _For Windows users, click [here](#twarc-for-windows)_
 
        pip install twarc
 
-   _Note: [Pip](https://pip.pypa.io/en/stable/installing/) is already installed if you are using Python 2 ≥ 2.7.9 or Python 3 ≥ 3.4_
+   _Note: [Pip](https://pip.pypa.io/en/stable/installing/){:target="_blank"} is already installed if you are using Python 2 ≥ 2.7.9 or Python 3 ≥ 3.4_
 
    macOS users also have the option of installing Twarc via homebrew using the command:
 
@@ -84,7 +84,7 @@ Next, learn the basics of colleting twitter data: [Twarc Introductory Lesson]({{
 
        pip install twarc
 
-   _Note: [Pip](https://pip.pypa.io/en/stable/installing/) is already installed if you are using Python 2 ≥ 2.7.9 or Python 3 ≥ 3.4_
+   _Note: [Pip](https://pip.pypa.io/en/stable/installing/){:target="_blank"} is already installed if you are using Python 2 ≥ 2.7.9 or Python 3 ≥ 3.4_
 
 ### Configuring Twarc
 

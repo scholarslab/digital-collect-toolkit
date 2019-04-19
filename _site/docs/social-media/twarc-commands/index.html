@@ -312,7 +312,7 @@
 
 <h2 id="search">Search</h2>
 
-<p>This uses Twitter’s <a href="https://dev.twitter.com/rest/reference/get/search/tweets">search/tweets</a> to download <em>pre-existing</em> tweets matching a given query.</p>
+<p>This uses Twitter’s <a href="https://dev.twitter.com/rest/reference/get/search/tweets" target="_blank">search/tweets</a> to download <em>pre-existing</em> tweets matching a given query.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc search blacklivesmatter &gt; tweets.jsonl
 </code></pre></div></div>
@@ -323,7 +323,7 @@ window, it is, but you may be interested in collecting tweets as they happen
 using the <code class="highlighter-rouge">filter</code> and <code class="highlighter-rouge">sample</code> commands below.</p>
 
 <p>The best way to get familiar with Twitter’s search syntax is to experiment with
-<a href="https://twitter.com/search-advanced">Twitter’s Advanced Search</a> and copy and
+<a href="https://twitter.com/search-advanced" target="_blank">Twitter’s Advanced Search</a> and copy and
 pasting the resulting query from the search box. For example here is a more
 complicated query that searches for tweets containing either the
 #blacklivesmatter or #blm hashtags that were sent to deray.</p>
@@ -352,7 +352,7 @@ relevant for that location and radius:</p>
 
 <h2 id="filter">Filter</h2>
 
-<p>The <code class="highlighter-rouge">filter</code> command will use Twitter’s <a href="https://dev.twitter.com/streaming/reference/post/statuses/filter">statuses/filter</a> API to collect tweets as they happen.</p>
+<p>The <code class="highlighter-rouge">filter</code> command will use Twitter’s <a href="https://dev.twitter.com/streaming/reference/post/statuses/filter" target="_blank">statuses/filter</a> API to collect tweets as they happen.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc filter blacklivesmatter,blm &gt; tweets.jsonl
 </code></pre></div></div>
@@ -384,7 +384,7 @@ CNN:</p>
 
 <h2 id="sample">Sample</h2>
 
-<p>Use the <code class="highlighter-rouge">sample</code> command to listen to Twitter’s <a href="https://dev.twitter.com/streaming/reference/get/statuses/sample">statuses/sample</a> API for a “random” sample of recent public statuses.</p>
+<p>Use the <code class="highlighter-rouge">sample</code> command to listen to Twitter’s <a href="https://dev.twitter.com/streaming/reference/get/statuses/sample" target="_blank">statuses/sample</a> API for a “random” sample of recent public statuses.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc sample &gt; tweets.jsonl
 </code></pre></div></div>
@@ -398,12 +398,12 @@ CNN:</p>
 
 <h2 id="hydrate">Hydrate</h2>
 
-<p>Twarc’s <code class="highlighter-rouge">hydrate</code> command will read a file of tweet identifiers and write out the tweet JSON for them using Twitter’s <a href="https://dev.twitter.com/rest/reference/get/statuses/lookup">status/lookup</a> API.</p>
+<p>Twarc’s <code class="highlighter-rouge">hydrate</code> command will read a file of tweet identifiers and write out the tweet JSON for them using Twitter’s <a href="https://dev.twitter.com/rest/reference/get/statuses/lookup" target="_blank">status/lookup</a> API.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc hydrate ids.txt &gt; tweets.jsonl
 </code></pre></div></div>
 
-<p>Twitter API’s <a href="https://dev.twitter.com/overview/terms/policy#6._Be_a_Good_Partner_to_Twitter">Terms of Service</a> discourage people from making large amounts of raw Twitter data available on the Web.  The data can be used for research and archived for local use, but not shared with the world. Twitter does allow files of tweet identifiers to be shared, which can be useful when you would like to make a dataset of tweets available.  You can then use Twitter’s API to <em>hydrate</em> the data, or to retrieve the full JSON for each identifier. This is particularly important for <a href="https://en.wikipedia.org/wiki/Reproducibility">verification</a> of social media research.</p>
+<p>Twitter API’s <a href="https://dev.twitter.com/overview/terms/policy#6._Be_a_Good_Partner_to_Twitter" target="_blank">Terms of Service</a> discourage people from making large amounts of raw Twitter data available on the Web.  The data can be used for research and archived for local use, but not shared with the world. Twitter does allow files of tweet identifiers to be shared, which can be useful when you would like to make a dataset of tweets available.  You can then use Twitter’s API to <em>hydrate</em> the data, or to retrieve the full JSON for each identifier. This is particularly important for <a href="https://en.wikipedia.org/wiki/Reproducibility" target="_blank">verification</a> of social media research.</p>
 
 <h2 id="users">Users</h2>
 
@@ -425,7 +425,7 @@ using the <code class="highlighter-rouge">followers</code> and <code class="high
 
 <h2 id="followers">Followers</h2>
 
-<p>The <code class="highlighter-rouge">followers</code> command  will use Twitter’s <a href="https://dev.twitter.com/rest/reference/get/followers/ids">follower id API</a> to collect the follower user ids for exactly one user screen name per request as specified as an argument:</p>
+<p>The <code class="highlighter-rouge">followers</code> command  will use Twitter’s <a href="https://dev.twitter.com/rest/reference/get/followers/ids" target="_blank">follower id API</a> to collect the follower user ids for exactly one user screen name per request as specified as an argument:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc followers deray &gt; follower_ids.txt
 </code></pre></div></div>
@@ -435,14 +435,14 @@ reverse chronological, or most recent followers first.</p>
 
 <h2 id="friends">Friends</h2>
 
-<p>Like the <code class="highlighter-rouge">followers</code> command, the <code class="highlighter-rouge">friends</code> command will use Twitter’s <a href="https://dev.twitter.com/rest/reference/get/friends/ids">friend id API</a> to collect the friend user ids for exactly one user screen name per request as specified as an argument:</p>
+<p>Like the <code class="highlighter-rouge">followers</code> command, the <code class="highlighter-rouge">friends</code> command will use Twitter’s <a href="https://dev.twitter.com/rest/reference/get/friends/ids" target="_blank">friend id API</a> to collect the friend user ids for exactly one user screen name per request as specified as an argument:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc friends deray &gt; friend_ids.txt
 </code></pre></div></div>
 
 <h2 id="trends">Trends</h2>
 
-<p>The <code class="highlighter-rouge">trends</code> command lets you retrieve information from Twitter’s API about trending hashtags. You need to supply a <a href="http://developer.yahoo.com/geo/geoplanet/">Where On Earth</a> identifier (<code class="highlighter-rouge">woeid</code>) to indicate what trends you are interested in. For example here’s how you can get the current trends for St Louis:</p>
+<p>The <code class="highlighter-rouge">trends</code> command lets you retrieve information from Twitter’s API about trending hashtags. You need to supply a <a href="http://developer.yahoo.com/geo/geoplanet/" target="_blank">Where On Earth</a> identifier (<code class="highlighter-rouge">woeid</code>) to indicate what trends you are interested in. For example here’s how you can get the current trends for St Louis:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc trends 2486982
 </code></pre></div></div>
@@ -463,11 +463,11 @@ of all the places for which Twitter tracks trends:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc trends 39.9062,-79.4679
 </code></pre></div></div>
 
-<p>Behind the scenes twarc will lookup the location using Twitter’s <a href="https://dev.twitter.com/rest/reference/get/trends/closest">trends/closest</a> API to find the nearest <code class="highlighter-rouge">woeid</code>.</p>
+<p>Behind the scenes twarc will lookup the location using Twitter’s <a href="https://dev.twitter.com/rest/reference/get/trends/closest" target="_blank">trends/closest</a> API to find the nearest <code class="highlighter-rouge">woeid</code>.</p>
 
 <h2 id="timeline">Timeline</h2>
 
-<p>The <code class="highlighter-rouge">timeline</code> command will use Twitter’s <a href="https://dev.twitter.com/rest/reference/get/statuses/user_timeline">user timeline API</a> to collect the most recent tweets posted by the user indicated by screen_name.</p>
+<p>The <code class="highlighter-rouge">timeline</code> command will use Twitter’s <a href="https://dev.twitter.com/rest/reference/get/statuses/user_timeline" target="_blank">user timeline API</a> to collect the most recent tweets posted by the user indicated by screen_name.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>twarc timeline deray &gt; tweets.jsonl
 </code></pre></div></div>

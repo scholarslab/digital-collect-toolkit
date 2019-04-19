@@ -18,14 +18,14 @@ nav_order: 1
 
 ## Steps for Creating a Twitter Application
 
-_Please note that these instructions may be subject to change with updates to Twitter. If the following steps and screenshots do not match precisely, please use this as a general guide, or contact [DocNow](https://www.docnow.io/)._
+_Please note that these instructions may be subject to change with updates to Twitter. If the following steps and screenshots do not match precisely, please use this as a general guide, or contact [DocNow](https://www.docnow.io/){:target="_blank"}._
 {: fw-300 }
 
-1. If you do not have a twitter account, create one at [twitter.com](https://twitter.com/). A twitter account is required for access to twitter data. 
+1. If you do not have a twitter account, create one at [twitter.com](https://twitter.com/){:target="_blank"}. A twitter account is required for access to twitter data. 
 
 2. Log into you twitter account to set-up and and authorize a twitter application. A Twitter application will let you download twitter data using Python. 
    
-   Create an app at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps)
+   Create an app at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps){:target="_blank"}
 
    Following the above link should bring you to this page:
 
@@ -47,7 +47,7 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 2. In the 'Account details' section, select your request for access for either your organization or for personal use. 
 
-   **Note:** Selecting "for my own personal use" offers the simplest and quickest method of setting up a developer account. If you are following this guide for research or teaching purposes, an individual, personal account is suggested. Twitter users can only have a single developement account, and cannot change account types. An 'Organization' account differs in that it allows for additional twitter users to share access on a single dev account, however, this is mainly geared toward commercial use and is intended for development for premium APIs ($), and is outside the scope of this guide. For more, see [Twitter's FAQ](https://developer.twitter.com/en/docs/basics/developer-portal/faq.html).
+   **Note:** Selecting "for my own personal use" offers the simplest and quickest method of setting up a developer account. If you are following this guide for research or teaching purposes, an individual, personal account is suggested. Twitter users can only have a single developement account, and cannot change account types. An 'Organization' account differs in that it allows for additional twitter users to share access on a single dev account, however, this is mainly geared toward commercial use and is intended for development for premium APIs ($), and is outside the scope of this guide. For more, see [Twitter's FAQ](https://developer.twitter.com/en/docs/basics/developer-portal/faq.html){:target="_blank"}.
 
     - If you select "for my own personal use," you will be prompted to fill in an Account Name and to select your Primary Country of Operation. Both are required.
     - If you select "for my organization," you are required to fill out the following:
@@ -77,7 +77,7 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 ### Creating a Twitter App
 
-1. Once you have your Twitter Developer Account set up, you can register an application at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps). Click 'Create an App' to begin:
+1. Once you have your Twitter Developer Account set up, you can register an application at [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps){:target="_blank"}. Click 'Create an App' to begin:
 
    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/developer-page.png)
 
@@ -89,11 +89,11 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 3. Click 'Create'. A pop-up may appear for reviewing the Twitter Developer Terms, click 'Create' to continue.
 
-4. You now have a registered Twitter app! You can edit any of these fields later from your [Developer Account Apps page](https://developer.twitter.com/en/apps).
+4. You now have a registered Twitter app! You can edit any of these fields later from your [Developer Account Apps page](https://developer.twitter.com/en/apps){:target="_blank"}.
 
 ### Accessing Keys and Tokens
 
-1. From your [Developer Account Apps page](https://developer.twitter.com/en/apps), find your app and click 'Details'.
+1. From your [Developer Account Apps page](https://developer.twitter.com/en/apps){:target="_blank"}, find your app and click 'Details'.
 
    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-app-3.png)
 
