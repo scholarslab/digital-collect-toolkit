@@ -123,7 +123,7 @@ Use the toolbox buttons to format your content, add headings, links, and lists. 
 #### Optional Featured Content
 {: .text-gamma}
 
-Check the boxes for additional content to be displayed on your homepage. All of these are optional. You must have featured items, collections and/or exhibits in your Omeka collection for some options to be relavant. 
+Check the boxes for additional content to be displayed on your homepage. All of these are optional. You must have featured items, collections and/or exhibits in your Omeka collection for some options to be relevant. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-6.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
