@@ -8,6 +8,9 @@ nav_order: 3
 # Introductory Lesson on Twarc for Twitter Data Collection
 {: .no_toc }
 
+Published: April 25, 2019
+{: .fs-3 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

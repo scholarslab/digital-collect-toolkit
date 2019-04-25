@@ -6,6 +6,8 @@ nav_order: 2
 ---
 # Installing and Configuring Twarc
 {: .no_toc }
+Published: April 25, 2019
+{: .fs-3 }
 
 ## Table of contents
 {: .no_toc .text-delta }

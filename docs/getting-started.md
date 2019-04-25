@@ -23,8 +23,13 @@ The basics for building a rapid response Digital Collection Site
 ### Gathering a Team
 
 ### Planning your Site
-
 What are you collecting?
+
+### Ethical Considerations
+
+### Funding Opportunties
+
+Grant programs that can help support your digital collections:
 
 ## Technical Considerations
 

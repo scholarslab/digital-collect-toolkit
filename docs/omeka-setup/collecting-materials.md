@@ -13,6 +13,9 @@ We've included detailed documentation on how our [Digital Collecting](http://dig
 Please read through the [Installation & Configuration Guide](https://omeka.org/classic/docs/Plugins/Contribution/) for full set-up instructions before getting started. 
 {: .fs-5 .fw-300 }
 
+Published: April 25, 2019
+{: .fs-3 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

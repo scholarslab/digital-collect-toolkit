@@ -7,6 +7,8 @@ nav_order: 1
 
 # Setting up your Twitter Account for Collecting
 {: .no_toc }
+Published: April 25, 2019
+{: .fs-3 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -15,7 +17,6 @@ nav_order: 1
 {:toc}
 
 ---
-
 ## Steps for Creating a Twitter Application
 
 _Please note that these instructions may be subject to change with updates to Twitter. If the following steps and screenshots do not match precisely, please use this as a general guide, or contact [DocNow](https://www.docnow.io/){:target="_blank"}._

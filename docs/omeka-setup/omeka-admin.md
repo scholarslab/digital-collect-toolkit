@@ -7,6 +7,10 @@ nav_order: 5
 
 # Administering your Omeka Classic Site
 {: .no_toc }
+
+Published: April 25, 2019
+{: .fs-3 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -97,7 +101,7 @@ These settings determine your site's main navigation, see [our site](http://digi
 
     ![Screen shot of Navigation settings]({{ site.url }}{{ site.baseurl }}/assets/images/nav-settings-2.png)
 
-    Use this box to add any additional links to your navigation bar as needed. You can inlude urls from outside your Omeka site as well. 
+    Use this box to add any additional links to your navigation bar as needed. You can inlude URLs from outside your Omeka site as well. 
 
 3. Select the check box for links you want to appear in you navigation bar. Click and drag the links to change to your preferred order.
 

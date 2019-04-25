@@ -13,6 +13,9 @@ Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:targ
 Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. 
 {: .fs-5 .fw-300 }
 
+Published: April 25, 2019
+{: .fs-3 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

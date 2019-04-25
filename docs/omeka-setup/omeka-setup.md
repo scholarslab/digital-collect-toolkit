@@ -33,9 +33,6 @@ If you lack access to a server that meets Omeka's basic requirements, or are loo
 Omeka also provides a list of suggestions for low-cost shared web hosts that offer the server environment required for Omeka, see [here](https://omeka.org/classic/docs/GettingStarted/Hosting_Suggestions/){:target="_blank"} for details. 
 - [Complete Omeka Classic Installation Guide](https://omeka.org/classic/docs/Installation/Installation/){:target="_blank"}
 
-### Additional Resources:
-- [The Programming Historian's Lesson on Installing Omeka](https://programminghistorian.org/en/lessons/installing-omeka){:target="_blank"}
-
 ## Omeka Classic Plugins
 
 One of the primary features of a rapid response digital collecting site is a user-friendly submission form set up to collect photos, videos, stories, website links, audio and other files from the community. Omeka Classic offers the [Contribution plugin](https://omeka.org/classic/docs/Plugins/Contribution/){:target="_blank"}, which adds a content submission form to your public collecting site.
@@ -53,3 +50,7 @@ This toolkit also offers a custom Omeka theme that you can download for the styl
 ## Administering your Omeka Classic Site
 
 For helpful information on administering your Omeka Classic site, including managing users, security settings, and site navigation, see the related page in this toolkit: [Omeka Site Administration]({{ site.baseurl }}{% link docs/omeka-setup/omeka-admin.md %}).
+
+
+This page was published: April 25, 2019
+{: .fs-3 }

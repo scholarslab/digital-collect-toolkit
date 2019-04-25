@@ -10,8 +10,10 @@ nav_order: 4
 
 After you've become familiar with the basics of using Twarc to perform a search command to collect Twitter data, dehydrate an existing dataset, and hydrate a list of unique Tweet ids, you can move on to more complex commands to tailor your search to your research needs. 
 
-Below you will find a list of commands that will allow you to create a more targeted collection. 
+Below you will find a list of commands that will allow you to create a more targeted collection. This documentation is from the [Twarc Usage Guide](https://github.com/DocNow/twarc#usage){:target="_blank"}. 
 
+Published: April 25, 2019
+{: .fs-3 }
 
 ## Table of contents
 {: .no_toc .text-delta }
