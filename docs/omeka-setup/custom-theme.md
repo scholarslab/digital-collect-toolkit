@@ -53,9 +53,9 @@ You should now be on the Theme Configuration page:
 
 ![Screen shot of Theme Configuration page]({{ site.url }}{{ site.baseurl }}/assets/images/theme-config.png)
 
-### Customize your site's color scheme
+### Customize your Site's Color Scheme
 {: .text-beta}
-Use this section to customize your site's color scheme. These boxes will automatically fill in with our UVA theme colors, you can change them for your site. 
+Use this section to customize your site's color scheme. These boxes will automatically fill in with our UVA theme colors, you can change them for your site. You must use a six-character hexadecimal color value, including the `#`.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-colors.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
