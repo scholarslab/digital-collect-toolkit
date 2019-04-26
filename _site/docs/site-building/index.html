@@ -306,7 +306,7 @@
   </li>
   <li><a href="#technical-considerations" id="markdown-toc-technical-considerations">Technical Considerations</a>    <ol>
       <li><a href="#virus-scanning" id="markdown-toc-virus-scanning">Virus Scanning</a></li>
-      <li><a href="#file-size-restrictions" id="markdown-toc-file-size-restrictions">File Size Restrictions</a></li>
+      <li><a href="#file-size-limitations" id="markdown-toc-file-size-limitations">File Size Limitations</a></li>
       <li><a href="#uploading-a-large-file-set" id="markdown-toc-uploading-a-large-file-set">Uploading a large file set</a></li>
     </ol>
   </li>
@@ -331,9 +331,15 @@
 
 <h3 id="virus-scanning">Virus Scanning</h3>
 
-<h3 id="file-size-restrictions">File Size Restrictions</h3>
+<h3 id="file-size-limitations">File Size Limitations</h3>
+
+<p>You’ll want to consider setting a limit on the file size for individual contributions uploaded through your site’s collection form. These settings are server specific, and can be set up by your server administrator when you install Omeka. If you’re using Reclaim Hosting, or another shared hosting platform, you may not be able to change the file size limitations.</p>
+
+<p>For our digital collecting site, we set the maximum file size for uploads at 250Mb. This is large enough for short video files taken with smartphones, which was an item we were interested in collecting. Creating a limit on file size may seem restrictive, but it is important for the sustainability of your server, where your files are stored. Your available server space is determined by your institution or your shared hosting service (like <a href="https://reclaimhosting.com/" target="_blank">Reclaim</a>), so consider how much total space you have for file storage when determining size restrictions.</p>
 
 <h3 id="uploading-a-large-file-set">Uploading a large file set</h3>
+
+<p>Currently, the Contribution plugin for Omeka Classic allows for only individual file uploads. For our site, we encouraged contributors to use the contribution form to submit all of their materials, but also provided an option for contributing a link to a dropbox account or similar for large file sets.</p>
 
 <p>To upload more than one file at a time, you may download and install the Omeka <a href="https://omeka.org/classic/docs/Plugins/Dropbox/">Dropbox plugin</a>. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface.</p>
 

@@ -29,6 +29,10 @@ If you lack access to a server that meets Omeka's basic requirements, or are loo
 
 -  [Reclaim Hosting](https://reclaimhosting.com/){:target="_blank"}
 -  [Installing Omeka Classic on Reclaim Hosting](https://community.reclaimhosting.com/t/installing-omeka-classic-on-reclaim-hosting/193){:target="_blank"}
+- [Uploading Plugins and Themes to Omeka on Reclaim Hosting](https://community.reclaimhosting.com/t/uploading-plugins-to-omeka/195){:target="_blank"}
+- [Working with Omeka Classic on Reclaim Hosting](https://community.reclaimhosting.com/t/working-with-omeka-classic/194){:target="_blank"}
+- [Omeka on Reclaim: Community Forum](https://community.reclaimhosting.com/c/docs/omeka){:target="_blank"}
+
 
 Omeka also provides a list of suggestions for low-cost shared web hosts that offer the server environment required for Omeka, see [here](https://omeka.org/classic/docs/GettingStarted/Hosting_Suggestions/){:target="_blank"} for details. 
 - [Complete Omeka Classic Installation Guide](https://omeka.org/classic/docs/Installation/Installation/){:target="_blank"}
