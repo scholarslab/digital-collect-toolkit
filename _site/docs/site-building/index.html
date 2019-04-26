@@ -305,9 +305,10 @@
     </ol>
   </li>
   <li><a href="#technical-considerations" id="markdown-toc-technical-considerations">Technical Considerations</a>    <ol>
+      <li><a href="#omeka-for-digital-collections" id="markdown-toc-omeka-for-digital-collections">Omeka for Digital Collections</a></li>
       <li><a href="#virus-scanning" id="markdown-toc-virus-scanning">Virus Scanning</a></li>
       <li><a href="#file-size-limitations" id="markdown-toc-file-size-limitations">File Size Limitations</a></li>
-      <li><a href="#uploading-a-large-file-set" id="markdown-toc-uploading-a-large-file-set">Uploading a large file set</a></li>
+      <li><a href="#large-files-and-file-sets" id="markdown-toc-large-files-and-file-sets">Large Files and File Sets</a></li>
     </ol>
   </li>
 </ol>
@@ -329,20 +330,32 @@
 
 <h2 id="technical-considerations">Technical Considerations</h2>
 
+<h3 id="omeka-for-digital-collections">Omeka for Digital Collections</h3>
+
+<p>Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on <a href="https://omeka.org/classic/" target="_blank">Omeka Classic</a>, which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on <a href="/digital-collect-toolkit//docs/omeka-setup/custom-theme/">Setting up Omeka Classic</a> to build a site similar to <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank"><em>“Unite the Right” Rally and Community Response</em></a>. We’ve identified <a href="/digital-collect-toolkit//docs/omeka-setup/omeka-plugins/">plugins</a> and created a <a href="/digital-collect-toolkit//docs/omeka-setup/custom-theme/">custom theme</a> specifically for use with Omeka Classic.</p>
+
+<p>Your project needs may align instead with <a href="https://omeka.org/s/" target="_blank">Omeka S</a>, which offers many of the same options as Omeka Classic. Instead of plugins, Omeka S provides <a href="https://omeka.org/s/modules/" target="_blank">modules</a> to extend the functionality of your site. The <a href="https://omeka.org/s/modules/Collecting/" target="_blank">Collecting</a> module offers the equivalent to the Contribution plugin for colecting public contributions through your site. The <a href="https://omeka.org/s/modules/CustomVocab/" target="_blank">Custom Vocab</a> module is comparable to the Simple Vocab plugin for providing predetermined vocabulary for any metadata elements. See the complete <a href="https://omeka.org/s/docs/user-manual/" target="_blank">User Manuel</a> for Omeka S, and the complete list of <a href="https://omeka.org/s/modules/" target="_blank">modules</a> for that platform.</p>
+
 <h3 id="virus-scanning">Virus Scanning</h3>
 
 <h3 id="file-size-limitations">File Size Limitations</h3>
 
-<p>You’ll want to consider setting a limit on the file size for individual contributions uploaded through your site’s collection form. These settings are server specific, and can be set up by your server administrator when you install Omeka. If you’re using Reclaim Hosting, or another shared hosting platform, you may not be able to change the file size limitations.</p>
+<p>You’ll want to consider setting a limit on the file size for individual contributions uploaded through your site’s collection form. These settings are server specific, and can be set up by your server administrator when you install Omeka. If you’re using Reclaim Hosting, or another shared hosting service, you may not be able to change the file size limitations.</p>
 
 <p>For our digital collecting site, we set the maximum file size for uploads at 250Mb. This is large enough for short video files taken with smartphones, which was an item we were interested in collecting. Creating a limit on file size may seem restrictive, but it is important for the sustainability of your server, where your files are stored. Your available server space is determined by your institution or your shared hosting service (like <a href="https://reclaimhosting.com/" target="_blank">Reclaim</a>), so consider how much total space you have for file storage when determining size restrictions.</p>
 
-<h3 id="uploading-a-large-file-set">Uploading a large file set</h3>
+<h3 id="large-files-and-file-sets">Large Files and File Sets</h3>
 
-<p>Currently, the Contribution plugin for Omeka Classic allows for only individual file uploads. For our site, we encouraged contributors to use the contribution form to submit all of their materials, but also provided an option for contributing a link to a dropbox account or similar for large file sets.</p>
+<p>Currently, the Contribution plugin for Omeka Classic allows for only individual file uploads, with a maximum file size set by your server administrator. For our site, we encourage contributors to use the contribution form to submit their materials, as it provides the simplest way for us to process the items we receive. However, for files larger than 250Mb or for large file sets we provide an option for contributing a URL link for an album or file location (i.e. Dropbox folder, Flickr album, etc.). When images and video files are uploaded directly through the contribution form, they’re processed as Omeka items, and easily managed from the Omeka dashboard. Materials submitted as links have required significantly more time on our end to include them in the collection, and has been a major impediment to making more of our archive public.</p>
 
-<p>To upload more than one file at a time, you may download and install the Omeka <a href="https://omeka.org/classic/docs/Plugins/Dropbox/">Dropbox plugin</a>. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface.</p>
+<p>Omeka offers the Dropbox plugin, which lets Omeka users batch upload a large quantity of files at once. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. We have not used this plugin at this time for our site, but it offers one option for handling large file set submissions.</p>
 
+<ul>
+  <li><a href="https://omeka.org/classic/plugins/Dropbox/" target="_blank">Dropbox plugin download</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Dropbox/" target="_blank">Dropbox plugin User Guide</a></li>
+</ul>
+
+<p class="fs-3">This page was published: April 25, 2019</p>
 
 
 

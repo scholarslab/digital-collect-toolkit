@@ -8,9 +8,11 @@ nav_order: 1
 # Omeka Plugins
 {: .no_toc }
 
+Download and install plugins to extend the basic functionality of your Omeka site: build forms for community contributions, customize the collected metadata in your archive, and other useful options for your digital collecting site.
+{: .fs-6 .fw-300 }
 Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. You may choose which plugins, among others offered by [Omeka](https://omeka.org/classic/plugins/){:target="_blank"}, are most useful for your site.
 {: .fs-5 .fw-300 }
-Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. 
+Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. For instructions on installing and managing Omeka plugins, see [here](https://omeka.org/classic/docs/Admin/Adding_and_Managing_Plugins/){:target="_blank"}.
 {: .fs-5 .fw-300 }
 
 Published: April 25, 2019
@@ -99,3 +101,10 @@ The Geolocation plugin allows you to assign a location to items in your Omeka si
 - [Configuration Guide](https://omeka.org/classic/docs/Plugins/ExhibitBuilder/){:target="_blank"}
 
 The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive and may include narrative text. You may find it useful for creating exhibit pages out of collected materials. This plugin is included in your downloaded Omeka installation and does not require a separate download.
+
+### Dropbox 
+
+- [Dropbox plugin download](https://omeka.org/classic/plugins/Dropbox/){:target="_blank"}
+- [Dropbox plugin User Guide](https://omeka.org/classic/docs/Plugins/Dropbox/){:target="_blank"}
+
+The Dropbox plugin allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. 
