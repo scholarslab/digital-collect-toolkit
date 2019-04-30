@@ -8,7 +8,7 @@ nav_order: 4
 # Custom Omeka Theme
 {: .no_toc }
 
-Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site uses a custom Omeka Theme: [Charlotesville Rally Theme](https://github.com/scholarslab/cville_rally_theme){:target="_blank"}. We developed this theme specifically for use in digital collecting sites, making it simple to customize the content and appearance of your public site directly from your Omeka Dashboard - no coding required!
+Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site uses a custom Omeka Theme: [Charlottesville Rally Theme](https://github.com/scholarslab/cville_rally_theme){:target="_blank"}. We developed this theme specifically for use in digital collecting sites, making it simple to customize the content and appearance of your public site directly from your Omeka Dashboard - no coding required!
 {: .fs-6 .fw-300 }
 
 Published: April 25, 2019
@@ -47,7 +47,7 @@ For more detailed instructions on installing an Omeka theme, see the related [Om
 
 ## Configuration Settings
 
-To add your site-specific content and customize your site's color scheme, begin at step #6 above: Log into your Omeka Admin panel, and click on the 'Appearance' option in the top naviation bar. Next select "Configure Theme" to access the theme settings (see screenshot in step #7 above).
+To add your site-specific content and customize your site's color scheme, begin at step #6 above: Log into your Omeka Admin panel, and click on the 'Appearance' option in the top navigation bar. Next select "Configure Theme" to access the theme settings (see screenshot in step #7 above).
 
 You should now be on the Theme Configuration page:
 

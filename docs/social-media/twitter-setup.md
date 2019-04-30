@@ -40,7 +40,7 @@ _Please note that these instructions may be subject to change with updates to Tw
 
 ### Setting up a Twitter Developer Account
 
-If you already have a developer accout set up, skip to [Creating a Twitter App](#creating-a-twitter-app).
+If you already have a developer account set up, skip to [Creating a Twitter App](#creating-a-twitter-app).
 
 1. Select a user profile to associate with the developer account, and select 'Continue'.
 
@@ -48,7 +48,7 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 2. In the 'Account details' section, select your request for access for either your organization or for personal use. 
 
-   **Note:** Selecting "for my own personal use" offers the simplest and quickest method of setting up a developer account. If you are following this guide for research or teaching purposes, an individual, personal account is suggested. Twitter users can only have a single developement account, and cannot change account types. An 'Organization' account differs in that it allows for additional twitter users to share access on a single dev account, however, this is mainly geared toward commercial use and is intended for development for premium APIs ($), and is outside the scope of this guide. For more, see [Twitter's FAQ](https://developer.twitter.com/en/docs/basics/developer-portal/faq.html){:target="_blank"}.
+   **Note:** Selecting "for my own personal use" offers the simplest and quickest method of setting up a developer account. If you are following this guide for research or teaching purposes, an individual, personal account is suggested. Twitter users can only have a single development account, and cannot change account types. An 'Organization' account differs in that it allows for additional twitter users to share access on a single dev account, however, this is mainly geared toward commercial use and is intended for development for premium APIs ($), and is outside the scope of this guide. For more, see [Twitter's FAQ](https://developer.twitter.com/en/docs/basics/developer-portal/faq.html){:target="_blank"}.
 
     - If you select "for my own personal use," you will be prompted to fill in an Account Name and to select your Primary Country of Operation. Both are required.
     - If you select "for my organization," you are required to fill out the following:
@@ -72,7 +72,7 @@ If you already have a developer accout set up, skip to [Creating a Twitter App](
 
 4. Read and Accept the Twitter Terms of Service.
 
-5. Verify your Twitter Developement Account via the email associated with your Twitter account. 
+5. Verify your Twitter Development Account via the email associated with your Twitter account. 
 
     ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-verify.png)
 

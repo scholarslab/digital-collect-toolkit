@@ -83,7 +83,7 @@ In order to use reCAPTCHA, you will need to sign up for Captcha key to reduce sp
 
 For more details on reCaptcha settings, see the related [Omeka Documentation](https://omeka.org/classic/docs/Admin/Settings/ReCaptcha/){:target="_blank"}.
 
-For more information on additonal site security settings, see [here](https://omeka.org/classic/docs/Admin/Settings/Security_Settings/){:target="_blank"}.
+For more information on additional site security settings, see [here](https://omeka.org/classic/docs/Admin/Settings/Security_Settings/){:target="_blank"}.
 
 ## Customizing Site Navigation
 
@@ -101,7 +101,7 @@ These settings determine your site's main navigation, see [our site](http://digi
 
     ![Screen shot of Navigation settings]({{ site.url }}{{ site.baseurl }}/assets/images/nav-settings-2.png)
 
-    Use this box to add any additional links to your navigation bar as needed. You can inlude URLs from outside your Omeka site as well. 
+    Use this box to add any additional links to your navigation bar as needed. You can include URLs from outside your Omeka site as well. 
 
 3. Select the check box for links you want to appear in you navigation bar. Click and drag the links to change to your preferred order.
 

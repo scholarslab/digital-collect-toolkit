@@ -75,7 +75,7 @@ To get started, you will need to tell Twarc about your application API keys and 
 
 5. After entering your pin, your terminal should give a message telling you where your twitter credentials are saved, followed by "Happy twarcing!" This means your twarc installation is configured. 
 
-Next, learn the basics of colleting twitter data: [Twarc Introductory Lesson]({{ site.baseurl }}{% link docs/social-media/collect-tweets.md %})
+Next, learn the basics of collecting twitter data: [Twarc Introductory Lesson]({{ site.baseurl }}{% link docs/social-media/collect-tweets.md %})
 
 ## Twarc for Windows
 
@@ -99,4 +99,4 @@ To get started, you will need to tell Twarc about your application API keys and 
 
     Type or copy/paste your consumer key, then press 'enter'. Next, Twarc will ask for your consumer secret. Type or copy/paste your consumer secret, then press 'enter'.
 
-Next, learn the basics of colleting twitter data: [Twarc Introductory Lesson]({{ site.baseurl }}{% link docs/social-media/collect-tweets.md %})
+Next, learn the basics of collecting twitter data: [Twarc Introductory Lesson]({{ site.baseurl }}{% link docs/social-media/collect-tweets.md %})

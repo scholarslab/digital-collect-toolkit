@@ -48,11 +48,11 @@ Under the tab for "Submission Settings" you can set options for contributor anon
 
 It is important to make clear in your Terms of Service that user anonymity is conditional, and it is likely that all submissions and associated data may be provided to federal, state, or local law enforcement or other government agencies pursuant to a lawful subpoena or court order. See our [Terms of Service](#contribution-terms-of-service) section for more details. 
 
-For further documentation on Contributution Submission Settings and Contributor anonymity settings, see the related [Omeka Documentation](https://omeka.org/classic/docs/Plugins/Contribution/#submission-settings).
+For further documentation on Contribution Submission Settings and Contributor anonymity settings, see the related [Omeka Documentation](https://omeka.org/classic/docs/Plugins/Contribution/#submission-settings).
 
 ## Contribution Terms of Service
 
-We offer a general Contribution Terms of Service template for others as a model. [Our terms](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) were written in collaboration with University of Virgina General Council. We recommend reviewing your terms with relevant parties for your own collecting site. 
+We offer a general Contribution Terms of Service template for others as a model. [Our terms](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) were written in collaboration with University of Virginia General Council. We recommend reviewing your terms with relevant parties for your own collecting site. 
 
 >**Contribution Terms of Service:**
 
@@ -69,7 +69,7 @@ We offer a general Contribution Terms of Service template for others as a model.
 >We reserve the right to discard or mark private any submission that [institution] staff identify as irrelevant or for any other reason within their professional judgment. [Insert institution here] is not obligated to include your content in this project or preserve it in perpetuity.
 {: .fs-4 .fw-300 }
 
-In additon, our Digital Collecting site's [Terms of Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) includes a Summary of Terms to help contributors quickly read and understand the main points of the full terms, in simpler language. It is important to note to users that a summary does not replace the full terms, and submissions are governed by the full terms of use.
+In addition, our Digital Collecting site's [Terms of Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) includes a Summary of Terms to help contributors quickly read and understand the main points of the full terms, in simpler language. It is important to note to users that a summary does not replace the full terms, and submissions are governed by the full terms of use.
 
 >**Summary of Terms***
 

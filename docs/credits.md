@@ -13,7 +13,7 @@ This toolkit was a collaborative effort. We are grateful to everyone who brought
 Special thanks to:
 
 - Kara M. McClurken, Director, Preservation Services, UVA Library
-- Jeremy Boggs, Head of Research and Developement, Scholars' Lab, UVA Library
+- Jeremy Boggs, Head of Research and Development, Scholars' Lab, UVA Library
 - Elizabeth A. Mitchell, Community Advocate, Scholars' Lab, UVA Library
 - Spalding Lewis, Research Intern, UVA Library
 - Lauren Work, Digital Preservation Librarian, UVA Library
@@ -25,3 +25,4 @@ Additional Resources from:
 - [UNLV Libraries' Twitter Data Tutorial Series](https://www.library.unlv.edu/whats_new_in_special_collections/2019/04/new-digital-collections-1-october-twitter-data-tutorial){:target="_blank"}
 - GWU Libraries' Social Feed Manager (SFM), [Building Social Media Archives: Collection Development Guidelines](https://gwu-libraries.github.io/sfm-ui/resources/guidelines){:target="_blank"}
 - [An Invitation Towards Social Justice in the Digital Humanities](http://criticaldh.roopikarisam.com/){:target="_blank"}
+
