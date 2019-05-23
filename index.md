@@ -25,6 +25,8 @@ This toolkit is designed so you can get started quickly!
 - See the steps for setting up an [Omeka Collection Site]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup).
 - See the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media) to learn how to set up and use the [DocNow](https://www.docnow.io/){:target="_blank"} tool, [Twarc](https://github.com/DocNow/twarc){:target="_blank"} for collecting Twitter data.
 
+[Download the complete toolkit (PDF)]({{ site.baseurl }}{% link docs/toolkit.pdf %})
+
 ## Contact us
 
 If you have any questions or comments, you can reach us at [digital_collecting@virginia.edu](mailto:digital_collecting@virginia.edu).
