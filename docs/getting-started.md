@@ -22,14 +22,45 @@ The basics for building a rapid response Digital Collection Site
 
 ### Gathering a Team
 
-### Planning your Site
-What are you collecting?
+In order for your digital collecting strategies to be successful, you may need to gather experts from across your organization.  Here are some areas of expertise and types of responsibilities those team members might have:
+-	**Project lead**
+    - Coordinate team, set up meetings and deadlines, document outcomes
+-	**Metadata**
+    - Determine how content should be structured for ease of submission and description, future use/reuse
+    - Describe/remediate description of content
+-	**Preservation**
+    - Ensure short and long-term access to content
+    - Select appropriate tools for ingest and preservation
+-	**Legal counsel**
+    - Protect organization 
+    - Ensure institution can preserve and provide access over time
+    - Consider implications of collecting on donors, people being documented
+-	**IT specialists and content developers**
+    - Consider security, server capacity, and storage
+    - Install Omeka, select templates/plug-ins and tools for capture
+-	**Communications and user experience**
+    - Review language and layout for ease of use by non-specialists
+    - Documentation for internal and external users
+-	**Outreach**
+    - Liaison to community from whom you are trying to collect
+-	**Collections specialist**
+    - This might come from your special collections or other subject area
+    - Define scope of the digital collection (types of materials, collection duration)
 
 ### Ethical Considerations
 
+Implementing and maintaining a digital collection site requires ethical, community-centric practices. We've compiled some sources that explore these considerations, and strongly encourage anyone developing an archive from community contributions and/or social media content to read further:
+
+-	Michelle Caswell, [“Toward a Survivor-Centered Approach to Human Rights Archives: Lessons from Community-Based Archives.”](https://link.springer.com/article/10.1007/s10502-014-9220-6) Archival Science 14: 3-4 (2014): 307-322.
+- GWU Libraries' Social Feed Manager (SFM), [Building Social Media Archives: Collection Development Guidelines](https://gwu-libraries.github.io/sfm-ui/resources/guidelines)
+- [An Invitation Towards Social Justice in the Digital Humanities](http://criticaldh.roopikarisam.com/)
+- [Anti-oppression principles compiled by the Center for Story-Based Strategy](https://www.storybasedstrategy.org/anti-oppression-principles)
+
 ### Funding Opportunities
 
-Grant programs that can help support your digital collections:
+This project was made possible in part by a 2018 award from the [Catalyst Fund at Lyrasis](https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx). It may be worth exploring grant programs that can help support your digital collections.
+
+[Documenting the Now](https://www.docnow.io/) has an annual call for applicants for Community-Based Digital Archives Workshops for Activists. Their workshops focus on helping activists to develop the skills and to use available tools to collect, preserve, and share their web, social media and other types of digital content in their own digital archive.
 
 ## Technical Considerations
 
@@ -39,7 +70,6 @@ Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and man
 
 Your project needs may align instead with [Omeka S](https://omeka.org/s/){:target="_blank"}, which offers many of the same options as Omeka Classic. Instead of plugins, Omeka S provides [modules](https://omeka.org/s/modules/){:target="_blank"} to extend the functionality of your site. The [Collecting](https://omeka.org/s/modules/Collecting/){:target="_blank"} module offers the equivalent to the Contribution plugin for collecting public contributions through your site. The [Custom Vocab](https://omeka.org/s/modules/CustomVocab/){:target="_blank"} module is comparable to the Simple Vocab plugin for providing predetermined vocabulary for any metadata elements. See the complete [User Manuel](https://omeka.org/s/docs/user-manual/){:target="_blank"} for Omeka S, and the complete list of [modules](https://omeka.org/s/modules/){:target="_blank"} for that platform.
 
-### Virus Scanning
 
 ### File Size Limitations
 
