@@ -65,8 +65,6 @@ To get started, you will need to tell Twarc about your application API keys and 
    Type or copy/paste your consumer key, then press 'enter'. Next, Twarc will ask for your consumer secret. Type or copy/paste your consumer secret, then press 'enter'.
 3. Next, Twarc will ask you to log into your twitter account. Copy/paste the provided URL into your browser to authorize your application. 
 
-   ![Screen shot of twarc request]({{ site.url }}{{ site.baseurl }}/assets/images/terminal-2.png)
-
 4. Following the provided URL will bring you to a page that looks something like this:
 
    ![Screen shot of twitter authorize page]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-authorize.png)
