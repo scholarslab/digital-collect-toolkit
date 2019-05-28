@@ -9,10 +9,9 @@ permalink: /docs/social-media
 # Tools for Archiving Social Media
 
 This guide presents methods of collecting twitter data using tools built by [DocNow](https://www.docnow.io/){:target="_blank"}, a collaborative effort between Shift Design, Inc., the University of Maryland, and the University of Virginia, with funding from the Andrew W. Mellon Foundation. We use the tools developed by DocNow for collecting twitter data because of their strong commitment to prioritizing ethical practices in collection, use, and preservation of social media content.
-{: .fs-5 .fw-300 }
 
 The following documentation is intended to assist in setting up [Twarc](https://github.com/DocNow/twarc){:target="_blank"}, a DocNow tool for archiving twitter data. For more information on Twarc or other DocNow tools, please visit their [site](https://www.docnow.io/){:target="_blank"}.
-{: .fs-5 .fw-300 }
+
 
 ## Twarc for Twitter Data Collection
 

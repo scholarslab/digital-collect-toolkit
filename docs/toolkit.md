@@ -1,7 +1,20 @@
 ---
+title: Digital Collecting Toolkit
+author: University of Virginia Library
 nav_exclude: true
 geometry:
 - margin=1in
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[LO,RE]{}
+    \fancyhead[LE,RO]{}
+    \fancyfoot[CO,CE]{\href{https://scholarslab.github.io/digital-collect-toolkit/}{Digital Collecting Toolkit}}
+    \fancyfoot[LO,RE]{ \includegraphics[width=5cm]{UVALIB_inline_color_print.png} }
+    \fancyfoot[LE,RO]{\thepage}
+    \renewcommand{\footrulewidth}{0.4pt}
+    \renewcommand{\headrulewidth}{0pt}
+toc: yes
 ---
 
 Welcome to the Digital Collecting Toolkit!
@@ -222,6 +235,7 @@ but it offers one option for handling large file set submissions.
     Guide](https://omeka.org/classic/docs/Plugins/Dropbox/)
 
 This page was published: April 25, 2019
+
 ------------------------------------------------------------------------
 
 Setting Up Omeka Classic
@@ -601,7 +615,7 @@ your own collecting site.
 > You are being asked to contribute your recollections, photographic
 > images, video, social media postings or other digital content to
 > \[insert institution here\], which is creating a digital record of the
-> \[describe event, location, and date(s) here\]. {: .fs-4 .fw-300 } You
+> \[describe event, location, and date(s) here\]. You
 > may only submit material created entirely by you and not copied from
 > or based, in whole or in part, upon any other photographic, literary,
 > or other material, except to the extent that such material is in the
@@ -609,29 +623,29 @@ your own collecting site.
 > use is allowed by "Fair Use" as prescribed by the terms of United
 > States copyright law. If you would like to refer or nominate material
 > which you do not own, please contact us at \[insert email address or
-> link to google nominating form\]. {: .fs-4 .fw-300 } You must be 18
+> link to google nominating form\]. You must be 18
 > years of age or older to submit material. By submitting content
 > through this form, you are granting \[insert institution here\]
 > permission to disseminate, preserve, and use that content in
 > connection with its educational and research mission, including
 > promotional purposes, in all media in perpetuity. You retain ownership
-> of and copyright in the material you share. {: .fs-4 .fw-300 } If you
+> of and copyright in the material you share. If you
 > indicate on the form that your submission is "public," your material
 > may be published on the web (with or without your name, depending on
 > what you have indicated) as part of \[insert institution here\]
 > digital collections or exhibits. Otherwise, your material will only be
 > available to \[insert institution here\]-approved researchers.\
-> {: .fs-4 .fw-300 } Submitted material must not violate any
+> Submitted material must not violate any
 > confidentiality, privacy, security or other laws. Please be aware that
 > all submissions and any information associated with the submissions
 > (email address, descriptive information, etc.) may be provided to
 > federal, state, or local law enforcement or other government agencies
-> pursuant to a lawful subpoena or otherwise as required by law. {:
-> .fs-4 .fw-300 } We reserve the right to discard or mark private any
+> pursuant to a lawful subpoena or otherwise as required by law.
+> We reserve the right to discard or mark private any
 > submission that \[institution\] staff identify as irrelevant or for
 > any other reason within their professional judgment. \[Insert
 > institution here\] is not obligated to include your content in this
-> project or preserve it in perpetuity. {: .fs-4 .fw-300 }
+> project or preserve it in perpetuity.
 
 In addition, our Digital Collecting site's [Terms of
 Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms)
@@ -654,10 +668,9 @@ terms, and submissions are governed by the full terms of use.
 > -   Your submission must not violate any laws. If we receive a lawful
 >     subpoena or court order, we may be required to turn over any
 >     submissions and related information (email address, descriptive
->     information, etc.). {: .fs-4 .fw-300 } \*This summary is to help
+>     information, etc.). \*This summary is to help
 >     you read and understand the terms, but does not replace them. Your
->     submission is governed by the full terms of use. {: .fs-4 .fw-300
->     }
+>     submission is governed by the full terms of use. 
 
 ------------------------------------------------------------------------
 

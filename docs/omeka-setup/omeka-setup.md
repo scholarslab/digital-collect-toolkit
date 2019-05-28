@@ -12,7 +12,6 @@ The University of Virginia Library's Digital Collecting site, [_"Unite the Right
 {: .fs-6 .fw-300 }
 
 [_Omeka_](omeka.org){:target="_blank"} is a leading open source collections-based web publishing platform developed by the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/){:target="_blank"} and supports a robust open source developer community. Omeka is standards-based, grounded in a flexible [Dublin Core Metadata Schema](https://omeka.org/classic/docs/Content/Working_with_Dublin_Core/){:target="_blank"}. Omeka takes a user-centered, access-focused approach to collections, emphasizing approachable, accessible web design.
-{: .fs-5 .fw-300 }
 
 ## Technical Specifications
 
