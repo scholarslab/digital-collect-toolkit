@@ -11,9 +11,9 @@ nav_order: 1
 Download and install plugins to extend the basic functionality of your Omeka site: build forms for community contributions, customize the collected metadata in your archive, and other useful options for your digital collecting site.
 {: .fs-6 .fw-300 }
 Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. You may choose which plugins, among others offered by [Omeka](https://omeka.org/classic/plugins/){:target="_blank"}, are most useful for your site.
-{: .fs-5 .fw-300 }
+
 Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. For instructions on installing and managing Omeka plugins, see [here](https://omeka.org/classic/docs/Admin/Adding_and_Managing_Plugins/){:target="_blank"}.
-{: .fs-5 .fw-300 }
+
 
 Published: April 25, 2019
 {: .fs-3 }

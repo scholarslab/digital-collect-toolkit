@@ -15,7 +15,7 @@ This Toolkit is a result of these efforts, and is intended to help others quickl
 
 ## Who is this for?
 
-Our team includes University preservation librarians, digital preservation specialists, archivists, digital content developers, and IT specialists. We developed this toolkit for use by a wide range of cultural institutions and communities with an interest in quickly setting up a digital collection site. Members of University libraries, other educational institutions, and community organizations using this toolkit will need to have some level of access to the tools provided here to implement a digital collection strategy. This could include access to web hosting, server space, and an [Omeka](https://omeka.org/){:target="_blank"} installation. However, we have included a range of potential options for these requirements in this toolkit.
+Our team includes University preservation librarians, digital preservation specialists, archivists, digital content developers, and IT specialists. We developed this toolkit for use by a wide range of cultural institutions and communities with an interest in quickly setting up a digital collection site. Members of University libraries, other educational institutions, and community organizations using this toolkit will need to have some level of access to the tools provided here to implement this type of digital collection strategy. This could include access to web hosting, server space, and an [Omeka](https://omeka.org/){:target="_blank"} installation. However, we have included a range of potential options for these requirements in this toolkit.
 
 ## How do I get started?
 

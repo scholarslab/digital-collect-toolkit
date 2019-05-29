@@ -42,9 +42,9 @@ One of the primary features of a rapid response digital collecting site is a use
 
 When using the Contribution plugin, contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site.
 
-The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items.
+The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items.
 
-**In addition to the Contribution plugin, there are additional Omeka Classic plugins that are very useful to your digital collecting site. See the following page for details on [Omeka Classic Plugins]({{ site.baseurl }}{% link docs/omeka-setup/omeka-plugins.md %}).**
+**In addition to the Contribution plugin, there are additional Omeka Classic plugins that may be useful to your digital collecting site. See the following page for details on [Omeka Classic Plugins]({{ site.baseurl }}{% link docs/omeka-setup/omeka-plugins.md %}).**
 
 ## Custom Omeka Theme 
 

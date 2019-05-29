@@ -8,7 +8,7 @@ nav_order: 4
 # Custom Omeka Theme
 {: .no_toc }
 
-Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site uses a custom Omeka Theme: [Charlottesville Rally Theme](https://github.com/scholarslab/cville_rally_theme){:target="_blank"}. We developed this theme specifically for use in digital collecting sites, making it simple to customize the content and appearance of your public site directly from your Omeka Dashboard - no coding required!
+Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site uses a custom Omeka Theme: [Charlottesville Rally Theme](https://github.com/scholarslab/cville_rally_theme){:target="_blank"}. We developed this theme specifically for use in digital collecting sites, making it simple to customize the content and appearance of your public site directly from your Omeka Dashboard - no coding knowledge required.
 {: .fs-6 .fw-300 }
 
 Published: April 25, 2019
@@ -32,7 +32,7 @@ Published: April 25, 2019
 
 4. Open your Omeka folder and locate the '/themes' folder within.
 
-5. Copy or move the unzipped 'cville_rally_theme' folder from your desktop (or from where you saved this folder) and place it withing the 'omeka/themes' folder located in step #4.
+5. Copy or move the unzipped 'cville_rally_theme' folder from your desktop (or from where you saved this folder) and place it within the 'omeka/themes' folder located in step #4.
 
 6. Log in to your Omeka admin panel (found at the url: 'your-site-url/admin'), and click on the 'Appearance' option in the top navigation bar.
 
@@ -78,6 +78,10 @@ Use this section to provide content for your site's header and footer. All of th
 - **Logo Link URL**: Provide a URL that your **Logo File** will act as a link for. This is optional, if you leave this blank your logo will not link to anywhere.
 - **Logo Image Accessibility Alt Text**: Provide descriptive alt text for your logo image for use with screen readers.
 - **Footer Text**: Provide some content for your page footer. This custom theme already provides site navigation in the footer, this box is for additional content.
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-7.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+
+- **Shortcut Icon File**: Provide an image file to appear in your browser tab/address bar. This must be a square image, 16x16 or 32x32 pixels, and must be a PNG file in order to upload through your Omeka theme configuration.
 
 ### Customize your Site's Homepage Content
 {: .text-beta}
@@ -125,7 +129,7 @@ Use the toolbox buttons to format your content, add headings, links, and lists. 
 
 Check the boxes for additional content to be displayed on your homepage. All of these are optional. You must have featured items, collections and/or exhibits in your Omeka collection for some options to be relevant. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-6.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-8.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
 - **Display Featured Items**: Check this box if you wish to show three featured items on the homepage. If you have more than three featured items in your Omeka collection, these will show random featured items each time the site is refreshed.
 - **Display Featured Collection**: Check this box if you wish to show a featured collection on the homepage.

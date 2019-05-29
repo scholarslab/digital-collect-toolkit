@@ -37,15 +37,15 @@ In order for your digital collecting strategies to be successful, you may need t
     - Consider implications of collecting on donors, people being documented
 -	**IT specialists and content developers**
     - Consider security, server capacity, and storage
-    - Install Omeka, select templates/plug-ins and tools for capture
+    - Install and configure Omeka, select templates/plug-ins and tools for capture
 -	**Communications and user experience**
     - Review language and layout for ease of use by non-specialists
     - Documentation for internal and external users
 -	**Outreach**
     - Liaison to community from whom you are trying to collect
 -	**Collections specialist**
+    - Define the scope of the digital collection (types of materials, collection duration)
     - This might come from your special collections or other subject area
-    - Define scope of the digital collection (types of materials, collection duration)
 
 ### Ethical Considerations
 

@@ -8,10 +8,10 @@ nav_order: 2
 # Collecting Materials
 {: .no_toc }
 
-We've included detailed documentation on how our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site uses the [Contribution plugin](https://omeka.org/classic/plugins/Contribution/) to collect stories, images, videos, and links from the public. 
-{: .fs-5 .fw-300 }
-Please read through the [Installation & Configuration Guide](https://omeka.org/classic/docs/Plugins/Contribution/) for full set-up instructions before getting started. 
-{: .fs-5 .fw-300 }
+We've included detailed documentation on how our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site uses the [Contribution plugin](https://omeka.org/classic/plugins/Contribution/) for Omeka to collect stories, images, videos, and links from the public. 
+{: .fs-6 .fw-300 }
+Please read through the plugin's [Installation & Configuration Guide](https://omeka.org/classic/docs/Plugins/Contribution/) for full set-up instructions before getting started. 
+{: .fs-6 .fw-300 }
 
 Published: April 25, 2019
 {: .fs-3 }
@@ -46,7 +46,7 @@ Under the tab for "Submission Settings" you can set options for contributor anon
 
 ![Screenshot of Contribution Settings panel](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/contrib-settings.png)
 
-It is important to make clear in your Terms of Service that user anonymity is conditional, and it is likely that all submissions and associated data may be provided to federal, state, or local law enforcement or other government agencies pursuant to a lawful subpoena or court order. See our [Terms of Service](#contribution-terms-of-service) section for more details. 
+It is important to make clear in your Terms of Service that user anonymity is conditional, and it is likely that under a lawful subpoena or court order, all submissions and associated data may be required to be provided to federal, state, or local law enforcement or other government agencies. See our [Terms of Service](#contribution-terms-of-service) section for more details. 
 
 For further documentation on Contribution Submission Settings and Contributor anonymity settings, see the related [Omeka Documentation](https://omeka.org/classic/docs/Plugins/Contribution/#submission-settings).
 
