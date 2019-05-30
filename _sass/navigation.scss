@@ -2,25 +2,6 @@
 // Main nav, breadcrumb, etc...
 //
 
-.site-title {
-  display: block;
-  flex: 1 1 auto;
-  color: $body-heading-color;
-  background-color: $sidebar-color;
-  // padding-left: $sp-4;
-
-  @include mq(md) {
-    color: $white;
-    background-color: $body-heading-color;
-    position: absolute;
-    top: 0;
-    right: 0; //left
-    z-index: 101;
-    height: 80px;
-    padding: $sp-4; //top
-    // border-bottom: $border $border-color;
-  }
-}
 
 .navigation-list {
   padding: 0;

@@ -18,6 +18,9 @@ const search = document.querySelector('.js-search');
 addEvent(navTrigger, 'click', function(){
   var text = navTrigger.innerText;
   var textToggle = navTrigger.getAttribute('data-text-toggle');
+  var sidebar = document.getElementById("sidebar");
+  var navbar = document.getElementById("navbar");
+  var stickyMenu = navbar.offsetTop;
 
   nav.classList.toggle('nav-open');
   auxNav.classList.toggle('nav-open');
@@ -26,6 +29,12 @@ addEvent(navTrigger, 'click', function(){
   navTrigger.innerText = textToggle;
   navTrigger.setAttribute('data-text-toggle', text);
   textToggle = text;
+
+  if (window.pageYOffset >= stickyMenu) {
+    sidebar.classList.add("stickyMenu")
+  } else {
+    sidebar.classList.remove("stickyMenu");
+  }
 })
 }
 
