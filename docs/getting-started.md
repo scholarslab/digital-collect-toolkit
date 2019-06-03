@@ -18,9 +18,7 @@ The basics for building a rapid response Digital Collection Site
 
 ---
 
-## Where to Start
-
-### Gathering a Team
+## Gathering a Team
 
 In order for your digital collecting strategies to be successful, you may need to gather experts from across your organization.  Here are some areas of expertise and types of responsibilities those team members might have:
 -	**Project lead**
@@ -47,7 +45,7 @@ In order for your digital collecting strategies to be successful, you may need t
     - Define the scope of the digital collection (types of materials, collection duration)
     - This might come from your special collections or other subject area
 
-### Ethical Considerations
+## Ethical Considerations
 
 Implementing and maintaining a digital collection site requires ethical, community-centric practices. We've compiled some sources that explore these considerations, and strongly encourage anyone developing an archive from community contributions and/or social media content to read further:
 
@@ -56,7 +54,7 @@ Implementing and maintaining a digital collection site requires ethical, communi
 - [An Invitation Towards Social Justice in the Digital Humanities](http://criticaldh.roopikarisam.com/)
 - [Anti-oppression principles compiled by the Center for Story-Based Strategy](https://www.storybasedstrategy.org/anti-oppression-principles)
 
-### Funding Opportunities
+## Funding Opportunities
 
 This project was made possible in part by a 2018 award from the [Catalyst Fund at Lyrasis](https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx). It may be worth exploring grant programs that can help support your digital collections.
 
