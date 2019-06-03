@@ -95,33 +95,41 @@ Getting Started
 
 The basics for building a rapid response Digital Collection Site
 
-Where to Start
---------------
 
-### Gathering a Team
+Gathering a Team
+----------------
 
 In order for your digital collecting strategies to be successful, you
 may need to gather experts from across your organization. Here are some
 areas of expertise and types of responsibilities those team members
-might have: - **Project lead** - Coordinate team, set up meetings and
-deadlines, document outcomes - **Metadata** - Determine how content
-should be structured for ease of submission and description, future
-use/reuse - Describe/remediate description of content - **Preservation**
-- Ensure short and long-term access to content - Select appropriate
-tools for ingest and preservation - **Legal counsel** - Protect
-organization - Ensure institution can preserve and provide access over
-time - Consider implications of collecting on donors, people being
-documented - **IT specialists and content developers** - Consider
-security, server capacity, and storage - Install Omeka, select
-templates/plug-ins and tools for capture - **Communications and user
-experience** - Review language and layout for ease of use by
-non-specialists - Documentation for internal and external users -
-**Outreach** - Liaison to community from whom you are trying to collect
-- **Collections specialist** - This might come from your special
-collections or other subject area - Define scope of the digital
-collection (types of materials, collection duration)
+might have: 
 
-### Ethical Considerations
+-   **Project lead** 
+    -   Coordinate team, set up meetings and deadlines, document outcomes 
+-   **Metadata** 
+    -   Determine how content should be structured for ease of submission and description, future use/reuse 
+    -   Describe/remediate description of content 
+-   **Preservation**
+    -   Ensure short and long-term access to content 
+    -   Select appropriate tools for ingest and preservation 
+-   **Legal counsel** 
+    -   Protect organization 
+    -   Ensure institution can preserve and provide access over time 
+    -   Consider implications of collecting on donors, people being documented 
+-   **IT specialists and content developers** 
+    -   Consider security, server capacity, and storage 
+    -   Install and configure Omeka, select templates/plug-ins and tools for capture 
+-   **Communications and user experience** 
+    -   Review language and layout for ease of use by non-specialists 
+    -   Documentation for internal and external users 
+-   **Outreach** 
+    -   Liaison to community from whom you are trying to collect
+-   **Collections specialist** 
+    -   Define scope of the digital collection (types of materials, collection duration)
+    -   This might come from your special collections or other subject area 
+
+Ethical Considerations
+----------------------
 
 Implementing and maintaining a digital collection site requires ethical,
 community-centric practices. We've compiled some sources that explore
@@ -141,7 +149,8 @@ further:
 -   [Anti-oppression principles compiled by the Center for Story-Based
     Strategy](https://www.storybasedstrategy.org/anti-oppression-principles)
 
-### Funding Opportunities
+Funding Opportunities
+---------------------
 
 This project was made possible in part by a 2018 award from the
 [Catalyst Fund at
@@ -311,12 +320,12 @@ require a site administrator to review and make them public on the Omeka
 site.
 
 The plugin can also automatically add a reCAPTCHA box at the bottom of
-each form to prevent spam-bots from spamming your website. Contribution
+each form to prevent bots from spamming your website. Contribution
 also offers options for users to create guest accounts that make it
 easier for one user to submit multiple items.
 
 **In addition to the Contribution plugin, there are additional Omeka
-Classic plugins that are very useful to your digital collecting site.
+Classic plugins that may be useful to your digital collecting site.
 See the following page for details on [Omeka Classic
 Plugins](#omeka-plugins).**
 
@@ -536,10 +545,10 @@ Collecting Materials
 We've included detailed documentation on how our [Digital
 Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site uses
 the [Contribution
-plugin](https://omeka.org/classic/plugins/Contribution/) to collect
+plugin](https://omeka.org/classic/plugins/Contribution/) for Omeka to collect
 stories, images, videos, and links from the public.
 
-Please read through the [Installation & Configuration
+Please read through the plugin's [Installation & Configuration
 Guide](https://omeka.org/classic/docs/Plugins/Contribution/) for full
 set-up instructions before getting started.
 
@@ -590,15 +599,10 @@ and Anonymous Contributions:
 panel](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/contrib-settings.png)
 
 It is important to make clear in your Terms of Service that user
-anonymity is conditional, and it is likely that all submissions and
-associated data may be provided to federal, state, or local law
-enforcement or other government agencies pursuant to a lawful subpoena
-or court order. See our [Terms of
-Service](#contribution-terms-of-service) section for more details.
+anonymity is conditional, and it is likely that under a lawful subpoena or court order, all submissions and associated data may be required to be provided to federal, state, or local law enforcement or other government agencies. See our [Terms of Service](#contribution-terms-of-service) section for more details.
 
 For further documentation on Contribution Submission Settings and
-Contributor anonymity settings, see the related [Omeka
-Documentation](https://omeka.org/classic/docs/Plugins/Contribution/#submission-settings).
+Contributor anonymity settings, see the related [Omeka Documentation](https://omeka.org/classic/docs/Plugins/Contribution/#submission-settings).
 
 Contribution Terms of Service
 -----------------------------
@@ -683,7 +687,7 @@ a custom Omeka Theme: [Charlottesville Rally
 Theme](https://github.com/scholarslab/cville_rally_theme). We developed
 this theme specifically for use in digital collecting sites, making it
 simple to customize the content and appearance of your public site
-directly from your Omeka Dashboard - no coding required!
+directly from your Omeka Dashboard - no coding knowledge required.
 
 Published: April 25, 2019
 
@@ -702,7 +706,7 @@ Steps for Installing our Custom Theme
 4.  Open your Omeka folder and locate the '/themes' folder within.
 
 5.  Copy or move the unzipped 'cville\_rally\_theme' folder from your
-    desktop (or from where you saved this folder) and place it withing
+    desktop (or from where you saved this folder) and place it within
     the 'omeka/themes' folder located in step \#4.
 
 6.  Log in to your Omeka admin panel (found at the url:
@@ -714,8 +718,7 @@ Steps for Installing our Custom Theme
     location ('/themes') and that the folder name for the theme does not
     start with 'theme-'.
 
-    ![Screenshot of Omeka Theme
-    Admin](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/omeka-theme.png)
+    ![Screenshot of Omeka Theme Admin](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/omeka-theme.png)
 
 8.  Click on "Configure Theme" to customize your site's appearance. See
     the next section for details on configuration settings.
@@ -735,8 +738,7 @@ click on the 'Appearance' option in the top navigation bar. Next select
 
 You should now be on the Theme Configuration page:
 
-![Screen shot of Theme Configuration
-page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-config.png)
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-config.png)
 
 ### Customize your Site's Color Scheme
 
@@ -745,7 +747,7 @@ automatically fill in with our UVA theme colors, you can change them for
 your site. You must use a six-character hexadecimal color value,
 including the `#`.
 
-<img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-colors.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-colors.png)
 
 -   **Header Color**: Determines the color of the widest section of the
     page header, as well as the overlay color of the homepage's [banner
@@ -775,7 +777,7 @@ All of these sections are optional, feel free to pick and choose what
 works best for your site. We recommend including at least the **Header
 Tagline Text**, as this is the primary heading for your site.
 
-<img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-settings.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-settings.png)
 
 -   **Header Site Title**: This is for an optional secondary title
     section for your header, this site title is separate from the title
@@ -795,6 +797,11 @@ Tagline Text**, as this is the primary heading for your site.
     custom theme already provides site navigation in the footer, this
     box is for additional content.
 
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-settings-7.png)
+
+- **Shortcut Icon File**: Provide an image file to appear in your browser tab/address bar. This must be a square image, 16x16 or 32x32 pixels, and must be a PNG file in order to upload through your Omeka theme configuration.
+
+
 ### Customize your Site's Homepage Content
 
 Use this section to provide content for your site's homepage. All of
@@ -803,7 +810,7 @@ site.
 
 #### Homepage Banner
 
-<img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-setting-banner.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-setting-banner.png)
 
 -   **Homepage Banner Background**: Provide an image file to be used on
     the homepage introduction banner. File must be no larger than 300kb,
@@ -895,8 +902,12 @@ All of these are optional. You must have featured items, collections
 and/or exhibits in your Omeka collection for some options to be
 relevant.
 
-<img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-settings-6.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-settings-8.png)
+  
+-   **Display Browse Collection by Type**: Check this box if you wish to show 'Browse the Digital Collection' on the homepage. Includes icons for Item Types: Still Image (Label: Photos), Moving Image (Label: Videos), Text (Label: Stories), Hyperlink (Label: Links). To customize what is included in this box, you must edit the file `browse-types.php`, found in the `/common` folder within `themes/cville_rally_theme`.
 
+   ![Screen shot of 'Browse Collection by Type' Content](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/content-7.png)
+ 
 -   **Display Featured Items**: Check this box if you wish to show three
     featured items on the homepage. If you have more than three featured
     items in your Omeka collection, these will show random featured
@@ -920,7 +931,7 @@ additional information for those contributing materials to your
 collection. See our page as an example,
 [here](http://digitalcollecting.lib.virginia.edu/rally/contribution).
 
-<img src="https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-contrib-1.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+![Screen shot of Theme Configuration page](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/theme-contrib-1.png)
 
 In addition to the primary content, you have the option of including a
 small information box, set on the right-hand side of the page. This is
@@ -2032,8 +2043,7 @@ efforts for ourselves and others.
 If you have any questions or comments, please feel free to contact us at
 <digital_collecting@virginia.edu>.
 
-Visit our digital collection site:
-----------------------------------
+**Visit our digital collection site:**
 
 [![Screen shot of the "Unite the Right" Rally and Community Response
 site](https://raw.githubusercontent.com/scholarslab/digital-collect-toolkit/master/assets/images/screen-shot-browse.png)](http://digitalcollecting.lib.virginia.edu/rally/)

@@ -131,6 +131,11 @@ Check the boxes for additional content to be displayed on your homepage. All of 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-8.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
+- **Display Browse Collection by Type**: Check this box if you wish to show 'Browse the Digital Collection' on the homepage. Includes icons for Item Types: Still Image (Label: Photos), Moving Image (Label: Videos), Text (Label: Stories), Hyperlink (Label: Links): 
+    
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/content-7.png" alt="Screen shot of Theme Configuration page" width="300rem"/>
+
+    To customize what is included in this box, you must edit the file `browse-types.php`, found in the `/common` folder within `themes/cville_rally_theme`. 
 - **Display Featured Items**: Check this box if you wish to show three featured items on the homepage. If you have more than three featured items in your Omeka collection, these will show random featured items each time the site is refreshed.
 - **Display Featured Collection**: Check this box if you wish to show a featured collection on the homepage.
 - **Display Featured Exhibit**: Check this box if you wish to show a featured exhibit on the homepage. For use with the [Exhibit Builder]({{ site.baseurl }}docs/omeka-setup/omeka-plugins#exhibit-builder) plugin.
