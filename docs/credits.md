@@ -7,7 +7,7 @@ nav_order: 7
 
 # Credits
 
-This toolkit was a collaborative effort, and made possible in part by a 2018 award from the [Catalyst Fund at Lyrasis](https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx). We are grateful to everyone who brought their expertise to this project. 
+This toolkit was a collaborative effort, and made possible in part by a 2018 award from the [Catalyst Fund at LYRASIS](https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx). We are grateful to everyone who brought their expertise to this project. 
 {: .fs-6 .fw-300 }
 
 Special thanks to:
