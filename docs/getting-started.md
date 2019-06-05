@@ -56,7 +56,7 @@ Implementing and maintaining a digital collection site requires ethical, communi
 
 ## Funding Opportunities
 
-This project was made possible in part by a 2018 award from the [Catalyst Fund at Lyrasis](https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx). It may be worth exploring grant programs that can help support your digital collections.
+This project was made possible in part by a 2018 award from the [Catalyst Fund at LYRASIS](https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx). It may be worth exploring grant programs that can help support your digital collections.
 
 [Documenting the Now](https://www.docnow.io/) has an annual call for applicants for Community-Based Digital Archives Workshops for Activists. Their workshops focus on helping activists to develop the skills and to use available tools to collect, preserve, and share their web, social media and other types of digital content in their own digital archive.
 
