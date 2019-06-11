@@ -2,6 +2,7 @@
 title: Digital Collecting Toolkit
 author: University of Virginia Library
 nav_exclude: true
+search_exclude: true
 geometry:
 - margin=1in
 header-includes: |

@@ -638,6 +638,7 @@ footer .col {
 #svgimage path {
   fill: #fff; }
 
+/* !---------- page layout components ---------- */
 .container-fluid {
   width: 100%;
   margin-right: auto;
