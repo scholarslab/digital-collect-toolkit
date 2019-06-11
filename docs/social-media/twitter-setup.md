@@ -51,14 +51,7 @@ If you already have a developer account set up, skip to [Creating a Twitter App]
    **Note:** Selecting "for my own personal use" offers the simplest and quickest method of setting up a developer account. If you are following this guide for research or teaching purposes, an individual, personal account is suggested. Twitter users can only have a single development account, and cannot change account types. An 'Organization' account differs in that it allows for additional twitter users to share access on a single dev account, however, this is mainly geared toward commercial use and is intended for development for premium APIs ($), and is outside the scope of this guide. For more, see [Twitter's FAQ](https://developer.twitter.com/en/docs/basics/developer-portal/faq.html){:target="_blank"}.
 
     - If you select "for my own personal use," you will be prompted to fill in an Account Name and to select your Primary Country of Operation. Both are required.
-    - If you select "for my organization," you are required to fill out the following:
-        - Organization Name (the name of your account)
-        - Legal Entity Name (may be the same as Organization Name)
-        - Organization Twitter @username
-        - Organization Primary Country of Operation
-        - Customer Location (select 'Not Applicable(we do not have customers)')
-        - Categorize your Organization (select 'Academic')
-        - Industries served (select Academic)
+
 
 3. In the next section on 'Use Case Details', answer several questions about your project and why you are building an app to gather twitter data. You can provide answers similar to the ones below if relevant to your project. **Most importantly note that this is for academic purposes and that you will not be Tweeting, Retweeting, or liking content.**
 
@@ -66,7 +59,7 @@ If you already have a developer account set up, skip to [Creating a Twitter App]
 
    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-use-case-4.png)
 
-   If your project does involve analysis of twitter content, an answer for question #2 might look something like "Yes, my project will analyze tweets using text analysis, word clouds, word frequency, and word association using R."
+   **Note:** If your project does involve analysis of twitter content, an answer for question #2 might look something like "Yes, my project will analyze tweets using text analysis, word clouds, word frequency, and word association using R."
 
    ![Screen shot of Twitter Developers Site]({{ site.url }}{{ site.baseurl }}/assets/images/twitter-use-case-5.png)
 
