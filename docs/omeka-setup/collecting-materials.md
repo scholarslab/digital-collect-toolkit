@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Collecting Materials
+title: Collecting Community Contributions
 parent: Omeka Classic Setup
 nav_order: 2
 ---
 
-# Collecting Materials
+# Collecting Community Contributions
 {: .no_toc }
 
 We've included detailed documentation on how our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site uses the [Contribution plugin](https://omeka.org/classic/plugins/Contribution/) for Omeka to collect stories, images, videos, and links from the public. 
@@ -23,6 +23,13 @@ Published: April 25, 2019
 {:toc}
 
 ---
+## What to Collect
+
+Using the Omeka Contribution plugin, you can collect a wide variety of materials from the public through a content submission form on your site. You can update your plugin settings and Contribution Types at any time, but it is good to consider what content your are interested in collecting when first setting up your site. Contributions are private by default and require a site administrator to review and make them public on your Omeka site. 
+
+Our site collects stories, photos/scanned images, videos and website links - each of these corresponding to an [Omeka Item Type](https://omeka.org/classic/docs/Content/Item_Types/): Text, Still Image, Moving Image, and Hyperlink. You have the option to allow for file uploads via the public contribution form for each Contribution Type. The list of allowed extensions for file uploads can be found in your Omeka site's [Security Settings](https://omeka.org/classic/docs/Admin/Settings/Security_Settings/). The default list contains the most common image, video, and document file extensions - including doc, docx, jpeg, png, tiff, mp3, mov, etc - so you likely do not need to make any adjustment to these settings. 
+
+The public contribution form can provide a simple way to collect material from social media by encouraging community members to upload screenshot images, or text copied directly from a social media post. For example, our site has collected stories that were originally posted on Facebook and uploaded through the content submission form as plain text and document files. For a more advanced technical method of collecting data from Twitter, see the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media).
 
 ## Creating Contribution Types
 

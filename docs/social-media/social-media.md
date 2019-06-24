@@ -3,7 +3,6 @@ layout: default
 title: Social Media Tools
 nav_order: 5
 has_children: true
-permalink: /docs/social-media
 ---
 
 # Tools for Archiving Social Media

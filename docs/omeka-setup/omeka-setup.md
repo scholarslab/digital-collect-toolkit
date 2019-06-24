@@ -3,7 +3,6 @@ layout: default
 title: Omeka Classic Setup
 nav_order: 2
 has_children: true
-permalink: /docs/omeka-setup
 ---
 
 # Setting Up Omeka Classic

@@ -9,7 +9,7 @@
   
   <link rel="shortcut icon" sizes="32x32" href="//www.library.virginia.edu/images/icon-32.png">
 
-  <title>Omeka Classic Setup | Digital Collecting Toolkit</title>
+  <title>Social Media Tools | Digital Collecting Toolkit</title>
   <link rel="stylesheet" href="http://digitalcollecting.lib.virginia.edu/toolkit/assets/css/just-the-docs.css">
 
   
@@ -90,10 +90,10 @@
     
       
         
-          <li class="navigation-list-item active">
+          <li class="navigation-list-item">
             
 
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup" class="navigation-list-link active dropdown">Omeka Classic Setup</a>
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
             
               
               
@@ -124,7 +124,7 @@
                   
                     <li class="navigation-list-item ">
                       
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Materials</a>
+                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Community Contributions</a>
                       
                     </li>
                   
@@ -189,10 +189,10 @@
     
       
         
-          <li class="navigation-list-item">
+          <li class="navigation-list-item active">
             
 
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media" class="navigation-list-link dropdown">Social Media Tools</a>
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/social-media/" class="navigation-list-link active dropdown">Social Media Tools</a>
             
               
               
@@ -310,57 +310,19 @@
                           
                           <div id="main-content" class="page-content" role="main">
 
-                            <h1 id="setting-up-omeka-classic">Setting Up Omeka Classic</h1>
+                            <h1 id="tools-for-archiving-social-media">Tools for Archiving Social Media</h1>
 
-<p class="fs-6 fw-300">The University of Virginia Library’s Digital Collecting site, <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank"><em>“Unite the Right” Rally and Community Response</em></a> runs on <a href="https://omeka.org/classic/" target="_blank"><em>Omeka Classic</em></a>.</p>
+<p>This guide presents methods of collecting twitter data using tools built by <a href="https://www.docnow.io/" target="_blank">DocNow</a>, a collaborative effort between Shift Design, Inc., the University of Maryland, and the University of Virginia, with funding from the Andrew W. Mellon Foundation. We use the tools developed by DocNow for collecting twitter data because of their strong commitment to prioritizing ethical practices in collection, use, and preservation of social media content.</p>
 
-<p><a href="omeka.org" target="_blank"><em>Omeka</em></a> is a leading open source collections-based web publishing platform developed by the <a href="https://rrchnm.org/" target="_blank">Roy Rosenzweig Center for History and New Media</a> and supports a robust open source developer community. Omeka is standards-based, grounded in a flexible <a href="https://omeka.org/classic/docs/Content/Working_with_Dublin_Core/" target="_blank">Dublin Core Metadata Schema</a>. Omeka takes a user-centered, access-focused approach to collections, emphasizing approachable, accessible web design.</p>
+<p>The following documentation is intended to assist in setting up <a href="https://github.com/DocNow/twarc" target="_blank">Twarc</a>, a DocNow tool for archiving twitter data. For more information on Twarc or other DocNow tools, please visit their <a href="https://www.docnow.io/" target="_blank">site</a>.</p>
 
-<h2 id="technical-specifications">Technical Specifications</h2>
+<h2 id="twarc-for-twitter-data-collection">Twarc for Twitter Data Collection</h2>
 
-<p>If you are a member of a university or institution with an accessible IT Department or Digital Content Developers, we recommend reaching out to individuals in your organization with experience setting up Omeka.</p>
+<p><a href="https://github.com/DocNow/twarc" target="_blank">Twarc</a> is a command line tool that downloads tweets using Twitter’s API. API’s, or application programming interfaces, are simply ways that different organizations, whether it is Twitter or the Census bureau, provide more direct access to data. API’s also oftentimes provide limits to how much data you can gather. Twarc will handle Twitter API’s <a href="https://developer.twitter.com/en/docs/basics/rate-limiting" target="_blank">rate limits</a> for you.</p>
 
-<p>Omeka Classic has the following system requirements:</p>
-<ul>
-  <li>Linux operating system</li>
-  <li><a href="https://www.apache.org/" target="_blank">Apache</a> HTTP server (with <code class="highlighter-rouge">mod_rewrite</code> enabled)</li>
-  <li><a href="https://www.mysql.com/" target="_blank">MySQL</a> version 5.0 or greater</li>
-  <li><a href="https://www.php.net/" target="_blank">PHP</a> scripting language version 5.3.2 or greater (with mysqli and exif extensions installed)</li>
-  <li><a href="https://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a> image manipulation software (for resizing images)</li>
-</ul>
+<p>The following pages provide instructions on installing and using Twarc. Parts of this guide are subject to change with updates to Twitter’s developers site, so please use this guide as a general guideline. For troubleshooting with Twarc, please contact the developers of <a href="https://www.docnow.io/" target="_blank">DocNow</a>, and join in conversation with the DocNow community of scholars, students, and archivists.</p>
 
-<p>If you lack access to a server that meets Omeka’s basic requirements, or are looking for a <strong>simpler and less technical set-up process</strong>, we recommend <a href="https://reclaimhosting.com/" target="_blank">Reclaim Hosting</a>, a low-cost shared web host offering one-click Omeka installation, with a free domain registration included. Their support staff is easy to reach and their <a href="https://community.reclaimhosting.com/" target="_blank">Community Forum</a> offers additional resources.</p>
-
-<ul>
-  <li><a href="https://reclaimhosting.com/" target="_blank">Reclaim Hosting</a></li>
-  <li><a href="https://community.reclaimhosting.com/t/installing-omeka-classic-on-reclaim-hosting/193" target="_blank">Installing Omeka Classic on Reclaim Hosting</a></li>
-  <li><a href="https://community.reclaimhosting.com/t/uploading-plugins-to-omeka/195" target="_blank">Uploading Plugins and Themes to Omeka on Reclaim Hosting</a></li>
-  <li><a href="https://community.reclaimhosting.com/t/working-with-omeka-classic/194" target="_blank">Working with Omeka Classic on Reclaim Hosting</a></li>
-  <li><a href="https://community.reclaimhosting.com/c/docs/omeka" target="_blank">Omeka on Reclaim: Community Forum</a></li>
-</ul>
-
-<p>Omeka also provides a list of suggestions for low-cost shared web hosts that offer the server environment required for Omeka, see <a href="https://omeka.org/classic/docs/GettingStarted/Hosting_Suggestions/" target="_blank">here</a> for details.</p>
-<ul>
-  <li><a href="https://omeka.org/classic/docs/Installation/Installation/" target="_blank">Complete Omeka Classic Installation Guide</a></li>
-</ul>
-
-<h2 id="omeka-classic-plugins">Omeka Classic Plugins</h2>
-
-<p>One of the primary features of a rapid response digital collecting site is a user-friendly submission form set up to collect photos, videos, stories, website links, audio and other files from the community. Omeka Classic offers the <a href="https://omeka.org/classic/docs/Plugins/Contribution/" target="_blank">Contribution plugin</a>, which adds a content submission form to your public collecting site.</p>
-
-<p>When using the Contribution plugin, contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site.</p>
-
-<p>The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items.</p>
-
-<p><strong>In addition to the Contribution plugin, there are additional Omeka Classic plugins that may be useful to your digital collecting site. See the following page for details on <a href="/toolkit/docs/omeka-setup/omeka-plugins/">Omeka Classic Plugins</a>.</strong></p>
-
-<h2 id="custom-omeka-theme">Custom Omeka Theme</h2>
-
-<p>This toolkit also offers a custom Omeka theme that you can download for the styling and content of your public Omeka site. This is not required, but you may find it useful for getting your collecting site up and running quickly with minimal technical knowledge. Our theme offers customizable settings for the appearance and content of your site, easily accessible from the Omeka admin dashboard, no coding knowledge needed! For details on installing and customizing our Digital Collecting Theme for your site, see <a href="/toolkit/docs/omeka-setup/custom-theme/">here</a>.</p>
-
-<h2 id="administering-your-omeka-classic-site">Administering your Omeka Classic Site</h2>
-
-<p>For helpful information on administering your Omeka Classic site, including managing users, security settings, and site navigation, see the related page in this toolkit: <a href="/toolkit/docs/omeka-setup/omeka-admin/">Omeka Site Administration</a>.</p>
+<p>To get started you will need a <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/">twitter account to register a twitter application</a>. Twarc also requires <a href="https://www.python.org/downloads/" target="_blank">Python</a>.</p>
 
 <p class="fs-3">This page was published: April 25, 2019</p>
 
@@ -386,18 +348,8 @@
                                 
                               
                                 
-                              
-                                
                                 <li>
-                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-plugins/">Omeka Plugins</a>
-                                </li>
-                                
-                              
-                                
-                              
-                                
-                                <li>
-                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/">Collecting Materials</a>
+                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/">Twitter Setup</a>
                                 </li>
                                 
                               
@@ -406,8 +358,16 @@
                                 
                               
                                 
+                              
+                                
                                 <li>
-                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/custom-theme/">Custom Omeka Theme</a>
+                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/installing-twarc/">Install & Configure Twarc</a>
+                                </li>
+                                
+                              
+                                
+                                <li>
+                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/">Twarc Introductory Lesson</a>
                                 </li>
                                 
                               
@@ -415,7 +375,7 @@
                               
                                 
                                 <li>
-                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-admin/">Omeka Site Administration</a>
+                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twarc-commands/">Twarc Commands</a>
                                 </li>
                                 
                               
@@ -423,6 +383,12 @@
                               
                                 
                               
+                                
+                              
+                                
+                                <li>
+                                  <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/additional-resources/">Additional Resources</a>
+                                </li>
                                 
                               
                                 

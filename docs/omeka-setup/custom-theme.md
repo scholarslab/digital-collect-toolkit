@@ -68,15 +68,17 @@ Use this section to customize your site's color scheme. These boxes will automat
 ### Header and Footer Content
 {: .text-beta}
 
-Use this section to provide content for your site's header and footer. All of these sections are optional, feel free to pick and choose what works best for your site. We recommend including at least the **Header Tagline Text**, as this is the primary heading for your site. 
+Use this section to provide content for your site's header and footer. All of these sections are optional, feel free to pick and choose what works best for your site.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-1.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
-- **Header Site Title**: This is for an optional secondary title section for your header, this site title is separate from the title of your Omeka site. 
-- **Header Tagline Text**: This is the primary header text, we recommend filling this in as it provides the primary level heading used by screen readers.
+- **Header Tagline Text**: This is an optional secondary title section for your header. This will display below your Omeka Site Title.
 - **Logo File**: Upload an image file for your site's logo, to be placed in the top right of the header. Your image file should be no larger than 150px in height. This is optional.
 - **Logo Link URL**: Provide a URL that your **Logo File** will act as a link for. This is optional, if you leave this blank your logo will not link to anywhere.
 - **Logo Image Accessibility Alt Text**: Provide descriptive alt text for your logo image for use with screen readers.
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-2.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
+
 - **Footer Text**: Provide some content for your page footer. This custom theme already provides site navigation in the footer, this box is for additional content.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-7.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
@@ -118,7 +120,7 @@ The other two content boxes, *Homepage Content Box #3* and *Homepage Content Box
 | ![Screen shot of Omeka Admin theme content]({{ site.url }}{{ site.baseurl }}/assets/images/theme-content-3.png) | ![Screen shot of public site content]({{ site.url }}{{ site.baseurl }}/assets/images/content-4.png) |
 | ![Screen shot of Omeka Admin theme content]({{ site.url }}{{ site.baseurl }}/assets/images/theme-content-4.png) | ![Screen shot of public site content]({{ site.url }}{{ site.baseurl }}/assets/images/content-2.png) |
 
-Use the toolbox buttons to format your content, add headings, links, and lists. Our site uses 'Heading 2' (or the h2 tag) for these content box headings. By clicking the 'source code' button, you can edit the html source code directly, if you'd like. Below is an example of our HTML source code:
+Use the toolbox buttons to format your content, add headings, links, and lists. Our site uses 'Heading 2' (or the h2 tag) for these content box headings. By clicking the 'source code' button `<>`, you can edit the html source code directly, if you'd like. Below is an example of our HTML source code:
 
 | HTML | Public Site |
 |:------------------|:------------------|
@@ -131,7 +133,7 @@ Check the boxes for additional content to be displayed on your homepage. All of 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-settings-8.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
-- **Display Browse Collection by Type**: Check this box if you wish to show 'Browse the Digital Collection' on the homepage. Includes icons for Item Types: Still Image (Label: Photos), Moving Image (Label: Videos), Text (Label: Stories), Hyperlink (Label: Links): 
+- **Display Browse Collection by Type**: Check this box if you wish to show 'Browse the Digital Collection' on the homepage. Includes icons for Omeka Item Types: Still Image (Label: Photos), Moving Image (Label: Videos), Text (Label: Stories), Hyperlink (Label: Links): 
     
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/content-7.png" alt="Screen shot of Theme Configuration page" width="300rem"/>
 
