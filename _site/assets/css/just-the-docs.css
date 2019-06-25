@@ -610,6 +610,7 @@ header {
 .logo {
   margin: 1rem;
   padding: 1rem;
+  max-width: 300px;
   line-height: 0; }
 
 #lib-logo svg {
