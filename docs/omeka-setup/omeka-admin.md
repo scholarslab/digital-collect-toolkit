@@ -67,7 +67,7 @@ For complete documentation on managing users, see the related page in the Omeka 
 
 When using the Contribution and Guest User plugins, two additional user types will become available - Guest & 'Contribution Anonymous'. Depending on how you configure these two plugins, when users make submissions through your contribution form, they will potentially have the option of including their email to set up a 'Guest' user account, or they can choose to make their submission anonymous. 
 
-For details on configuring these settings for user contributions, see the related section in [Collecting Materials]({{ site.baseurl }}docs/omeka-setup/collecting-materials#contributor-anonymity-settings).
+For details on configuring these settings for user contributions, see the related section in [Collecting Community Contributions]({{ site.baseurl }}/docs/omeka-setup/collecting-materials#contributor-anonymity-settings).
 
 ## Site Security Settings
 
