@@ -17,6 +17,7 @@ Published: April 25, 2019
 {:toc}
 
 ---
+
 ## Steps for Creating a Twitter Application
 
 _Please note that these instructions may be subject to change with updates to Twitter. If the following steps and screenshots do not match precisely, please use this as a general guide, or contact [DocNow](https://www.docnow.io/){:target="_blank"}._

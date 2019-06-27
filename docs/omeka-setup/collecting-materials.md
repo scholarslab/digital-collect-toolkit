@@ -23,6 +23,7 @@ Published: April 25, 2019
 {:toc}
 
 ---
+
 ## What to Collect
 
 Using the Omeka Contribution plugin, you can collect a wide variety of materials from the public through a content submission form on your site. You can update your plugin settings and Contribution Types at any time, but it is good to consider what content your are interested in collecting when first setting up your site. Contributions are private by default and require a site administrator to review and make them public on your Omeka site. 

@@ -21,29 +21,30 @@ The basics for building a rapid response Digital Collection Site
 ## Gathering a Team
 
 In order for your digital collecting strategies to be successful, you may need to gather experts from across your organization.  Here are some areas of expertise and types of responsibilities those team members might have:
--	**Project lead**
-    - Coordinate team, set up meetings and deadlines, document outcomes
+
+-   **Project lead**
+    -   Coordinate team, set up meetings and deadlines, document outcomes
 -	**Metadata**
-    - Determine how content should be structured for ease of submission and description, future use/reuse
-    - Describe/remediate description of content
--	**Preservation**
-    - Ensure short and long-term access to content
-    - Select appropriate tools for ingest and preservation
+    -   Determine how content should be structured for ease of submission and description, future use/reuse
+    -   Describe/remediate description of content
+-   **Preservation**
+    -   Ensure short and long-term access to content
+    -   Select appropriate tools for ingest and preservation
 -	**Legal counsel**
-    - Protect organization 
-    - Ensure institution can preserve and provide access over time
-    - Consider implications of collecting on donors, people being documented
+    -   Protect organization 
+    -   Ensure institution can preserve and provide access over time
+    -   Consider implications of collecting on donors, people being documented
 -	**IT specialists and content developers**
-    - Consider security, server capacity, and storage
-    - Install and configure Omeka, select templates/plug-ins and tools for capture
+    -   Consider security, server capacity, and storage
+    -   Install and configure Omeka, select templates/plug-ins and tools for capture
 -	**Communications and user experience**
-    - Review language and layout for ease of use by non-specialists
-    - Documentation for internal and external users
+    -   Review language and layout for ease of use by non-specialists
+    -   Documentation for internal and external users
 -	**Outreach**
-    - Liaison to community from whom you are trying to collect
+    -   Liaison to community from whom you are trying to collect
 -	**Collections specialist**
-    - Define the scope of the digital collection (types of materials, collection duration)
-    - This might come from your special collections or other subject area
+    -   Define the scope of the digital collection (types of materials, collection duration)
+    -   This might come from your special collections or other subject area
 
 ## Ethical Considerations
 
@@ -64,7 +65,7 @@ This project was made possible in part by a 2018 award from the [Catalyst Fund a
 
 ### Omeka for Digital Collections
 
-Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on [Omeka Classic](https://omeka.org/classic/){:target="_blank"}, which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on [Setting up Omeka Classic]({{ site.baseurl }}{% link docs/omeka-setup/custom-theme.md %}) to build a site similar to [_"Unite the Right" Rally and Community Response_](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"}. We've identified [plugins]({{ site.baseurl }}{% link docs/omeka-setup/omeka-plugins.md %}) and created a [custom theme]({{ site.baseurl }}{% link docs/omeka-setup/custom-theme.md %}) specifically for use with Omeka Classic. 
+Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on [Omeka Classic](https://omeka.org/classic/){:target="_blank"}, which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on [Setting up Omeka Classic]({{ site.baseurl }}{% link docs/omeka-setup/omeka-setup.md %}) to build a site similar to [_"Unite the Right" Rally and Community Response_](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"}. We've identified [plugins]({{ site.baseurl }}{% link docs/omeka-setup/omeka-plugins.md %}) and created a [custom theme]({{ site.baseurl }}{% link docs/omeka-setup/custom-theme.md %}) specifically for use with Omeka Classic. 
 
 Your project needs may align instead with [Omeka S](https://omeka.org/s/){:target="_blank"}, which offers many of the same options as Omeka Classic. Instead of plugins, Omeka S provides [modules](https://omeka.org/s/modules/){:target="_blank"} to extend the functionality of your site. The [Collecting](https://omeka.org/s/modules/Collecting/){:target="_blank"} module offers the equivalent to the Contribution plugin for collecting public contributions through your site. The [Custom Vocab](https://omeka.org/s/modules/CustomVocab/){:target="_blank"} module is comparable to the Simple Vocab plugin for providing predetermined vocabulary for any metadata elements. See the complete [User Manual](https://omeka.org/s/docs/user-manual/){:target="_blank"} for Omeka S, and the complete list of [modules](https://omeka.org/s/modules/){:target="_blank"} for that platform.
 
