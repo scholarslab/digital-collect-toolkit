@@ -198,6 +198,25 @@ header {
   @include align-items(center);
 }
 
+#jump-to-section {
+  display: none;
+  @include fs-5;
+
+  @include mq(sm) {
+    @include fs-3;
+  }
+
+  @include mq(md) {
+    @include fs-4;
+  }
+
+  @include mq(md) {
+    display: block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -329,7 +348,7 @@ footer {
   width: 100% !important;
   overflow-y: scroll !important;  
   @include mq(md) {
-    padding-top: $sp-5;
+    padding-top: $sp-4;
   }
 }
 
@@ -337,7 +356,7 @@ footer {
   .sticky-top {
     position: -webkit-sticky;
     position: sticky;
-    top: 61px;
+    top: 0px; //61px
     z-index: 1020;
   }
 }

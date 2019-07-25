@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="//use.typekit.net/tgy5tlj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   
@@ -18,8 +19,6 @@
     <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/vendor/lunr.min.js"></script>
   
   <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/just-the-docs.js"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -44,10 +43,21 @@
     </nav>
   
     <div id="navbar" class="topnav site-title">
-        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 "><svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg> Digital Collecting Toolkit</a>
+        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 ">
+          <svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg>
+           Digital Collecting Toolkit</a>
 
-        
-        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>      
+        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>   
+
+        <select id="jump-to-section" aria-label="Jump to Section" onchange="if (this.value) window.location.href=this.value ">
+            <option value="">Jump to Section</option>
+            <option value="/toolkit/docs/getting-started/">Getting Started</option>
+            <option value="/toolkit/docs/omeka-setup/">Omeka Classic Setup</option>
+            <option value="/toolkit/docs/social-media/">Social Media Tools</option>
+            <option value="/toolkit/docs/additional-resources/">Additional Resources</option>
+        </select>
+
+           
 
       </div>
 </header>
@@ -75,8 +85,11 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/site-building/" class="navigation-list-link">Getting Started</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/getting-started/" class="navigation-list-link">Getting Started</a>
+           
+            
+            
             
           </li>
         
@@ -90,16 +103,15 @@
         
           <li class="navigation-list-item active">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
-                
-                  
-                
-                  
                 
                   
                 
@@ -110,7 +122,30 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-plugins/" class="navigation-list-link active">Omeka Plugins</a>
                       
+                      
+                      <ul class="navigation-list-toc">
+                          <ul id="my_toc" class="toc">
+  <li><a href="#guest-user">Guest User</a></li>
+  <li><a href="#contribution">Contribution</a></li>
+  <li><a href="#dublin-core-extended">Dublin Core Extended</a></li>
+  <li><a href="#simple-vocab">Simple Vocab</a></li>
+  <li><a href="#element-types">Element Types</a></li>
+  <li><a href="#derivative-images">Derivative Images</a></li>
+  <li><a href="#simple-pages">Simple Pages</a></li>
+  <li><a href="#search-by-metadata">Search by Metadata</a></li>
+  <li><a href="#additional-plugins">Additional Plugins</a></li>
+</ul>
+                      </ul>
+                      
+                      
+                      
                     </li>
+                  
+                
+                  
+                
+                  
+                
                   
                 
                   
@@ -120,9 +155,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Community Contributions</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
                   
                 
                   
@@ -134,6 +170,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/custom-theme/" class="navigation-list-link">Custom Omeka Theme</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -144,6 +183,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-admin/" class="navigation-list-link">Omeka Site Administration</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -183,12 +225,19 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -199,13 +248,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/" class="navigation-list-link">Twitter Setup</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
-                  
-                
-                  
-                
                   
                 
                   
@@ -215,13 +261,21 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/installing-twarc/" class="navigation-list-link">Install & Configure Twarc</a>
                       
+                      
+                      
+                      
                     </li>
+                  
+                
                   
                 
                   
                     <li class="navigation-list-item ">
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/" class="navigation-list-link">Twarc Introductory Lesson</a>
+                      
+                      
+                      
                       
                     </li>
                   
@@ -231,25 +285,22 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twarc-commands/" class="navigation-list-link">Twarc Commands</a>
                       
-                    </li>
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item ">
                       
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/additional-resources/" class="navigation-list-link">Additional Resources</a>
+                      
                       
                     </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
                   
                 
               </ul>
@@ -266,8 +317,11 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/additional-resources/" class="navigation-list-link">Additional Resources</a>
+           
+            
+            
             
           </li>
         
@@ -277,14 +331,27 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+           
+            
+            
             
           </li>
         
       
     
       
+        
+          <li class="navigation-list-item">
+            
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+           
+            
+            
+            
+          </li>
         
       
     
@@ -304,7 +371,7 @@
                               <nav class="breadcrumb-nav">
                                 <ol class="breadcrumb-nav-list">
                                   
-                                    <li class="breadcrumb-nav-list-item"><a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-setup/">Omeka Classic Setup</a></li>
+                                    <li class="breadcrumb-nav-list-item"><a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/">Omeka Classic Setup</a></li>
                                   
                                   <li class="breadcrumb-nav-list-item"><span>Omeka Plugins</span></li>
                                 </ol>
@@ -312,13 +379,13 @@
                             
                           
                           <div id="main-content" class="page-content" role="main">
-
+                             
                             <h1 class="no_toc" id="omeka-plugins">Omeka Plugins</h1>
 
 <p class="fs-6 fw-300">Download and install plugins to extend the basic functionality of your Omeka site: build forms for community contributions, customize the collected metadata in your archive, and other useful options for your digital collecting site.</p>
-<p>Our <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank">Digital Collecting</a> site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. You may choose which plugins, among others offered by <a href="https://omeka.org/classic/plugins/" target="_blank">Omeka</a>, are most useful for your site.</p>
+<p>Our <a href="http://digitalcollecting.lib.virginia.edu/rally/">Digital Collecting</a> site includes the following plugins. Links to download for your site are included below, as well as details on how we used the plugins. You may choose which plugins, among others offered by <a href="https://omeka.org/classic/plugins/">Omeka</a>, are most useful for your site.</p>
 
-<p>Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. For instructions on installing and managing Omeka plugins, see <a href="https://omeka.org/classic/docs/Admin/Adding_and_Managing_Plugins/" target="_blank">here</a>.</p>
+<p>Please follow the links for related installation and user guides for details on how to set-up and use the individual plugins. For instructions on installing and managing Omeka plugins, see <a href="https://omeka.org/classic/docs/Admin/Adding_and_Managing_Plugins/">here</a>.</p>
 
 <p class="fs-3">Published: April 25, 2019</p>
 
@@ -347,28 +414,28 @@
 <p>You must upload and install the Guest User plugin before installing and activating the Contribution Plugin.</p>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/GuestUser/" target="_blank">Download Guest User plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/GuestUser/" target="_blank">Installation and Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/GuestUser/">Download Guest User plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/GuestUser/">Installation and Configuration Guide</a></li>
 </ul>
 
 <h2 id="contribution">Contribution</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/Contribution/" target="_blank">Download Contribution plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/Contribution/" target="_blank">Installation &amp; Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/Contribution/">Download Contribution plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Contribution/">Installation &amp; Configuration Guide</a></li>
 </ul>
 
 <p>The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. Other plugins can be integrated into the Contribution form, such as Simple Vocab for creating dropdown menu choices, and Geolocation for inviting users to map their submissions or locations.</p>
 
-<p>Installing and configuring the Contribution plugin requires a few steps. Please read through the <a href="https://omeka.org/classic/docs/Plugins/Contribution/" target="_blank">Omeka documentation</a> carefully.</p>
+<p>Installing and configuring the Contribution plugin requires a few steps. Please read through the <a href="https://omeka.org/classic/docs/Plugins/Contribution/">Omeka documentation</a> carefully.</p>
 
-<p>See the page on <a href="/toolkit/docs/omeka-setup/collecting-materials/">Collecting Community Contributions</a> for additional information on our site’s <a href="http://digitalcollecting.lib.virginia.edu/rally/contribution/terms" target="_blank">Contribution Terms of Service</a> and how we configured this plugin for collecting and managing stories, images, and other files from the public.</p>
+<p>See the page on <a href="/toolkit/docs/omeka-setup/collecting-materials/">Collecting Community Contributions</a> for additional information on our site’s <a href="http://digitalcollecting.lib.virginia.edu/rally/contribution/terms">Contribution Terms of Service</a> and how we configured this plugin for collecting and managing stories, images, and other files from the public.</p>
 
 <h2 id="dublin-core-extended">Dublin Core Extended</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/DublinCoreExtended/" target="_blank">Download Dublin Core Extended plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/DublinCoreExtended/" target="_blank">Documentation</a></li>
+  <li><a href="https://omeka.org/classic/plugins/DublinCoreExtended/">Download Dublin Core Extended plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/DublinCoreExtended/">Documentation</a></li>
 </ul>
 
 <p>Dublin Core Extended provides additional metadata elements that you may find useful to collect in your Contribution collection form. We used this plugin specifically for the ‘Spatial Coverage’ element, which along with the Simple Vocab plugin, allows contributors to submit the location of their contribution.</p>
@@ -376,8 +443,8 @@
 <h2 id="simple-vocab">Simple Vocab</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/SimpleVocab/" target="_blank">Download Simple Vocab plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/SimpleVocab/" target="_blank">Configuration &amp; Use Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/SimpleVocab/">Download Simple Vocab plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/SimpleVocab/">Configuration &amp; Use Guide</a></li>
 </ul>
 
 <p>Simple Vocab is a useful plugin for providing predetermined vocabulary for any metadata elements. This plugin allows you to create drop-down menus that replace the usual text box for an element.</p>
@@ -389,7 +456,7 @@
 <h2 id="element-types">Element Types</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/ElementTypes/" target="_blank">Download Element Types plugin</a></li>
+  <li><a href="https://omeka.org/classic/plugins/ElementTypes/">Download Element Types plugin</a></li>
 </ul>
 
 <p>Used for standardizing date input for contribution submissions (provides a pop out calendar for date selection in the Contribution form).</p>
@@ -397,26 +464,26 @@
 <h2 id="derivative-images">Derivative Images</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/DerivativeImages/" target="_blank">Download Derivative Images plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/DerivativeImages/" target="_blank">Documentation</a></li>
+  <li><a href="https://omeka.org/classic/plugins/DerivativeImages/">Download Derivative Images plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/DerivativeImages/">Documentation</a></li>
 </ul>
 
 <h2 id="simple-pages">Simple Pages</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/docs/Plugins/SimplePages/" target="_blank">Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/SimplePages/">Configuration Guide</a></li>
 </ul>
 
-<p>Used to create our <a href="http://digitalcollecting.lib.virginia.edu/rally/about" target="_blank">About the Archive</a> page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.</p>
+<p>Used to create our <a href="http://digitalcollecting.lib.virginia.edu/rally/about">About the Archive</a> page. This plugin is useful for creating additional text rich pages for your site, and comes bundled with your Omeka download.</p>
 
 <h2 id="search-by-metadata">Search by Metadata</h2>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/SearchByMetadata/" target="_blank">Download Search by Metadata plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/SearchByMetadata/" target="_blank">Installation and Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/SearchByMetadata/">Download Search by Metadata plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/SearchByMetadata/">Installation and Configuration Guide</a></li>
 </ul>
 
-<p>The Search by Metadata plugin makes it possible for visitors to your public Omeka site to see a browse page with items that share specific metadata (i.e., all items with ‘UVA Rotunda’ in the Spatial Coverage field). This plugin works very well with the Simple Vocab plugin for controlling metadata vocabulary. See the related <a href="https://omeka.org/classic/docs/Plugins/SearchByMetadata/" target="_blank">Omeka documentation</a> for details on configuring this plugin.</p>
+<p>The Search by Metadata plugin makes it possible for visitors to your public Omeka site to see a browse page with items that share specific metadata (i.e., all items with ‘UVA Rotunda’ in the Spatial Coverage field). This plugin works very well with the Simple Vocab plugin for controlling metadata vocabulary. See the related <a href="https://omeka.org/classic/docs/Plugins/SearchByMetadata/">Omeka documentation</a> for details on configuring this plugin.</p>
 
 <h2 id="additional-plugins">Additional Plugins</h2>
 
@@ -425,8 +492,8 @@
 <h3 id="geolocation">Geolocation</h3>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/Geolocation/" target="_blank">Download Geolocation plugin</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/Geolocation/" target="_blank">Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/Geolocation/">Download Geolocation plugin</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Geolocation/">Configuration Guide</a></li>
 </ul>
 
 <p>The Geolocation plugin allows you to assign a location to items in your Omeka site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items, that you can add to your site’s primary navigation. This plugin also allows you to add a map to your Contribution form, allowing contributors to select locations on a map to submit with their materials.</p>
@@ -434,7 +501,7 @@
 <h3 id="exhibit-builder">Exhibit Builder</h3>
 
 <ul>
-  <li><a href="https://omeka.org/classic/docs/Plugins/ExhibitBuilder/" target="_blank">Configuration Guide</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/ExhibitBuilder/">Configuration Guide</a></li>
 </ul>
 
 <p>The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive and may include narrative text. You may find it useful for creating exhibit pages out of collected materials. This plugin is included in your downloaded Omeka installation and does not require a separate download.</p>
@@ -442,14 +509,15 @@
 <h3 id="dropbox">Dropbox</h3>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/Dropbox/" target="_blank">Dropbox plugin download</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/Dropbox/" target="_blank">Dropbox plugin User Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/Dropbox/">Dropbox plugin download</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Dropbox/">Dropbox plugin User Guide</a></li>
 </ul>
 
 <p>The Dropbox plugin allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface.</p>
 
                   
                             
+
                           </div>
                         </div>
                 </main>
@@ -471,8 +539,7 @@
         </div>
     </div>
 </div>
-
-<script>
+<!-- <script>
   window.onscroll = function() {myFunction()};
   
   var navbar = document.getElementById("navbar");
@@ -485,7 +552,7 @@
       navbar.classList.remove("sticky");
     }
   }
-</script>
+</script> -->
 </body>
 </html>
     

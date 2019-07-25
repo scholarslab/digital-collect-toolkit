@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="//use.typekit.net/tgy5tlj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   
@@ -18,8 +19,6 @@
     <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/vendor/lunr.min.js"></script>
   
   <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/just-the-docs.js"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -44,10 +43,21 @@
     </nav>
   
     <div id="navbar" class="topnav site-title">
-        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 "><svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg> Digital Collecting Toolkit</a>
+        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 ">
+          <svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg>
+           Digital Collecting Toolkit</a>
 
-        
-        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>      
+        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>   
+
+        <select id="jump-to-section" aria-label="Jump to Section" onchange="if (this.value) window.location.href=this.value ">
+            <option value="">Jump to Section</option>
+            <option value="/toolkit/docs/getting-started/">Getting Started</option>
+            <option value="/toolkit/docs/omeka-setup/">Omeka Classic Setup</option>
+            <option value="/toolkit/docs/social-media/">Social Media Tools</option>
+            <option value="/toolkit/docs/additional-resources/">Additional Resources</option>
+        </select>
+
+           
 
       </div>
 </header>
@@ -75,8 +85,23 @@
         
           <li class="navigation-list-item active">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/site-building/" class="navigation-list-link active">Getting Started</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/getting-started/" class="navigation-list-link active">Getting Started</a>
+           
+            
+            <ul class="navigation-list-toc active">
+                <ul id="my_toc" class="toc">
+  <li><a href="#gathering-a-team">Gathering a Team</a></li>
+  <li><a href="#policy-review">Policy Review</a></li>
+  <li><a href="#determine-the-scope">Determine the Scope</a></li>
+  <li><a href="#assess-your-resources">Assess your Resources</a></li>
+  <li><a href="#ethical-considerations">Ethical Considerations</a></li>
+  <li><a href="#technical-considerations">Technical Considerations</a></li>
+  <li><a href="#funding-opportunities">Funding Opportunities</a></li>
+</ul>
+            </ul>
+            
+            
             
           </li>
         
@@ -90,16 +115,15 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
-                
-                  
-                
-                  
                 
                   
                 
@@ -110,7 +134,16 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-plugins/" class="navigation-list-link">Omeka Plugins</a>
                       
+                      
+                      
+                      
                     </li>
+                  
+                
+                  
+                
+                  
+                
                   
                 
                   
@@ -120,9 +153,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Community Contributions</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
                   
                 
                   
@@ -134,6 +168,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/custom-theme/" class="navigation-list-link">Custom Omeka Theme</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -144,6 +181,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-admin/" class="navigation-list-link">Omeka Site Administration</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -183,12 +223,19 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -199,13 +246,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/" class="navigation-list-link">Twitter Setup</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
-                  
-                
-                  
-                
                   
                 
                   
@@ -215,13 +259,21 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/installing-twarc/" class="navigation-list-link">Install & Configure Twarc</a>
                       
+                      
+                      
+                      
                     </li>
+                  
+                
                   
                 
                   
                     <li class="navigation-list-item ">
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/" class="navigation-list-link">Twarc Introductory Lesson</a>
+                      
+                      
+                      
                       
                     </li>
                   
@@ -231,25 +283,22 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twarc-commands/" class="navigation-list-link">Twarc Commands</a>
                       
-                    </li>
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item ">
                       
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/additional-resources/" class="navigation-list-link">Additional Resources</a>
+                      
                       
                     </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
                   
                 
               </ul>
@@ -266,8 +315,11 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/additional-resources/" class="navigation-list-link">Additional Resources</a>
+           
+            
+            
             
           </li>
         
@@ -277,14 +329,27 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+           
+            
+            
             
           </li>
         
       
     
       
+        
+          <li class="navigation-list-item">
+            
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+           
+            
+            
+            
+          </li>
         
       
     
@@ -303,22 +368,27 @@
                             
                           
                           <div id="main-content" class="page-content" role="main">
-
+                             
                             <h1 class="no_toc" id="getting-started">Getting Started</h1>
-<p class="fs-6 fw-300">The basics for building a rapid response Digital Collection Site</p>
+<p class="fs-6 fw-300">The basics for preparing for a rapid response digital collecting event and building a digital collection site.</p>
+
+<p>Below are some steps that you can take to prepare for an emergency event that requires a plan for digital collecting.</p>
 
 <h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
 
 <ol id="markdown-toc">
   <li><a href="#gathering-a-team" id="markdown-toc-gathering-a-team">Gathering a Team</a></li>
+  <li><a href="#policy-review" id="markdown-toc-policy-review">Policy Review</a></li>
+  <li><a href="#determine-the-scope" id="markdown-toc-determine-the-scope">Determine the Scope</a></li>
+  <li><a href="#assess-your-resources" id="markdown-toc-assess-your-resources">Assess your Resources</a></li>
   <li><a href="#ethical-considerations" id="markdown-toc-ethical-considerations">Ethical Considerations</a></li>
-  <li><a href="#funding-opportunities" id="markdown-toc-funding-opportunities">Funding Opportunities</a></li>
   <li><a href="#technical-considerations" id="markdown-toc-technical-considerations">Technical Considerations</a>    <ol>
       <li><a href="#omeka-for-digital-collections" id="markdown-toc-omeka-for-digital-collections">Omeka for Digital Collections</a></li>
       <li><a href="#file-size-limitations" id="markdown-toc-file-size-limitations">File Size Limitations</a></li>
       <li><a href="#large-files-and-file-sets" id="markdown-toc-large-files-and-file-sets">Large Files and File Sets</a></li>
     </ol>
   </li>
+  <li><a href="#funding-opportunities" id="markdown-toc-funding-opportunities">Funding Opportunities</a></li>
 </ol>
 
 <hr />
@@ -352,7 +422,7 @@
       <li>Consider implications of collecting on donors, people being documented</li>
     </ul>
   </li>
-  <li><strong>IT specialists and content developers</strong>
+  <li><strong>IT specialists and digital content developers</strong>
     <ul>
       <li>Consider security, server capacity, and storage</li>
       <li>Install and configure Omeka, select templates/plug-ins and tools for capture</li>
@@ -377,36 +447,90 @@
   </li>
 </ul>
 
-<h2 id="ethical-considerations">Ethical Considerations</h2>
+<h2 id="policy-review">Policy Review</h2>
 
-<p>Implementing and maintaining a digital collection site requires ethical, community-centric practices. We’ve compiled some sources that explore these considerations, and strongly encourage anyone developing an archive from community contributions and/or social media content to read further:</p>
+<p>Review your institution’s policies and workflows to see if current policy includes practices for digital collecting or emergency digital collecting. If possible, create or update collection policies in advance of an emergency collecting event that address digital content, social media and web archiving. You may find it useful for your organization to implement a policy specifically covering digital collecting in times of crisis that can determine when and how to initiate emergency collecting workflows and procedures.</p>
+
+<h2 id="determine-the-scope">Determine the Scope</h2>
+
+<p>Defining the scope of what you plan to collect is important for providing an efficient and sustainable response to crises and other rapidly-evolving events. Below are some questions to consider as you plan your digital collecting initiative:</p>
 
 <ul>
-  <li>Michelle Caswell, <a href="https://link.springer.com/article/10.1007/s10502-014-9220-6">“Toward a Survivor-Centered Approach to Human Rights Archives: Lessons from Community-Based Archives.”</a> Archival Science 14: 3-4 (2014): 307-322.</li>
-  <li>GWU Libraries’ Social Feed Manager (SFM), <a href="https://gwu-libraries.github.io/sfm-ui/resources/guidelines">Building Social Media Archives: Collection Development Guidelines</a></li>
-  <li><a href="http://criticaldh.roopikarisam.com/">An Invitation Towards Social Justice in the Digital Humanities</a></li>
-  <li><a href="https://www.storybasedstrategy.org/anti-oppression-principles">Anti-oppression principles compiled by the Center for Story-Based Strategy</a></li>
+  <li>What is the purpose of collecting? What or who are you collecting for?
+    <ul>
+      <li>To provide the community a place to mourn/commemorate/heal?</li>
+      <li>To create resource for future scholars and researchers?</li>
+      <li>To relate to your organization’s current collecting priorities?</li>
+    </ul>
+  </li>
+  <li>What is the long-term plan for collection and access?
+    <ul>
+      <li>How long will you be collecting digital content?</li>
+    </ul>
+  </li>
+  <li>Are there geographic boundaries for your collection?</li>
+  <li>What perspectives are you collecting?
+    <ul>
+      <li>National vs local news?</li>
+      <li>Media outlets vs individual stories?</li>
+    </ul>
+  </li>
+  <li>How much are you attempting to collect?
+    <ul>
+      <li>Everything or a representative sample?</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="funding-opportunities">Funding Opportunities</h2>
+<p>In the case of an emergency digital collecting response, you may not know at first what you need or want to collect. Collecting everything may not be sustainable long-term, and you may need to re-address your collection due to your institution’s storage capacity. If so, how will you decide what to save?</p>
 
-<p>This project was made possible in part by a 2018 award from the <a href="https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx">Catalyst Fund at LYRASIS</a>. It may be worth exploring grant programs that can help support your digital collections.</p>
+<p>In the book chapter, <a href="https://trace.tennessee.edu/utk_libpub/15/">“Response to the Unthinkable: Collecting and Archiving Condolence and Temporary Memorial Materials following Public Tragedies,”</a> Ashley R. Maynor addresses some selection criteria used by Virginia Tech in the wake of the April 16, 2007 school shooting. To determine what physical materials to keep, the school consulted with various experts, including staff from the Library of Congress. Below is a list of some selection criteria that may be relevant to your digital collection strategy:</p>
 
-<p><a href="https://www.docnow.io/">Documenting the Now</a> has an annual call for applicants for Community-Based Digital Archives Workshops for Activists. Their workshops focus on helping activists to develop the skills and to use available tools to collect, preserve, and share their web, social media and other types of digital content in their own digital archive.</p>
+<ul>
+  <li>Popular culture</li>
+  <li>Sociological interest</li>
+  <li>Personal messages to victims/perpetrator</li>
+  <li>Help personalize the lives that were lost</li>
+  <li>Student and community groups</li>
+  <li>Weird or unusual items</li>
+  <li>Particularly beautiful materials</li>
+  <li>From folks with connection to institution/community</li>
+  <li>Unique and special material</li>
+  <li>Official responses from government</li>
+  <li>Representing different perspectives</li>
+</ul>
+
+<h2 id="assess-your-resources">Assess your Resources</h2>
+
+<p>Your resources may determine or limit the scope of your emergency response digital collecting initiative. Consider team member’s available time and impact to other workflows and projects. Determine your staffing needs in relation to the scale of your emergency digital collecting, as well as available funding that can help support the work. Creating a digital archive requires storage space, assess your needs in supporting short and long-term collection, as well as future access to materials.</p>
+
+<p>Given the sensitive nature of events that require an emergency digital collecting response, do not underestimate the immediate and long-term emotional impact of the work. Have a plan in place to support people working on your collection if it involves difficult content, and take breaks when needed.</p>
+
+<h2 id="ethical-considerations">Ethical Considerations</h2>
+
+<p>Implementing and maintaining a digital collection site requires ethical, community-centric practices. Issues like lack of informed consent and privacy, potential for harm, and censoring or restricting content are some of the ethical issues to consider.</p>
+
+<p>For our community collection site, we included a Statement of Values on our homepage with a link to the <a href="https://www2.archivists.org/advocacy/diversity-and-inclusion-initiatives">Society of American Archivists’ commitment to ensuring the diversity of archivists</a>, to emphasize our desire for all perspectives and to be as inclusive as possible when gathering materials. We developed a <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/#contribution-terms-of-service">Terms of Service</a> in collaboration with University of Virginia General Council, and also provided users with a <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/#contribution-terms-of-service">Summary of Terms</a> to help contributors quickly read and understand the main points of the full terms, in simpler language.</p>
+
+<p>We’ve compiled some resources that explore these ethical considerations, and strongly encourage anyone developing an archive from community contributions and/or social media content to read further. You can find our reading list in the <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/additional-resources">Additional Resources</a>.</p>
 
 <h2 id="technical-considerations">Technical Considerations</h2>
 
+<p>This toolkit currently provides documentation on setting up a digital collection site using <a href="https://omeka.org/classic/">Omeka Classic</a>, and using <a href="https://github.com/DocNow/twarc">Twarc</a>, a command line tool and Python library for collecting twitter data. There is no single tool that will work for everyone’s needs, and we hope in the future to provide further documentation in this toolkit on additional resources.</p>
+
+<p>As part of a planning processes, we recommend exploring tools that you may want to use during a rapidly evolving crisis that requires digital collecting. Our hope is that this toolkit will provide a starting place if you need to get your own site up and running quickly.</p>
+
 <h3 id="omeka-for-digital-collections">Omeka for Digital Collections</h3>
 
-<p>Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on <a href="https://omeka.org/classic/" target="_blank">Omeka Classic</a>, which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on <a href="/toolkit/docs/omeka-setup/omeka-setup/">Setting up Omeka Classic</a> to build a site similar to <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank"><em>“Unite the Right” Rally and Community Response</em></a>. We’ve identified <a href="/toolkit/docs/omeka-setup/omeka-plugins/">plugins</a> and created a <a href="/toolkit/docs/omeka-setup/custom-theme/">custom theme</a> specifically for use with Omeka Classic.</p>
+<p>Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on <a href="https://omeka.org/classic/">Omeka Classic</a>, which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup">Setting up Omeka Classic</a> to build a site similar to <a href="http://digitalcollecting.lib.virginia.edu/rally/"><em>“Unite the Right” Rally and Community Response</em></a>. We’ve identified <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-plugins">plugins</a> and created a <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/custom-theme">custom theme</a> specifically for use with Omeka Classic.</p>
 
-<p>Your project needs may align instead with <a href="https://omeka.org/s/" target="_blank">Omeka S</a>, which offers many of the same options as Omeka Classic. Instead of plugins, Omeka S provides <a href="https://omeka.org/s/modules/" target="_blank">modules</a> to extend the functionality of your site. The <a href="https://omeka.org/s/modules/Collecting/" target="_blank">Collecting</a> module offers the equivalent to the Contribution plugin for collecting public contributions through your site. The <a href="https://omeka.org/s/modules/CustomVocab/" target="_blank">Custom Vocab</a> module is comparable to the Simple Vocab plugin for providing predetermined vocabulary for any metadata elements. See the complete <a href="https://omeka.org/s/docs/user-manual/" target="_blank">User Manual</a> for Omeka S, and the complete list of <a href="https://omeka.org/s/modules/" target="_blank">modules</a> for that platform.</p>
+<p>Your project needs may align instead with <a href="https://omeka.org/s/">Omeka S</a>, which offers many of the same options as Omeka Classic. Instead of plugins, Omeka S provides <a href="https://omeka.org/s/modules/">modules</a> to extend the functionality of your site. The <a href="https://omeka.org/s/modules/Collecting/">Collecting</a> module offers the equivalent to the Contribution plugin for collecting public contributions through your site. The <a href="https://omeka.org/s/modules/CustomVocab/">Custom Vocab</a> module is comparable to the Simple Vocab plugin for providing predetermined vocabulary for any metadata elements. See the complete <a href="https://omeka.org/s/docs/user-manual/">User Manual</a> for Omeka S, and the complete list of <a href="https://omeka.org/s/modules/">modules</a> for that platform.</p>
 
 <h3 id="file-size-limitations">File Size Limitations</h3>
 
 <p>You’ll want to consider setting a limit on the file size for individual contributions uploaded through your site’s collection form. These settings are server specific, and can be set up by your server administrator when you install Omeka. If you’re using Reclaim Hosting, or another shared hosting service, you may not be able to change the file size limitations.</p>
 
-<p>For our digital collecting site, we set the maximum file size for uploads at 250Mb. This is large enough for short video files taken with smartphones, which was an item we were interested in collecting. Creating a limit on file size may seem restrictive, but it is important for the sustainability of your server, where your files are stored. Your available server space is determined by your institution or your shared hosting service (like <a href="https://reclaimhosting.com/" target="_blank">Reclaim</a>), so consider how much total space you have for file storage when determining size restrictions.</p>
+<p>For our digital collecting site, we set the maximum file size for uploads at 250Mb. This is large enough for short video files taken with smartphones, which was an item we were interested in collecting. Creating a limit on file size may seem restrictive, but it is important for the sustainability of your server, where your files are stored. Your available server space is determined by your institution or your shared hosting service (like <a href="https://reclaimhosting.com/">Reclaim</a>), so consider how much total space you have for file storage when determining size restrictions.</p>
 
 <h3 id="large-files-and-file-sets">Large Files and File Sets</h3>
 
@@ -415,15 +539,22 @@
 <p>Omeka offers the Dropbox plugin, which lets Omeka users batch upload a large quantity of files at once. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. We have not used this plugin at this time for our site, but it offers one option for handling large file set submissions.</p>
 
 <ul>
-  <li><a href="https://omeka.org/classic/plugins/Dropbox/" target="_blank">Dropbox plugin download</a></li>
-  <li><a href="https://omeka.org/classic/docs/Plugins/Dropbox/" target="_blank">Dropbox plugin User Guide</a></li>
+  <li><a href="https://omeka.org/classic/plugins/Dropbox/">Dropbox plugin download</a></li>
+  <li><a href="https://omeka.org/classic/docs/Plugins/Dropbox/">Dropbox plugin User Guide</a></li>
 </ul>
 
-<p class="fs-3">This page was published: April 25, 2019</p>
+<h2 id="funding-opportunities">Funding Opportunities</h2>
+
+<p>This project was made possible in part by a 2018 award from the <a href="https://www.lyrasis.org/Leadership/Pages/Catalyst-Fund.aspx">Catalyst Fund at LYRASIS</a>. It may be worth exploring grant programs that can help support your digital collections.</p>
+
+<p><a href="https://www.docnow.io/">Documenting the Now</a> has an annual call for applicants for Community-Based Digital Archives Workshops for Activists. Their workshops focus on helping activists to develop the skills and to use available tools to collect, preserve, and share their web, social media and other types of digital content in their own digital archive.</p>
+
+<p class="fs-3">This page was updated: July 24, 2019</p>
 
 
                   
                             
+
                           </div>
                         </div>
                 </main>
@@ -445,8 +576,7 @@
         </div>
     </div>
 </div>
-
-<script>
+<!-- <script>
   window.onscroll = function() {myFunction()};
   
   var navbar = document.getElementById("navbar");
@@ -459,7 +589,7 @@
       navbar.classList.remove("sticky");
     }
   }
-</script>
+</script> -->
 </body>
 </html>
     

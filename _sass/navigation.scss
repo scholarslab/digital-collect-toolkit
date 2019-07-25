@@ -25,13 +25,13 @@
   .navigation-list-item {
     position: relative;
 
-    &::before {
-      position: absolute;
-      // margin-top: 0.3em;
-      margin-left: -0.8em;
-      color: rgba(#616161, 0.7);
-      content: "- ";
-    }
+    // &::before {
+    //   position: absolute;
+    //   // margin-top: 0.3em;
+    //   margin-left: -0.8em;
+    //   color: rgba(#616161, 0.7);
+    //   content: "- ";
+    // }
 
     &.active  {
       &::before {
@@ -50,9 +50,9 @@
   }
 
   .navigation-list-child-list {
-    display: block; //none
+    display: block; //none to hide //block to show
     @include mq(md) {
-      display: block; //none
+      display: block; //none to hide //block to show
     }
   }
 
@@ -63,10 +63,41 @@
   }
 }
 
+.navigation-list-toc {
+  display: none; //none to hide //block to show
+  @include mq(md) {
+    display: none; //none to hide //block to show
+  }
+}
+
+.active {
+  .navigation-list-toc {
+    display: block;
+    padding-inline-start: 0px !important;
+    ul,ol {
+      padding-inline-start: 40px !important;
+      li {
+        @include fs-3;
+        list-style-type: circle;
+        a{  
+          text-decoration: none !important;
+          color: #616161;
+         
+          &:hover {
+            font-weight: 500;
+            text-decoration: underline;
+          }
+          }
+        }
+      }
+    }
+  }
+
+
 .navigation-list-link {
   display: block;
   // padding-top: $sp-1;
-  padding-bottom: $sp-1;
+  padding-top: $sp-1;
   color: #616161;
   
 

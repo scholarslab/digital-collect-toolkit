@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="//use.typekit.net/tgy5tlj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   
@@ -18,8 +19,6 @@
     <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/vendor/lunr.min.js"></script>
   
   <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/just-the-docs.js"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -44,10 +43,21 @@
     </nav>
   
     <div id="navbar" class="topnav site-title">
-        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 "><svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg> Digital Collecting Toolkit</a>
+        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 ">
+          <svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg>
+           Digital Collecting Toolkit</a>
 
-        
-        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>      
+        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>   
+
+        <select id="jump-to-section" aria-label="Jump to Section" onchange="if (this.value) window.location.href=this.value ">
+            <option value="">Jump to Section</option>
+            <option value="/toolkit/docs/getting-started/">Getting Started</option>
+            <option value="/toolkit/docs/omeka-setup/">Omeka Classic Setup</option>
+            <option value="/toolkit/docs/social-media/">Social Media Tools</option>
+            <option value="/toolkit/docs/additional-resources/">Additional Resources</option>
+        </select>
+
+           
 
       </div>
 </header>
@@ -75,8 +85,11 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/site-building/" class="navigation-list-link">Getting Started</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/getting-started/" class="navigation-list-link">Getting Started</a>
+           
+            
+            
             
           </li>
         
@@ -90,16 +103,15 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
-                
-                  
-                
-                  
                 
                   
                 
@@ -110,7 +122,16 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-plugins/" class="navigation-list-link">Omeka Plugins</a>
                       
+                      
+                      
+                      
                     </li>
+                  
+                
+                  
+                
+                  
+                
                   
                 
                   
@@ -120,9 +141,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Community Contributions</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
                   
                 
                   
@@ -134,6 +156,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/custom-theme/" class="navigation-list-link">Custom Omeka Theme</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -143,6 +168,9 @@
                     <li class="navigation-list-item ">
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-admin/" class="navigation-list-link">Omeka Site Administration</a>
+                      
+                      
+                      
                       
                     </li>
                   
@@ -172,6 +200,98 @@
       
     
       
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+           
+            
+            
+            
+              
+
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/" class="navigation-list-link">Twitter Setup</a>
+                      
+                      
+                      
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/installing-twarc/" class="navigation-list-link">Install & Configure Twarc</a>
+                      
+                      
+                      
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/" class="navigation-list-link">Twarc Introductory Lesson</a>
+                      
+                      
+                      
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twarc-commands/" class="navigation-list-link">Twarc Commands</a>
+                      
+                      
+                      
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
         
       
     
@@ -183,76 +303,18 @@
         
           <li class="navigation-list-item active">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
             
-              
-              
-              <ul class="navigation-list-child-list ">
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item ">
-                      
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/" class="navigation-list-link">Twitter Setup</a>
-                      
-                    </li>
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item ">
-                      
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/installing-twarc/" class="navigation-list-link">Install & Configure Twarc</a>
-                      
-                    </li>
-                  
-                
-                  
-                    <li class="navigation-list-item ">
-                      
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/" class="navigation-list-link">Twarc Introductory Lesson</a>
-                      
-                    </li>
-                  
-                
-                  
-                    <li class="navigation-list-item ">
-                      
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twarc-commands/" class="navigation-list-link">Twarc Commands</a>
-                      
-                    </li>
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item  active">
-                      
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/additional-resources/" class="navigation-list-link active">Additional Resources</a>
-                      
-                    </li>
-                  
-                
-              </ul>
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/additional-resources/" class="navigation-list-link active">Additional Resources</a>
+           
+            
+            <ul class="navigation-list-toc active">
+                <ul id="my_toc" class="toc">
+  <li><a href="#recommended-reading">Recommended Reading</a></li>
+  <li><a href="#social-media-collection-tools--resources">Social Media Collection Tools &amp; Resources</a></li>
+</ul>
+            </ul>
+            
+            
             
           </li>
         
@@ -260,14 +322,13 @@
     
       
         
-      
-    
-      
-        
           <li class="navigation-list-item">
             
-
+            
             <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+           
+            
+            
             
           </li>
         
@@ -277,14 +338,13 @@
         
           <li class="navigation-list-item">
             
-
+            
             <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+           
+            
+            
             
           </li>
-        
-      
-    
-      
         
       
     
@@ -301,51 +361,88 @@
                         <div class="main-content">
                           
                             
-                              <nav class="breadcrumb-nav">
-                                <ol class="breadcrumb-nav-list">
-                                  
-                                    <li class="breadcrumb-nav-list-item"><a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/social-media/">Social Media Tools</a></li>
-                                  
-                                  <li class="breadcrumb-nav-list-item"><span>Additional Resources</span></li>
-                                </ol>
-                              </nav>
-                            
                           
                           <div id="main-content" class="page-content" role="main">
-
-                            <h1 class="no_toc" id="additional-resources-for-social-media-data-collection">Additional Resources for Social Media Data Collection</h1>
+                             
+                            <h1 class="no_toc" id="additional-resources">Additional Resources</h1>
 
 <h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
 
 <ol id="markdown-toc">
-  <li><a href="#twarc" id="markdown-toc-twarc">Twarc</a></li>
-  <li><a href="#hydrator" id="markdown-toc-hydrator">Hydrator</a></li>
-  <li><a href="#tweet-id-datasets-catalog" id="markdown-toc-tweet-id-datasets-catalog">Tweet ID Datasets Catalog</a></li>
+  <li><a href="#recommended-reading" id="markdown-toc-recommended-reading">Recommended Reading</a></li>
+  <li><a href="#social-media-collection-tools--resources" id="markdown-toc-social-media-collection-tools--resources">Social Media Collection Tools &amp; Resources</a>    <ol>
+      <li><a href="#unlv-libraries-twitter-data-tutorial-series" id="markdown-toc-unlv-libraries-twitter-data-tutorial-series">UNLV Libraries’ Twitter Data Tutorial Series</a></li>
+      <li><a href="#hydrator" id="markdown-toc-hydrator">Hydrator</a></li>
+      <li><a href="#social-feed-manager" id="markdown-toc-social-feed-manager">Social Feed Manager</a></li>
+      <li><a href="#tweet-id-datasets-catalog" id="markdown-toc-tweet-id-datasets-catalog">Tweet ID Datasets Catalog</a></li>
+      <li><a href="#webrecorder" id="markdown-toc-webrecorder">Webrecorder</a></li>
+    </ol>
+  </li>
 </ol>
 
 <hr />
-
-<h2 id="twarc">Twarc</h2>
+<h2 id="recommended-reading">Recommended Reading</h2>
 
 <ul>
-  <li>UNLV Libraries’ <a href="https://www.library.unlv.edu/whats_new_in_special_collections/2019/04/new-digital-collections-1-october-twitter-data-tutorial" target="_blank">Twitter Data Tutorial Series</a>, which features ten tutorials that take you step-by-step through the design, collection, and documentation process of curating a collection of Twitter data, as well as tutorials on tools for data analysis. This tutorial series focuses on using <a href="https://github.com/DocNow/twarc" target="_blank">Twarc</a> for twitter data collection.</li>
+  <li>
+    <p><strong>“Building Social Media Archives: Collection Development Guidelines.”</strong> GWU Libraries Social Feed Manager. Updated March 13, 2017. <a href="https://gwu-libraries.github.io/sfm-ui/resources/guidelines">https://gwu-libraries.github.io/sfm-ui/resources/guidelines</a>.</p>
+  </li>
+  <li>
+    <p>Caswell, Michelle. <strong>“Toward a Survivor-Centered Approach to Human Rights Archives: Lessons from Community-Based Archives.”</strong> Archival Science 14: 3-4 (2014): 307-322. <a href="https://link.springer.com/article/10.1007/s10502-014-9220-6">https://link.springer.com/article/10.1007/s10502-014-9220-6</a>.</p>
+  </li>
+  <li>
+    <p>Jules, Bergis; Summers, Ed; and Mitchell, Jr., Dr. Vernon. <strong>“Ethical Considerations for Archiving Social Media Content Generated by Contemporary Social Movements: Challenges, Opportunities, and Recommendations.”</strong> Documenting the Now White Paper, April 2018. <a href="https://www.docnow.io/docs/docnow-whitepaper-2018.pdf">https://www.docnow.io/docs/docnow-whitepaper-2018.pdf</a>.</p>
+  </li>
+  <li>
+    <p>Maynor, Ashley R. <strong>“Response to the Unthinkable: Collecting and Archiving Condolence and Temporary Memorial Materials following Public Tragedies.”</strong> In Handbook of Research on Disaster Management and Contingency Planning in Modern Libraries, ed. Emy Nelson Decker and Jennifer A. Townes, 582-624 (2016). doi:10.4018/978-1-4666-8624-3.ch025. <a href="https://trace.tennessee.edu/utk_libpub/15/">https://trace.tennessee.edu/utk_libpub/15/</a>.</p>
+  </li>
+  <li>
+    <p>Rettig, Patricia J. (2019) <strong>“Documenting Disasters: A Focus on Floods,”</strong> Journal of Western Archives: Vol. 10 : Iss. 2 , Article 2. <a href="https://digitalcommons.usu.edu/westernarchives/vol10/iss2/2">https://digitalcommons.usu.edu/westernarchives/vol10/iss2/2</a>.</p>
+  </li>
+  <li>
+    <p>Risam, Roopika; cárdenas, micha; Boggs, Jeremy; Byock, Ashley; Kaur, Vinamarata; Lubin, Joan; Sessions, Emily; Savonick, Danica; Stoytcheva, Sveta. <strong>“An Invitation Towards Social Justice in the Digital Humanities.”</strong> Living document emerged from the De/Post/Colonial Digital Humanities course at HILT 2015. <a href="http://criticaldh.roopikarisam.com/">http://criticaldh.roopikarisam.com/</a>.</p>
+  </li>
 </ul>
 
-<h2 id="hydrator">Hydrator</h2>
+<h2 id="social-media-collection-tools--resources">Social Media Collection Tools &amp; Resources</h2>
 
-<p><a href="https://github.com/DocNow/hydrator" target="_blank">Hydrator</a> is a downloadable app for your computer  developed by <a href="https://www.docnow.io/" target="_blank">DocNow</a> for hydrating Twitter ID datasets. Hydrator does not require a Twitter developer account or registered app, and requires no coding knowledge. It streamlines the process of linking your Twitter account, hydrating tweet ID lists, and exporting the raw JSON data into csv for easy access to the dataset.</p>
+<ul>
+  <li>
+    <h3 id="unlv-libraries-twitter-data-tutorial-series"><a href="https://www.library.unlv.edu/whats_new_in_special_collections/2019/04/new-digital-collections-1-october-twitter-data-tutorial">UNLV Libraries’ Twitter Data Tutorial Series</a></h3>
 
-<p>This tool is great for researchers who want to do a quick check of the contents of a dataset in Excel - the csv export function in the Hydrator makes it easy to build a spreadsheet of tweets.</p>
+    <p>Features ten tutorials that take you step-by-step through the design, collection, and documentation process of curating a collection of Twitter data, as well as tutorials on tools for data analysis. This tutorial series focuses on using <a href="https://github.com/DocNow/twarc">Twarc</a> for twitter data collection.</p>
+  </li>
+  <li>
+    <h3 id="hydrator"><a href="https://github.com/DocNow/hydrator">Hydrator</a></h3>
 
-<p>For access to a step-by-step guide to installing, configuring and using the Hydrator, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZc8VmDdGPhphCG0yR3aUBhJPP7R73Aonj1CFbsaE_So55qg/viewform" target="_blank">here</a>.</p>
+    <p><a href="https://github.com/DocNow/hydrator">Hydrator</a> is a downloadable app for your computer  developed by <a href="https://www.docnow.io/">DocNow</a> for hydrating Twitter ID datasets. Hydrator does not require a Twitter developer account or registered app, and requires no coding knowledge. It streamlines the process of linking your Twitter account, hydrating tweet ID lists, and exporting the raw JSON data into csv for easy access to the dataset.</p>
 
-<h2 id="tweet-id-datasets-catalog">Tweet ID Datasets Catalog</h2>
+    <p>This tool is great for researchers who want to do a quick check of the contents of a dataset in Excel - the csv export function in the Hydrator makes it easy to build a spreadsheet of tweets.</p>
 
-<p><a href="https://www.docnow.io/" target="_blank">DocNow</a> maintains a catalog of open-access, dehydrated Twitter datasets, with information for each including size, collection date, topic tags and a brief description. This is a great place to start if you want to explore the range of Twitter data currently being collected by scholars active in the field. To browse the catalogue, click <a href="https://www.docnow.io/catalog/" target="_blank">here</a>.</p>
+    <p>For access to a step-by-step guide to installing, configuring and using the Hydrator, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZc8VmDdGPhphCG0yR3aUBhJPP7R73Aonj1CFbsaE_So55qg/viewform">here</a>.</p>
+  </li>
+  <li>
+    <h3 id="social-feed-manager"><a href="https://gwu-libraries.github.io/sfm-ui/">Social Feed Manager</a></h3>
 
+    <p><a href="https://gwu-libraries.github.io/sfm-ui/">Social Feed Manager (SFM)</a> is a web application which allows users to create collections of data from social media platforms, including Twitter, Flickr, Tumblr, and Sina Weibo. It is open source software and connects to the platforms’ public APIs to harvest data. SFM development is led by a project team at <a href="https://library.gwu.edu/">George Washington University Libraries</a>, made up of software developers, archivists, and librarians.</p>
+  </li>
+  <li>
+    <h3 id="tweet-id-datasets-catalog"><a href="https://www.docnow.io/catalog/">Tweet ID Datasets Catalog</a></h3>
+
+    <p><a href="https://www.docnow.io/">DocNow</a> maintains a catalog of open-access, dehydrated Twitter datasets, with information for each including size, collection date, topic tags and a brief description. This is a great place to start if you want to explore the range of Twitter data currently being collected by scholars active in the field. To browse the catalogue, click <a href="https://www.docnow.io/catalog/">here</a>.</p>
+  </li>
+  <li>
+    <h3 id="webrecorder"><a href="https://webrecorder.io/">Webrecorder</a></h3>
+
+    <p><a href="https://webrecorder.io/">Webrecorder</a> is a web archiving tool developed by <a href="https://rhizome.org/">Rhizome</a>, supported by the Andrew W. Mellon Foundation. It is open-source, and free to use.</p>
+  </li>
+</ul>
+
+<p class="fs-3">This page was updated: July 24, 2019</p>
 
                   
                             
+
                           </div>
                         </div>
                 </main>
@@ -367,8 +464,7 @@
         </div>
     </div>
 </div>
-
-<script>
+<!-- <script>
   window.onscroll = function() {myFunction()};
   
   var navbar = document.getElementById("navbar");
@@ -381,7 +477,7 @@
       navbar.classList.remove("sticky");
     }
   }
-</script>
+</script> -->
 </body>
 </html>
     

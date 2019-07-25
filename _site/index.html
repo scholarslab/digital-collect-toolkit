@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="//use.typekit.net/tgy5tlj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   
@@ -18,8 +19,6 @@
     <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/vendor/lunr.min.js"></script>
   
   <script type="text/javascript" src="http://digitalcollecting.lib.virginia.edu/toolkit/assets/js/just-the-docs.js"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -44,10 +43,21 @@
     </nav>
   
     <div id="navbar" class="topnav site-title">
-        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 "><svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg> Digital Collecting Toolkit</a>
+        <a href="http://digitalcollecting.lib.virginia.edu/toolkit" class="fs-5 ">
+          <svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg>
+           Digital Collecting Toolkit</a>
 
-        
-        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>      
+        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>   
+
+        <select id="jump-to-section" aria-label="Jump to Section" onchange="if (this.value) window.location.href=this.value ">
+            <option value="">Jump to Section</option>
+            <option value="/toolkit/docs/getting-started/">Getting Started</option>
+            <option value="/toolkit/docs/omeka-setup/">Omeka Classic Setup</option>
+            <option value="/toolkit/docs/social-media/">Social Media Tools</option>
+            <option value="/toolkit/docs/additional-resources/">Additional Resources</option>
+        </select>
+
+           
 
       </div>
 </header>
@@ -75,8 +85,11 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/site-building/" class="navigation-list-link">Getting Started</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/getting-started/" class="navigation-list-link">Getting Started</a>
+           
+            
+            
             
           </li>
         
@@ -90,16 +103,15 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/" class="navigation-list-link dropdown">Omeka Classic Setup</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
-                
-                  
-                
-                  
                 
                   
                 
@@ -110,7 +122,16 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-plugins/" class="navigation-list-link">Omeka Plugins</a>
                       
+                      
+                      
+                      
                     </li>
+                  
+                
+                  
+                
+                  
+                
                   
                 
                   
@@ -120,9 +141,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/collecting-materials/" class="navigation-list-link">Collecting Community Contributions</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
                   
                 
                   
@@ -134,6 +156,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/custom-theme/" class="navigation-list-link">Custom Omeka Theme</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -144,6 +169,9 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup/omeka-admin/" class="navigation-list-link">Omeka Site Administration</a>
                       
+                      
+                      
+                      
                     </li>
                   
                 
@@ -183,12 +211,19 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/" class="navigation-list-link dropdown">Social Media Tools</a>
+           
+            
+            
             
               
-              
+
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -199,13 +234,10 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twitter-setup/" class="navigation-list-link">Twitter Setup</a>
                       
+                      
+                      
+                      
                     </li>
-                  
-                
-                  
-                
-                  
-                
                   
                 
                   
@@ -215,13 +247,21 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/installing-twarc/" class="navigation-list-link">Install & Configure Twarc</a>
                       
+                      
+                      
+                      
                     </li>
+                  
+                
                   
                 
                   
                     <li class="navigation-list-item ">
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/" class="navigation-list-link">Twarc Introductory Lesson</a>
+                      
+                      
+                      
                       
                     </li>
                   
@@ -231,25 +271,22 @@
                       
                       <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/twarc-commands/" class="navigation-list-link">Twarc Commands</a>
                       
-                    </li>
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                    <li class="navigation-list-item ">
                       
-                      <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/additional-resources/" class="navigation-list-link">Additional Resources</a>
+                      
                       
                     </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
                   
                 
               </ul>
@@ -266,8 +303,11 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/additional-resources/" class="navigation-list-link">Additional Resources</a>
+           
+            
+            
             
           </li>
         
@@ -277,14 +317,27 @@
         
           <li class="navigation-list-item">
             
-
-            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/about/" class="navigation-list-link">About the Toolkit</a>
+           
+            
+            
             
           </li>
         
       
     
       
+        
+          <li class="navigation-list-item">
+            
+            
+            <a href="http://digitalcollecting.lib.virginia.edu/toolkit/credits/" class="navigation-list-link">Credits</a>
+           
+            
+            
+            
+          </li>
         
       
     
@@ -301,32 +354,32 @@
                         <div class="main-content">
                           
                           <div id="main-content" class="page-content" role="main">
-
+                             
                             <h1 id="welcome-to-the-digital-collecting-toolkit">Welcome to the Digital Collecting Toolkit!</h1>
 
 <h2 id="what-is-this-toolkit">What is this Toolkit?</h2>
 
-<p>This toolkit is designed to provide resources and instruction on implementing digital collecting strategies during and after rapidly evolving social events and/or community crises (like campus controversies, natural disasters and public emergencies). Photos, videos, and social media content are major components of these community experiences, and the tools offered here can help organizations, institutions and communities quickly implement an effective digital collecting initiative.</p>
+<p>This toolkit is designed to provide resources and instruction on implementing digital collecting strategies during and after rapidly evolving social events and/or community crises (like campus controversies, natural disasters and public emergencies). Emergency digital collecting requires a rapid response and poses a particular set of challenges not normally found in routine digital collecting initiatives. Photos, videos, and social media content are major components of these community experiences, and the tools offered here can help organizations, institutions and communities implement an effective emergency digital collecting initiative.</p>
 
 <h2 id="who-is-this-for">Who is this for?</h2>
 
-<p>Our team includes University preservation librarians, digital preservation specialists, archivists, digital content developers, and IT specialists. We developed this toolkit for use by a wide range of cultural institutions and communities with an interest in quickly setting up a digital collection site. Members of University libraries, other educational institutions, and community organizations using this toolkit will need to have some level of access to the tools provided here to implement this type of digital collection strategy. This could include access to web hosting, server space, and an <a href="https://omeka.org/" target="_blank">Omeka</a> installation. However, we have included a range of potential options for these requirements in this toolkit.</p>
+<p>Our team includes University preservation librarians, digital preservation specialists, archivists, digital content developers, and IT specialists. We developed this toolkit for use by a wide range of cultural institutions and communities with an interest in quickly setting up a digital collection site and in developing a plan for emergency digital collecting. Members of University libraries, other educational institutions, and community organizations using this toolkit will need to have some level of access to the tools provided here to implement this type of digital collection strategy. This could include access to web hosting, server space, and an <a href="https://omeka.org/">Omeka</a> installation. However, we have included a range of potential options for these requirements in this toolkit.</p>
 
 <h2 id="how-do-i-get-started">How do I get started?</h2>
 
 <p>This toolkit is designed so you can get started quickly!</p>
 
 <ul>
-  <li>Read the <a href="/toolkit/docs/site-building/">basics</a> on getting your collection site up and running.</li>
+  <li>Read the <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/getting-started">basics</a> on preparing for an event that requires emergency digital collecting and getting your community collection site up and running.</li>
   <li>See the steps for setting up an <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/omeka-setup">Omeka Collection Site</a>.</li>
-  <li>See the section on <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media">Social Media Tools</a> to learn how to set up and use the <a href="https://www.docnow.io/" target="_blank">DocNow</a> tool, <a href="https://github.com/DocNow/twarc" target="_blank">Twarc</a> for collecting Twitter data.</li>
+  <li>See the section on <a href="http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media">Social Media Tools</a> to learn how to set up and use the <a href="https://www.docnow.io/">DocNow</a> tool, <a href="https://github.com/DocNow/twarc">Twarc</a> for collecting Twitter data.</li>
 </ul>
 
 <p><a href="/toolkit/toolkit_06_27_19.pdf">Download the complete toolkit (PDF)</a></p>
 
 <h2 id="who-we-are">Who we are</h2>
 
-<p>This toolkit was created through a collaborative process by a team at the <a href="https://www.library.virginia.edu/" target="_blank">University of Virginia Library</a>, with funding from the <a href="https://www.lyrasis.org" target="_blank">LYRASIS Catalyst Grant Fund</a>. In the immediate aftermath of the events of August 11th and 12th in Charlottesville, VA, UVA Library staff took on the task of quickly launching an online collecting tool and capturing related social media content. While the UVA Library had some experience documenting and collecting digital content after a major news event, this was the first time we attempted to create a collecting site so quickly after the events occurred. The lessons learned from the site launch of the University of Virginia Library’s Digital Collecting site, <a href="http://digitalcollecting.lib.virginia.edu/rally/" target="_blank"><em>“Unite the Right” Rally and Community Response</em></a> has led to further workflow and tool development to help future collecting efforts for ourselves and others.</p>
+<p>This toolkit was created through a collaborative process by a team at the <a href="https://www.library.virginia.edu/">University of Virginia Library</a>, with funding from the <a href="https://www.lyrasis.org">LYRASIS Catalyst Grant Fund</a>. In the immediate aftermath of the events of August 11th and 12th in Charlottesville, VA, UVA Library staff took on the task of quickly launching an online collecting tool and capturing related social media content. While the UVA Library had some experience documenting and collecting digital content after a major news event, this was the first time we attempted to create a collecting site so quickly after the events occurred. The lessons learned from the site launch of the University of Virginia Library’s Digital Collecting site, <a href="http://digitalcollecting.lib.virginia.edu/rally/"><em>“Unite the Right” Rally and Community Response</em></a> has led to further workflow and tool development to help future collecting efforts for ourselves and others.</p>
 
 <p>This Toolkit is a result of these efforts, and is intended to help others quickly launch similar sites in times of crisis.</p>
 
@@ -336,6 +389,7 @@
 
                   
                             
+
                           </div>
                         </div>
                 </main>
@@ -357,8 +411,7 @@
         </div>
     </div>
 </div>
-
-<script>
+<!-- <script>
   window.onscroll = function() {myFunction()};
   
   var navbar = document.getElementById("navbar");
@@ -371,7 +424,7 @@
       navbar.classList.remove("sticky");
     }
   }
-</script>
+</script> -->
 </body>
 </html>
     

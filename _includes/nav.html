@@ -8,11 +8,18 @@
             {% if page.parent == node.title or page.grand_parent == node.title %}
               {% assign first_level_url = node.url | absolute_url %}
             {% endif %}
-
+            
             <a href="{{ node.url | absolute_url }}" class="navigation-list-link{% if page.url == node.url %} active{% endif %}{% if node.has_children %} dropdown{% endif %}">{{ node.title }}</a>
+           
+            {% if page.url == node.url %}
+            <ul class="navigation-list-toc{% if page.url == node.url %} active{% endif %}">
+                {% include toc.html html=content sanitize=true class="toc" id="my_toc" h_min=2 h_max=2 %}
+            </ul>
+            {% endif %}
+            
             {% if node.has_children %}
               {% assign children_list = site.html_pages | sort:"nav_order" %}
-              
+
               <ul class="navigation-list-child-list ">
                 {% for child in children_list %}
                   {% if child.parent == node.title %}
@@ -21,6 +28,13 @@
                         {% assign second_level_url = child.url | absolute_url %}
                       {% endif %}
                       <a href="{{ child.url | absolute_url }}" class="navigation-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
+                      
+                      {% if page.url == child.url %}
+                      <ul class="navigation-list-toc{% if page.url == node.url %} active{% endif %}">
+                          {% include toc.html html=content sanitize=true class="toc" id="my_toc" h_min=2 h_max=2 %}
+                      </ul>
+                      {% endif %}
+                      
                       {% if child.has_children %}
                         {% assign grand_children_list = site.html_pages | sort:"nav_order" %}
                         <ul class="navigation-list-child-list">

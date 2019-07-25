@@ -15,10 +15,21 @@
     </nav>
   
     <div id="navbar" class="topnav site-title">
-        <a href="{{ site.url }}{{ site.baseurl }}" class="fs-5 "><svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg> {{ site.title }}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}" class="fs-5 ">
+          <svg id="home-icon" data-name="Toolkit Home" style="width:20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17.65"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Toolkit Home</title><polygon class="cls-1" points="0 6.75 1.15 8.52 9.99 2.51 18.84 8.52 20 6.75 10.04 0 9.94 0 0 6.75"/><polygon class="cls-1" points="2.96 8.36 9.99 3.59 17.02 8.36 17.02 17.65 12.1 17.65 12.1 17.61 12.1 10.66 7.88 10.66 7.88 17.61 7.88 17.65 2.96 17.65 2.96 8.36"/></svg>
+           {{ site.title }}</a>
 
-        
-        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>      
+        <span class="fs-3"><button class="js-aux-nav js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>   
+
+        <select id="jump-to-section" aria-label="Jump to Section" onchange="if (this.value) window.location.href=this.value ">
+            <option value="">Jump to Section</option>
+            <option value="/toolkit/docs/getting-started/">Getting Started</option>
+            <option value="/toolkit/docs/omeka-setup/">Omeka Classic Setup</option>
+            <option value="/toolkit/docs/social-media/">Social Media Tools</option>
+            <option value="/toolkit/docs/additional-resources/">Additional Resources</option>
+        </select>
+
+           
 
       </div>
 </header>
