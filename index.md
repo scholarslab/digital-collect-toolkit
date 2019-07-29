@@ -21,7 +21,7 @@ This toolkit is designed so you can get started quickly!
 - See the steps for setting up an [Omeka Collection Site]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup).
 - See the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media) to learn how to set up and use the [DocNow](https://www.docnow.io/) tool, [Twarc](https://github.com/DocNow/twarc) for collecting Twitter data.
 
-[Download the complete toolkit (PDF)]({{ site.baseurl }}{% link toolkit_06_27_19.pdf %})
+[Download the complete toolkit (PDF)]({{ site.baseurl }}{% link toolkit_7_29_19.pdf %})
 
 ## Who we are
 

@@ -8,7 +8,7 @@ nav_order: 4
 # Custom Omeka Theme
 {: .no_toc }
 
-Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/){:target="_blank"} site uses a custom Omeka Theme: [Charlottesville Rally Theme](https://github.com/scholarslab/cville_rally_theme){:target="_blank"}. We developed this theme specifically for use in digital collecting sites, making it simple to customize the content and appearance of your public site directly from your Omeka Dashboard - no coding knowledge required.
+Our [Digital Collecting](http://digitalcollecting.lib.virginia.edu/rally/) site uses a custom Omeka Theme: [Charlottesville Rally Theme](https://github.com/scholarslab/cville_rally_theme). We developed this theme specifically for use in digital collecting sites, making it simple to customize the content and appearance of your public site directly from your Omeka Dashboard - no coding knowledge required.
 {: .fs-6 .fw-300 }
 
 Published: April 25, 2019
@@ -24,7 +24,7 @@ Published: April 25, 2019
 
 ## Steps for Installing our Custom Theme
 
-1. Download and unzip our [custom theme from Github](https://github.com/scholarslab/cville_rally_theme){:target="_blank"}. Download the .zip file to your desktop for easy retrieval. 
+1. Download and unzip our [custom theme from Github](https://github.com/scholarslab/cville_rally_theme). Download the .zip file to your desktop for easy retrieval. 
 
 2. Locate your Omeka installation and login to access your site.
 
@@ -43,7 +43,7 @@ Published: April 25, 2019
 8. Click on "Configure Theme" to customize your site's appearance. See the next section for details on configuration settings.
 
 
-For more detailed instructions on installing an Omeka theme, see the related [Omeka Documentation](https://omeka.org/classic/docs/Admin/Appearance/Themes/){:target="_blank"}.
+For more detailed instructions on installing an Omeka theme, see the related [Omeka Documentation](https://omeka.org/classic/docs/Admin/Appearance/Themes/).
 
 ## Configuration Settings
 
@@ -146,7 +146,7 @@ Check the boxes for additional content to be displayed on your homepage. All of 
 ### Contribution Page: Form Submission Instructions and Information
 {: .text-beta}
 
-Use the following sections to create content for your public Contribution page. This is the page created by the Contribution plugin, and contains the form for public submissions. Provide instructions and additional information for those contributing materials to your collection. See our page as an example, [here](http://digitalcollecting.lib.virginia.edu/rally/contribution){:target="_blank"}.
+Use the following sections to create content for your public Contribution page. This is the page created by the Contribution plugin, and contains the form for public submissions. Provide instructions and additional information for those contributing materials to your collection. See our page as an example, [here](http://digitalcollecting.lib.virginia.edu/rally/contribution).
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/theme-contrib-1.png" alt="Screen shot of Theme Configuration page" width="600rem"/>
 
@@ -161,7 +161,7 @@ In addition to the primary content, you have the option of including a small inf
 
 On your Contribution Terms of Service page, this theme has an option to include a 'Summary of Terms' content box on the right-hand side of the page, to help contributors quickly read and understand the main points of the full terms, in simpler language. This is optional, leave this field empty if you do not want this to appear. 
 
-The complete Terms of Service text is given within the Contribution plugin settings. Contribution is managed from the plugin's tab on the left-hand navigation of the admin dashboard. You can find the field for **Text of Terms of Service** under the 'Submission Settings' tab. See the complete Contribution plugin user guide, [here](https://omeka.org/classic/docs/Plugins/Contribution/){:target="_blank"}.
+The complete Terms of Service text is given within the Contribution plugin settings. Contribution is managed from the plugin's tab on the left-hand navigation of the admin dashboard. You can find the field for **Text of Terms of Service** under the 'Submission Settings' tab. See the complete Contribution plugin user guide, [here](https://omeka.org/classic/docs/Plugins/Contribution/).
 
 To use the 'Summary of Terms' box, provide a bullet-pointed list in the field. This box automatically features a heading and (*) footnote. See below:
 
