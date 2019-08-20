@@ -655,11 +655,10 @@ footer .col {
   margin: 0 20px 0 0;
   text-align: center;
   padding: .75rem; }
-
-#svgimage {
-  width: 250px; }
-#svgimage path {
-  fill: #fff; }
+footer span, footer a {
+  color: #d7d7d7; }
+footer a:hover {
+  color: #fff; }
 
 /* !---------- page layout components ---------- */
 .container-fluid {
