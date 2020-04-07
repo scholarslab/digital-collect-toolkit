@@ -28,12 +28,18 @@ nav_order: 7
 
 - Risam, Roopika; cárdenas, micha; Boggs, Jeremy; Byock, Ashley; Kaur, Vinamarata; Lubin, Joan; Sessions, Emily; Savonick, Danica; Stoytcheva, Sveta. **"An Invitation Towards Social Justice in the Digital Humanities."** Living document emerged from the De/Post/Colonial Digital Humanities course at HILT 2015. [http://criticaldh.roopikarisam.com/](http://criticaldh.roopikarisam.com/).
 
+- **"Social Media Archives Toolkit: Legal and Ethical Implications."** North Carolina State University Libraries. [https://www.lib.ncsu.edu/social-media-archives-toolkit/legal](https://www.lib.ncsu.edu/social-media-archives-toolkit/legal)
+
 
 ## Social Media Collection Tools & Resources
 
 - ### [UNLV Libraries' Twitter Data Tutorial Series](https://www.library.unlv.edu/whats_new_in_special_collections/2019/04/new-digital-collections-1-october-twitter-data-tutorial)
 
     Features ten tutorials that take you step-by-step through the design, collection, and documentation process of curating a collection of Twitter data, as well as tutorials on tools for data analysis. This tutorial series focuses on using [Twarc](https://github.com/DocNow/twarc) for twitter data collection.
+
+- ### [TAGS](https://tags.hawksey.info/)
+
+    [TAGS](https://tags.hawksey.info/) is a free Google Sheet template which lets you setup and run automated collection of search results from Twitter. Like twarc, TAGS requires a Twitter developer account and registered app, but does not require use of the command line, and can be a simpler starting place for collecting tweets. 
 
 - ### [Hydrator](https://github.com/DocNow/hydrator)
 

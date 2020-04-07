@@ -18,10 +18,13 @@ Our team includes University preservation librarians, digital preservation speci
 This toolkit is designed so you can get started quickly!
 
 - Read the [basics]({{ site.url }}{{ site.baseurl }}/docs/getting-started) on preparing for an event that requires emergency digital collecting and getting your community collection site up and running.
-- See the steps for setting up an [Omeka Collection Site]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup).
+- See the steps for setting up a website for collecting using [Omeka Classic]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup) or [Omeka S]({{ site.url }}{{ site.baseurl }}/docs/omeka-s).
 - See the section on [Social Media Tools]({{ site.url }}{{ site.baseurl }}/docs/social-media) to learn how to set up and use the [DocNow](https://www.docnow.io/) tool, [Twarc](https://github.com/DocNow/twarc) for collecting Twitter data.
 
 [Download the complete toolkit (PDF)]({{ site.baseurl }}{% link toolkit_7_29_19.pdf %})
+
+PDF updated: July 29, 2019
+{: .fs-3 }
 
 ## Who we are
 

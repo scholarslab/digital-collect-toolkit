@@ -19,9 +19,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Enable or disable the site search // comment out line below to disable:
-search_enabled: true
-
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89 // uncomment line below to enable:
 # ga_tracking:

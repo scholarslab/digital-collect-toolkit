@@ -41,7 +41,7 @@ The Contribution plugin provides a form to collect stories, images, and other fi
 
 Installing and configuring the Contribution plugin requires a few steps. Please read through the [Omeka documentation](https://omeka.org/classic/docs/Plugins/Contribution/) carefully.
 
-See the page on [Collecting Community Contributions]({{ site.baseurl }}{% link docs/omeka-setup/collecting-materials.md %}) for additional information on our site's [Contribution Terms of Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) and how we configured this plugin for collecting and managing stories, images, and other files from the public.
+See the page on [Collecting Community Contributions]({{ site.baseurl }}{% link docs/collecting-materials.md %}) for additional information on our site's [Contribution Terms of Service](http://digitalcollecting.lib.virginia.edu/rally/contribution/terms) and how we configured this plugin for collecting and managing stories, images, and other files from the public.
 
 ## Dublin Core Extended
 
