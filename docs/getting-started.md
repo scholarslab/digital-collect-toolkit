@@ -32,7 +32,7 @@ In order for your digital collecting strategies to be successful, you may need t
     -   Ensure short and long-term access to content
     -   Select appropriate tools for ingest and preservation
 -	**Legal counsel**
-    -   Protect organization 
+    -   Protect organization
     -   Ensure institution can preserve and provide access over time
     -   Consider implications of collecting on donors, people being documented
 -	**IT specialists and digital content developers**
@@ -49,7 +49,7 @@ In order for your digital collecting strategies to be successful, you may need t
 
 ## Policy Review
 
-Review your institution's policies and workflows to see if current policy includes practices for digital collecting or emergency digital collecting. If possible, create or update collection policies in advance of an emergency collecting event that address digital content, social media and web archiving. You may find it useful for your organization to implement a policy specifically covering digital collecting in times of crisis that can determine when and how to initiate emergency collecting workflows and procedures.  
+Review your institution's policies and workflows to see if current policy includes practices for digital collecting or emergency digital collecting. If possible, create or update collection policies in advance of an emergency collecting event that address digital content, social media and web archiving. You may find it useful for your organization to implement a policy specifically covering digital collecting in times of crisis that can determine when and how to initiate emergency collecting workflows and procedures.
 
 ## Determine the Scope
 
@@ -88,13 +88,13 @@ In the book chapter, ["Response to the Unthinkable: Collecting and Archiving Con
 
 ## Assess your Resources
 
-Your resources may determine or limit the scope of your emergency response digital collecting initiative. Consider team member's available time and impact to other workflows and projects. Determine your staffing needs in relation to the scale of your emergency digital collecting, as well as available funding that can help support the work. Creating a digital archive requires storage space, assess your needs in supporting short and long-term collection, as well as future access to materials. 
+Your resources may determine or limit the scope of your emergency response digital collecting initiative. Consider team member's available time and impact to other workflows and projects. Determine your staffing needs in relation to the scale of your emergency digital collecting, as well as available funding that can help support the work. Creating a digital archive requires storage space, assess your needs in supporting short and long-term collection, as well as future access to materials.
 
-Given the sensitive nature of events that require an emergency digital collecting response, do not underestimate the immediate and long-term emotional impact of the work. Have a plan in place to support people working on your collection if it involves difficult content, and take breaks when needed. 
+Given the sensitive nature of events that require an emergency digital collecting response, do not underestimate the immediate and long-term emotional impact of the work. Have a plan in place to support people working on your collection if it involves difficult content, and take breaks when needed.
 
 ## Ethical Considerations
 
-Implementing and maintaining a digital collection site requires ethical, community-centric practices. Issues like lack of informed consent and privacy, potential for harm, and censoring or restricting content are some of the ethical issues to consider. 
+Implementing and maintaining a digital collection site requires ethical, community-centric practices. Issues like lack of informed consent and privacy, potential for harm, and censoring or restricting content are some of the ethical issues to consider.
 
 For our community collection site, we included a Statement of Values on our homepage with a link to the [Society of American Archivists’ commitment to ensuring the diversity of archivists](https://www2.archivists.org/advocacy/diversity-and-inclusion-initiatives), to emphasize our desire for all perspectives and to be as inclusive as possible when gathering materials. We developed a [Terms of Service]({{ site.url }}{{ site.baseurl }}/docs/collecting-materials) in collaboration with University of Virginia General Council, and also provided users with a [Summary of Terms]({{ site.url }}{{ site.baseurl }}/docs/collecting-materials) to help contributors quickly read and understand the main points of the full terms, in simpler language.
 
@@ -102,26 +102,26 @@ We've compiled some resources that explore these ethical considerations, and str
 
 ## Technical Considerations
 
-This toolkit currently provides documentation on setting up a digital collection site using [Omeka Classic](https://omeka.org/classic/), and using [Twarc](https://github.com/DocNow/twarc), a command line tool and Python library for collecting twitter data. There is no single tool that will work for everyone's needs, and we hope in the future to provide further documentation in this toolkit on additional resources. 
+This toolkit currently provides documentation on setting up a digital collection site using [Omeka Classic](https://omeka.org/classic/), and using [Twarc](https://github.com/DocNow/twarc), a command line tool and Python library for collecting twitter data. There is no single tool that will work for everyone's needs, and we hope in the future to provide further documentation in this toolkit on additional resources.
 
-As part of a planning processes, we recommend exploring tools that you may want to use during a rapidly evolving crisis that requires digital collecting. Our hope is that this toolkit will provide a starting place if you need to get your own site up and running quickly. 
+As part of a planning processes, we recommend exploring tools that you may want to use during a rapidly evolving crisis that requires digital collecting. Our hope is that this toolkit will provide a starting place if you need to get your own site up and running quickly.
 
 ### Omeka for Digital Collections
 
-Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on [Omeka Classic](https://omeka.org/classic/), which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on [Setting up Omeka Classic]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup) to build a site similar to [_"Unite the Right" Rally and Community Response_](http://digitalcollecting.lib.virginia.edu/rally/). We've identified [plugins]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup/omeka-plugins) and created a [custom theme]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup/custom-theme) specifically for use with Omeka Classic. 
+Omeka offers two platforms -  Omeka Classic and Omeka S - for publishing and managing your digital collections. Our digital collecting site runs on [Omeka Classic](https://omeka.org/classic/), which is at the core of what is currently offered in this toolkit. Follow the materials in our toolkit section on [Setting up Omeka Classic]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup) to build a site similar to [_The University of Virginia Collection on the Events of August 11-13, 2017 in Charlottesville, VA_](http://digitalcollecting.lib.virginia.edu/rally/). We've identified [plugins]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup/omeka-plugins) and created a [custom theme]({{ site.url }}{{ site.baseurl }}/docs/omeka-setup/custom-theme) specifically for use with Omeka Classic.
 
 Your project needs may align instead with [Omeka S](https://omeka.org/s/), which offers many of the same options as Omeka Classic. Instead of plugins, Omeka S provides [modules](https://omeka.org/s/modules/) to extend the functionality of your site. The [Collecting](https://omeka.org/s/modules/Collecting/) module offers the equivalent to the Contribution plugin for collecting public contributions through your site. The [Custom Vocab](https://omeka.org/s/modules/CustomVocab/) module is comparable to the Simple Vocab plugin for providing predetermined vocabulary for any metadata elements. See the complete [User Manual](https://omeka.org/s/docs/user-manual/) for Omeka S, and the complete list of [modules](https://omeka.org/s/modules/) for that platform. Our toolkit offers some materials on setting up an Omeka S site for collecting, [here]({{ site.url }}{{ site.baseurl }}/docs/omeka-s)
 
 
 ### File Size Limitations
 
-You'll want to consider setting a limit on the file size for individual contributions uploaded through your site's collection form. These settings are server specific, and can be set up by your server administrator when you install Omeka. If you're using Reclaim Hosting, or another shared hosting service, you may not be able to change the file size limitations. 
+You'll want to consider setting a limit on the file size for individual contributions uploaded through your site's collection form. These settings are server specific, and can be set up by your server administrator when you install Omeka. If you're using Reclaim Hosting, or another shared hosting service, you may not be able to change the file size limitations.
 
-For our digital collecting site, we set the maximum file size for uploads at 250Mb. This is large enough for short video files taken with smartphones, which was an item we were interested in collecting. Creating a limit on file size may seem restrictive, but it is important for the sustainability of your server, where your files are stored. Your available server space is determined by your institution or your shared hosting service (like [Reclaim](https://reclaimhosting.com/)), so consider how much total space you have for file storage when determining size restrictions. 
+For our digital collecting site, we set the maximum file size for uploads at 250Mb. This is large enough for short video files taken with smartphones, which was an item we were interested in collecting. Creating a limit on file size may seem restrictive, but it is important for the sustainability of your server, where your files are stored. Your available server space is determined by your institution or your shared hosting service (like [Reclaim](https://reclaimhosting.com/)), so consider how much total space you have for file storage when determining size restrictions.
 
 ### Large Files and File Sets
 
-Currently, the Contribution plugin for Omeka Classic allows for only individual file uploads, with a maximum file size set by your server administrator. For our site, we encourage contributors to use the contribution form to submit their materials, as it provides the simplest way for us to process the items we receive. However, for files larger than 250Mb or for large file sets we provide an option for contributing a URL link for an album or file location (i.e. Dropbox folder, Flickr album, etc.). When images and video files are uploaded directly through the contribution form, they're processed as Omeka items, and easily managed from the Omeka dashboard. Materials submitted as links have required significantly more time on our end to include them in the collection, and has been a major impediment to making more of our archive public. 
+Currently, the Contribution plugin for Omeka Classic allows for only individual file uploads, with a maximum file size set by your server administrator. For our site, we encourage contributors to use the contribution form to submit their materials, as it provides the simplest way for us to process the items we receive. However, for files larger than 250Mb or for large file sets we provide an option for contributing a URL link for an album or file location (i.e. Dropbox folder, Flickr album, etc.). When images and video files are uploaded directly through the contribution form, they're processed as Omeka items, and easily managed from the Omeka dashboard. Materials submitted as links have required significantly more time on our end to include them in the collection, and has been a major impediment to making more of our archive public.
 
 Omeka offers the Dropbox plugin, which lets Omeka users batch upload a large quantity of files at once. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. We have not used this plugin at this time for our site, but it offers one option for handling large file set submissions.
 

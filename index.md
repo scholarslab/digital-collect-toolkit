@@ -7,7 +7,7 @@ nav_exclude: true
 
 ## What is this Toolkit?
 
-This toolkit is designed to provide resources and instruction on implementing digital collecting strategies during and after rapidly evolving social events and/or community crises (like campus controversies, natural disasters and public emergencies). Emergency digital collecting requires a rapid response and poses a particular set of challenges not normally found in routine digital collecting initiatives. Photos, videos, and social media content are major components of these community experiences, and the tools offered here can help organizations, institutions and communities implement an effective emergency digital collecting initiative. 
+This toolkit is designed to provide resources and instruction on implementing digital collecting strategies during and after rapidly evolving social events and/or community crises (like campus controversies, natural disasters and public emergencies). Emergency digital collecting requires a rapid response and poses a particular set of challenges not normally found in routine digital collecting initiatives. Photos, videos, and social media content are major components of these community experiences, and the tools offered here can help organizations, institutions and communities implement an effective emergency digital collecting initiative.
 
 ## Who is this for?
 
@@ -28,7 +28,7 @@ PDF updated: July 29, 2019
 
 ## Who we are
 
-This toolkit was created through a collaborative process by a team at the [University of Virginia Library](https://www.library.virginia.edu/), with funding from the [LYRASIS Catalyst Grant Fund](https://www.lyrasis.org). In the immediate aftermath of the events of August 11th and 12th in Charlottesville, VA, UVA Library staff took on the task of quickly launching an online collecting tool and capturing related social media content. While the UVA Library had some experience documenting and collecting digital content after a major news event, this was the first time we attempted to create a collecting site so quickly after the events occurred. The lessons learned from the site launch of the University of Virginia Library's Digital Collecting site, [_"Unite the Right" Rally and Community Response_](http://digitalcollecting.lib.virginia.edu/rally/) has led to further workflow and tool development to help future collecting efforts for ourselves and others.
+This toolkit was created through a collaborative process by a team at the [University of Virginia Library](https://www.library.virginia.edu/), with funding from the [LYRASIS Catalyst Grant Fund](https://www.lyrasis.org). In the immediate aftermath of the events of August 11th and 12th in Charlottesville, VA, UVA Library staff took on the task of quickly launching an online collecting tool and capturing related social media content. While the UVA Library had some experience documenting and collecting digital content after a major news event, this was the first time we attempted to create a collecting site so quickly after the events occurred. The lessons learned from the site launch of the University of Virginia Library's Digital Collecting site, [_The University of Virginia Collection on the Events of August 11-13, 2017 in Charlottesville, VA_](http://digitalcollecting.lib.virginia.edu/rally/) has led to further workflow and tool development to help future collecting efforts for ourselves and others.
 
 This Toolkit is a result of these efforts, and is intended to help others quickly launch similar sites in times of crisis.
 
